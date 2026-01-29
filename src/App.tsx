@@ -40,6 +40,9 @@ const ALL_TAGS: Tag[] = [
   "Gear",
 ];
 
+
+
+
 function inferTags(a: { name: string; description: string; rewardsText: string }): Tag[] {
   const text = `${a.name} ${a.description} ${a.rewardsText}`.toLowerCase();
   const tags: Tag[] = [];
@@ -126,6 +129,11 @@ function tierStats(
 }
 
 export default function App() {
+
+    const userKey = useMemo(() => {
+      const u = new URLSearchParams(window.location.search).get("u");
+      return u && u.trim() ? u.trim().toLowerCase() : "default";
+    }, []);
   // Load achievements + derive targets
   const achievements = useMemo(() => {
       const raw = achievementsData as Achievement[];
@@ -137,9 +145,10 @@ export default function App() {
     }, []);
 
 
-  const [progressFile, setProgressFile] = useState<ProgressFileV1>(() =>
-    loadProgress()
-  );
+    const [progressFile, setProgressFile] = useState<ProgressFileV1>(() =>
+      loadProgress(userKey)
+    );
+
 
   const [selectedTags, setSelectedTags] = useState<Set<Tag>>(() => new Set());
 
@@ -197,8 +206,9 @@ export default function App() {
 
   // Persist progress
   useEffect(() => {
-    saveProgress(progressFile);
-  }, [progressFile]);
+    saveProgress(userKey, progressFile);
+  }, [userKey, progressFile]);
+
 
   function getProgress(id: string) {
     return progressFile.progressById[id];
@@ -308,7 +318,9 @@ export default function App() {
 
   // Export / Import
   function exportProgress() {
-    downloadJson("paragon-progress.json", progressFile);
+    downloadJson(`paragon-progress-${userKey}.json`, progressFile);
+    
+    
   }
 
   async function handleImportFile(file: File) {
@@ -468,6 +480,19 @@ export default function App() {
             Collapse all
           </button>
 
+          <button
+              onClick={() => {
+                const url = new URL(window.location.href);
+                url.searchParams.set("u", userKey);
+                navigator.clipboard.writeText(url.toString());
+                alert("Link copied!");
+              }}
+              style={{ padding: "8px 10px" }}
+            >
+              Copy my link
+          </button>
+
+          
 
 
 
@@ -483,6 +508,18 @@ export default function App() {
             }}
           />
         </div>
+
+        <div
+            style={{
+            marginTop: 6,
+            fontSize: 12,
+            opacity: 0.75,
+            paddingLeft: 4,
+            }}
+        >
+            Active profile: <b>{userKey}</b>
+        </div>
+
       </div>
 
       {/* List */}

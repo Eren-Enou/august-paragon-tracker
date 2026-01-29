@@ -1,26 +1,24 @@
 import type { ProgressFileV1 } from "../types/achievements";
 
-const STORAGE_KEY = "paragon_progress_v1";
+function storageKey(userKey: string) {
+  return `paragon-progress:v1:${userKey}`;
+}
 
-export function loadProgress(): ProgressFileV1 {
-  const raw = localStorage.getItem(STORAGE_KEY);
-  if (!raw) {
-    const now = new Date().toISOString();
-    return { version: 1, updatedAt: now, progressById: {} };
-  }
+export function loadProgress(userKey = "default"): ProgressFileV1 {
+  const raw = localStorage.getItem(storageKey(userKey));
+  if (!raw) return { version: 1, updatedAt: new Date().toISOString(), progressById: {} };
 
   try {
     const parsed = JSON.parse(raw) as ProgressFileV1;
     if (parsed?.version !== 1 || typeof parsed.progressById !== "object") {
-      throw new Error("Invalid progress file");
+      return { version: 1, updatedAt: new Date().toISOString(), progressById: {} };
     }
     return parsed;
   } catch {
-    const now = new Date().toISOString();
-    return { version: 1, updatedAt: now, progressById: {} };
+    return { version: 1, updatedAt: new Date().toISOString(), progressById: {} };
   }
 }
 
-export function saveProgress(progress: ProgressFileV1) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+export function saveProgress(userKey: string, data: ProgressFileV1) {
+  localStorage.setItem(storageKey(userKey), JSON.stringify(data));
 }
