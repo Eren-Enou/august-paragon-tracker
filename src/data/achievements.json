@@ -1,0 +1,3618 @@
+[
+  {
+    "id": "starter_gatherer",
+    "tier": "Starter",
+    "name": "Gatherer",
+    "description": "Gather 1x of each: Luminite Ore, Dragon Ore, Raw swordfish, Bark, Yew logs, Uncut sapphire, Grimy ranarr weed, Grimy kwuarm.",
+    "rewardsText": "1x Gatherer Scroll",
+    "target": 1
+  },
+  {
+    "id": "starter_craftsman",
+    "tier": "Starter",
+    "name": "Craftsman",
+    "description": "Craft one of each: Dragon boots, Dragon gloves, Swordfish, Yew shortbow, Sapphire, Prayer potion(3), Super strength(3), Tome of fire, Splitbark helm.",
+    "rewardsText": "1x Craftsman Scroll",
+    "target": null
+  },
+  {
+    "id": "starter_voting_novice",
+    "tier": "Starter",
+    "name": "Voting Novice",
+    "description": "Vote 3 times for with ::vote and claim the rewards with ::claimvotes.",
+    "rewardsText": "3x Crystal key, 250,000x Coins",
+    "target": null
+  },
+  {
+    "id": "starter_healthy_sip",
+    "tier": "Starter",
+    "name": "Healthy Sip",
+    "description": "Restore 10 HP at the rejuvination pool at home",
+    "rewardsText": "1x Beginner clue scroll",
+    "target": null
+  },
+  {
+    "id": "starter_holy_sip",
+    "tier": "Starter",
+    "name": "Holy Sip",
+    "description": "Restore 5 prayer points at the rejuvination pool at home",
+    "rewardsText": "1x Beginner clue scroll",
+    "target": null
+  },
+  {
+    "id": "starter_1_beginner_clue",
+    "tier": "Starter",
+    "name": "1 Beginner Clue",
+    "description": "Open 1 Beginner Clue caskets",
+    "rewardsText": "1x Beginner clue scroll, 1x Easy clue scroll",
+    "target": null
+  },
+  {
+    "id": "starter_5_beginner_clues",
+    "tier": "Starter",
+    "name": "5 Beginner Clues",
+    "description": "Open 5 Beginner Clue caskets",
+    "rewardsText": "1x Beginner clue scroll, 1x Easy clue scroll, 30x Booster Token",
+    "target": null
+  },
+  {
+    "id": "starter_10_beginner_clues",
+    "tier": "Starter",
+    "name": "10 Beginner Clues",
+    "description": "Open 10 Beginner Clue caskets",
+    "rewardsText": "2x Easy clue scroll, 30x Booster Token",
+    "target": null
+  },
+  {
+    "id": "starter_25_beginner_clues",
+    "tier": "Starter",
+    "name": "25 Beginner Clues",
+    "description": "Open 25 Beginner Clue caskets",
+    "rewardsText": "2x Easy clue scroll, 30x Booster Token",
+    "target": null
+  },
+  {
+    "id": "starter_1_easy_clue",
+    "tier": "Starter",
+    "name": "1 Easy Clue",
+    "description": "Open 1 Easy Clue caskets",
+    "rewardsText": "1x Easy clue scroll, 1x Medium clue scroll",
+    "target": null
+  },
+  {
+    "id": "starter_5_easy_clues",
+    "tier": "Starter",
+    "name": "5 Easy Clues",
+    "description": "Open 5 Easy Clue caskets",
+    "rewardsText": "1x Easy clue scroll, 1x Medium clue scroll, 30x Booster Token",
+    "target": null
+  },
+  {
+    "id": "starter_open_the_wiki",
+    "tier": "Starter",
+    "name": "Open the Wiki",
+    "description": "Type ::w or ::info to open the August RSPS Wiki!",
+    "rewardsText": "2x Crystal key, 100,000x Coins",
+    "target": null
+  },
+  {
+    "id": "starter_collection_log_slot_completed",
+    "tier": "Starter",
+    "name": "Collection Log Slot: Completed",
+    "description": "Unlock 25 total Collection Log slots",
+    "rewardsText": "3x Crystal key",
+    "target": null
+  },
+  {
+    "id": "starter_equip_full_granite_armour",
+    "tier": "Starter",
+    "name": "Equip Full Granite Armour",
+    "description": "Equip: Granite helm, Granite body, Granite legs, Granite shield, Granite longsword.",
+    "rewardsText": "1x PvM Talent point orb",
+    "target": null
+  },
+  {
+    "id": "starter_dragon_slayer",
+    "tier": "Starter",
+    "name": "Dragon Slayer",
+    "description": "Equip: Dragon full helm, Dragon chainbody, Dragon platelegs, Dragon sq shield, Dragon scimitar.",
+    "rewardsText": "10x Super attack(4), 10x Super strength(4), 10x Super defence(4)",
+    "target": null
+  },
+  {
+    "id": "starter_red_ranger",
+    "tier": "Starter",
+    "name": "Red Ranger",
+    "description": "Equip: Red d'hide body, Red d'hide chaps, Red d'hide vambraces, Dragon crossbow.",
+    "rewardsText": "15x Black dragon leather, 10x Ranging potion(4)",
+    "target": null
+  },
+  {
+    "id": "starter_splitbark_sorcerer",
+    "tier": "Starter",
+    "name": "Splitbark Sorcerer",
+    "description": "Equip: Splitbark helm, Splitbark body, Splitbark legs, Splitbark gauntlets, Splitbark boots.",
+    "rewardsText": "15x Fine cloth, 50x Mystic thread, 250x Upgrade gems",
+    "target": null
+  },
+  {
+    "id": "starter_hash_slinging_slasher",
+    "tier": "Starter",
+    "name": "Hash Slinging Slasher",
+    "description": "Kill 200x NPCs",
+    "rewardsText": "1x PvM Talent point orb",
+    "target": 200
+  },
+  {
+    "id": "starter_barrows_novice",
+    "tier": "Starter",
+    "name": "Barrows Novice",
+    "description": "Kill 50x Dharok the Wretched, Ahrim the Blighted, Verac the Defiled, Torag the Corrupted, Guthan the Infested, Karil the Tainted.",
+    "rewardsText": "3x Barrows chest key",
+    "target": 50
+  },
+  {
+    "id": "starter_world_boss_novice",
+    "tier": "Starter",
+    "name": "World Boss Novice",
+    "description": "Kill any world boss in the world boss arena.<br>::wb to teleport there!",
+    "rewardsText": "3x Enhanced crystal key, 300x Boss token",
+    "target": null
+  },
+  {
+    "id": "starter_dry_for_a_defender",
+    "tier": "Starter",
+    "name": "Dry for a Defender??",
+    "description": "Kill 100x Cyclops.",
+    "rewardsText": "3x Giant key",
+    "target": 100
+  },
+  {
+    "id": "starter_mining_novice_1",
+    "tier": "Starter",
+    "name": "Mining Novice 1",
+    "description": "Gather 25x of each: Copper ore, Tin ore, Iron ore, Coal.",
+    "rewardsText": "75x Upgrade gems",
+    "target": 25
+  },
+  {
+    "id": "starter_mining_novice_2",
+    "tier": "Starter",
+    "name": "Mining Novice 2",
+    "description": "Gather 25x of each: Mithril ore, Adamantite ore, Runite ore, Granite (5kg).",
+    "rewardsText": "75x Upgrade gems",
+    "target": 25
+  },
+  {
+    "id": "starter_woodcutting_novice_1",
+    "tier": "Starter",
+    "name": "Woodcutting Novice 1",
+    "description": "Gather 50x of each: Logs, Oak logs.",
+    "rewardsText": "75x Upgrade gems",
+    "target": 50
+  },
+  {
+    "id": "starter_woodcutting_novice_2",
+    "tier": "Starter",
+    "name": "Woodcutting Novice 2",
+    "description": "Gather 50x of each: Willow logs, Maple logs.",
+    "rewardsText": "75x Upgrade gems",
+    "target": 50
+  },
+  {
+    "id": "starter_fishing_novice_1",
+    "tier": "Starter",
+    "name": "Fishing Novice 1",
+    "description": "Gather 50x Raw shrimps, Raw anchovies, Raw sardine, Raw herring.",
+    "rewardsText": "75x Upgrade gems",
+    "target": 50
+  },
+  {
+    "id": "starter_fishing_novice_2",
+    "tier": "Starter",
+    "name": "Fishing Novice 2",
+    "description": "Gather 50x Raw trout, Raw cod, Raw pike, Raw salmon.",
+    "rewardsText": "75x Upgrade gems",
+    "target": 50
+  },
+  {
+    "id": "starter_thieving_novice_1",
+    "tier": "Starter",
+    "name": "Thieving Novice 1",
+    "description": "Gather 50x of each: Cake, Silk.",
+    "rewardsText": "75x Upgrade gems",
+    "target": 50
+  },
+  {
+    "id": "starter_thieving_novice_2",
+    "tier": "Starter",
+    "name": "Thieving Novice 2",
+    "description": "Gather 50x of each: Fur, Silver ore.",
+    "rewardsText": "75x Upgrade gems",
+    "target": 50
+  },
+  {
+    "id": "starter_slayer_novice",
+    "tier": "Starter",
+    "name": "Slayer Novice",
+    "description": "Complete 5x Slayer tasks",
+    "rewardsText": "1x Skilling Talent point orb",
+    "target": 5
+  },
+  {
+    "id": "starter_first_level_5",
+    "tier": "Starter",
+    "name": "First Level 5",
+    "description": "Get your first level 5 in any skill.",
+    "rewardsText": "1x 1k XP lamp",
+    "target": null
+  },
+  {
+    "id": "starter_first_level_10",
+    "tier": "Starter",
+    "name": "First Level 10",
+    "description": "Get your first level 10 in any skill.",
+    "rewardsText": "1x 1k XP lamp",
+    "target": null
+  },
+  {
+    "id": "starter_first_level_20",
+    "tier": "Starter",
+    "name": "First Level 20",
+    "description": "Get your first level 20 in any skill.",
+    "rewardsText": "1x 1k XP lamp",
+    "target": null
+  },
+  {
+    "id": "starter_first_level_30",
+    "tier": "Starter",
+    "name": "First Level 30",
+    "description": "Get your first level 30 in any skill.",
+    "rewardsText": "1x 1k XP lamp",
+    "target": null
+  },
+  {
+    "id": "starter_first_level_40",
+    "tier": "Starter",
+    "name": "First Level 40",
+    "description": "Get your first level 40 in any skill.",
+    "rewardsText": "1x 1k XP lamp",
+    "target": null
+  },
+  {
+    "id": "starter_ramping_up",
+    "tier": "Starter",
+    "name": "Ramping Up",
+    "description": "Reach a total level of 300. Levels lost from prestige are counted.",
+    "rewardsText": "150x Upgrade gems",
+    "target": null
+  },
+  {
+    "id": "starter_totally_gaming",
+    "tier": "Starter",
+    "name": "Totally Gaming",
+    "description": "Reach a total level of 500. Levels lost from prestige are counted.",
+    "rewardsText": "250x Upgrade gems",
+    "target": null
+  },
+  {
+    "id": "starter_total_noob",
+    "tier": "Starter",
+    "name": "Total Noob",
+    "description": "Reach a total level of 750. Levels lost from prestige are counted.",
+    "rewardsText": "1x PvM Talent point orb, 1x Skilling Talent point orb",
+    "target": null
+  },
+  {
+    "id": "starter_prestige_apprentice",
+    "tier": "Starter",
+    "name": "Prestige Apprentice",
+    "description": "Prestige 1 time in any skill.",
+    "rewardsText": "3x PvM Talent point orb, 3x Skilling Talent point orb, 3x Utility Talent point orb",
+    "target": null
+  },
+  {
+    "id": "starter_random_act_of_kindness",
+    "tier": "Starter",
+    "name": "Random Act of Kindness",
+    "description": "Interact with your first random event",
+    "rewardsText": "250,000x Coins",
+    "target": null
+  },
+  {
+    "id": "starter_crystal_chest_novice",
+    "tier": "Starter",
+    "name": "Crystal Chest Novice",
+    "description": "Open 3x Crystal Chests",
+    "rewardsText": "9x Crystal key",
+    "target": 3
+  },
+  {
+    "id": "starter_enhanced_crystal_chest_novice",
+    "tier": "Starter",
+    "name": "Enhanced Crystal Chest Novice",
+    "description": "Open 1x Enhanced Crystal Chest",
+    "rewardsText": "3x Enhanced crystal key",
+    "target": 1
+  },
+  {
+    "id": "starter_ethereal_chest_novice",
+    "tier": "Starter",
+    "name": "Ethereal Chest Novice",
+    "description": "Open 1x Ethereal Chest",
+    "rewardsText": "3x Barrows chest key",
+    "target": 1
+  },
+  {
+    "id": "starter_giant_chest_novice",
+    "tier": "Starter",
+    "name": "Giant Chest Novice",
+    "description": "Open 1x Giant Chest",
+    "rewardsText": "3x Giant key",
+    "target": 1
+  },
+  {
+    "id": "apprentice_voting_apprentice",
+    "tier": "Apprentice",
+    "name": "Voting Apprentice",
+    "description": "Vote 20 times for with ::vote and claim the rewards with ::claimvotes.",
+    "rewardsText": "3x Enhanced crystal key, 1,500,000x Coins",
+    "target": null
+  },
+  {
+    "id": "apprentice_ready_for_round_2",
+    "tier": "Apprentice",
+    "name": "Ready For Round 2",
+    "description": "Restore 30 HP at the rejuvination pool at home",
+    "rewardsText": "250x Upgrade gems",
+    "target": null
+  },
+  {
+    "id": "apprentice_quite_the_prayer",
+    "tier": "Apprentice",
+    "name": "Quite The Prayer",
+    "description": "Restore 25 prayer points at the rejuvination pool at home",
+    "rewardsText": "5x Superior bones, 5x Infernal ashes",
+    "target": null
+  },
+  {
+    "id": "apprentice_50_beginner_clues",
+    "tier": "Apprentice",
+    "name": "50 Beginner Clues",
+    "description": "Open 50 Beginner Clue caskets",
+    "rewardsText": "100x Booster Token",
+    "target": null
+  },
+  {
+    "id": "apprentice_150_beginner_clues",
+    "tier": "Apprentice",
+    "name": "150 Beginner Clues",
+    "description": "Open 150 Beginner Clue caskets",
+    "rewardsText": "200x Booster Token",
+    "target": null
+  },
+  {
+    "id": "apprentice_250_beginner_clues",
+    "tier": "Apprentice",
+    "name": "250 Beginner Clues",
+    "description": "Open 250 Beginner Clue caskets",
+    "rewardsText": "300x Booster Token",
+    "target": null
+  },
+  {
+    "id": "apprentice_10_easy_clues",
+    "tier": "Apprentice",
+    "name": "10 Easy Clues",
+    "description": "Open 10 Easy Clue caskets",
+    "rewardsText": "2x Medium clue scroll, 30x Booster Token",
+    "target": null
+  },
+  {
+    "id": "apprentice_25_easy_clues",
+    "tier": "Apprentice",
+    "name": "25 Easy Clues",
+    "description": "Open 25 Easy Clue caskets",
+    "rewardsText": "2x Medium clue scroll, 60x Booster Token",
+    "target": null
+  },
+  {
+    "id": "apprentice_1_medium_clue",
+    "tier": "Apprentice",
+    "name": "1 Medium Clue",
+    "description": "Open 1 Medium Clue caskets",
+    "rewardsText": "1x Medium clue scroll, 1x Hard clue scroll",
+    "target": null
+  },
+  {
+    "id": "apprentice_5_medium_clues",
+    "tier": "Apprentice",
+    "name": "5 Medium Clues",
+    "description": "Open 5 Medium Clue caskets",
+    "rewardsText": "1x Medium clue scroll, 1x Hard clue scroll, 60x Booster Token",
+    "target": null
+  },
+  {
+    "id": "apprentice_collection_log_apprentice",
+    "tier": "Apprentice",
+    "name": "Collection Log Apprentice",
+    "description": "Unlock 75 total Collection Log slots",
+    "rewardsText": "3x Enhanced crystal key",
+    "target": null
+  },
+  {
+    "id": "apprentice_stick_and_poke",
+    "tier": "Apprentice",
+    "name": "Stick and Poke",
+    "description": "Equip a Dragon defender.",
+    "rewardsText": "10x Super combat potion(4), 20x Super restore(4), 100x Shark",
+    "target": null
+  },
+  {
+    "id": "apprentice_bolt_rack_bowman",
+    "tier": "Apprentice",
+    "name": "Bolt Rack Bowman",
+    "description": "Equip a Karil's crossbow.",
+    "rewardsText": "1,500x Bolt rack, 150x Ethereal essence",
+    "target": null
+  },
+  {
+    "id": "apprentice_ahrim_job",
+    "tier": "Apprentice",
+    "name": "Ahrim Job",
+    "description": "Equip a Ahrim's staff.",
+    "rewardsText": "250x Essence shards, 150x Ethereal essence",
+    "target": null
+  },
+  {
+    "id": "apprentice_monster_masher",
+    "tier": "Apprentice",
+    "name": "Monster Masher",
+    "description": "Kill 1000x NPCs",
+    "rewardsText": "1x PvM Talent point orb",
+    "target": 1000
+  },
+  {
+    "id": "apprentice_superior_noob",
+    "tier": "Apprentice",
+    "name": "Superior Noob",
+    "description": "Slay 10x Superior Slayer creatures",
+    "rewardsText": "2x Upgrade gem pack",
+    "target": 10
+  },
+  {
+    "id": "apprentice_ethereal_specialist",
+    "tier": "Apprentice",
+    "name": "Ethereal Specialist",
+    "description": "Kill 250x Dharok the Wretched, Ahrim the Blighted, Verac the Defiled, Torag the Corrupted, Guthan the Infested, Karil the Tainted.",
+    "rewardsText": "5x Barrows chest key",
+    "target": 250
+  },
+  {
+    "id": "apprentice_world_boss_apprentice",
+    "tier": "Apprentice",
+    "name": "World Boss Apprentice",
+    "description": "Kill 10 of any world boss in the world boss arena.<br>::wb to teleport there!",
+    "rewardsText": "5x Enhanced crystal key, 1,500x Boss token",
+    "target": null
+  },
+  {
+    "id": "apprentice_mining_apprentice_1",
+    "tier": "Apprentice",
+    "name": "Mining Apprentice 1",
+    "description": "Gather 50x of each: Tephra, Dragon Ore, Luminite Ore.",
+    "rewardsText": "150x Upgrade gems",
+    "target": 50
+  },
+  {
+    "id": "apprentice_mining_apprentice_2",
+    "tier": "Apprentice",
+    "name": "Mining Apprentice 2",
+    "description": "Gather 150x Oxi Ore.",
+    "rewardsText": "150x Upgrade gems",
+    "target": 150
+  },
+  {
+    "id": "apprentice_woodcutting_apprentice",
+    "tier": "Apprentice",
+    "name": "Woodcutting Apprentice",
+    "description": "Gather 150x Yew logs.",
+    "rewardsText": "150x Upgrade gems",
+    "target": 150
+  },
+  {
+    "id": "apprentice_fishing_apprentice_1",
+    "tier": "Apprentice",
+    "name": "Fishing Apprentice 1",
+    "description": "Gather 50x of each: Raw bass, Casket.",
+    "rewardsText": "150x Upgrade gems",
+    "target": 50
+  },
+  {
+    "id": "apprentice_fishing_apprentice_2",
+    "tier": "Apprentice",
+    "name": "Fishing Apprentice 2",
+    "description": "Gather 50x of each: Raw lobster, Raw tuna, Raw swordfish.",
+    "rewardsText": "150x Upgrade gems",
+    "target": 50
+  },
+  {
+    "id": "apprentice_thieving_apprentice_1",
+    "tier": "Apprentice",
+    "name": "Thieving Apprentice 1",
+    "description": "Gather 250x Upgrade gems.",
+    "rewardsText": "150x Upgrade gems",
+    "target": 250
+  },
+  {
+    "id": "apprentice_thieving_apprentice_2",
+    "tier": "Apprentice",
+    "name": "Thieving Apprentice 2",
+    "description": "Gather 150000x Coins.",
+    "rewardsText": "150x Upgrade gems",
+    "target": 150000
+  },
+  {
+    "id": "apprentice_slayer_apprentice",
+    "tier": "Apprentice",
+    "name": "Slayer Apprentice",
+    "description": "Complete 15x Slayer tasks",
+    "rewardsText": "1x Skilling Talent point orb",
+    "target": 15
+  },
+  {
+    "id": "apprentice_first_level_50",
+    "tier": "Apprentice",
+    "name": "First Level 50",
+    "description": "Get your first level 50 in any skill.",
+    "rewardsText": "1x 2k XP lamp",
+    "target": null
+  },
+  {
+    "id": "apprentice_first_level_60",
+    "tier": "Apprentice",
+    "name": "First Level 60",
+    "description": "Get your first level 60 in any skill.",
+    "rewardsText": "1x 2k XP lamp",
+    "target": null
+  },
+  {
+    "id": "apprentice_first_level_70",
+    "tier": "Apprentice",
+    "name": "First Level 70",
+    "description": "Get your first level 70 in any skill.",
+    "rewardsText": "1x 2k XP lamp",
+    "target": null
+  },
+  {
+    "id": "apprentice_1k_gang",
+    "tier": "Apprentice",
+    "name": "1k Gang",
+    "description": "Reach a total level of 1000. Levels lost from prestige are counted.",
+    "rewardsText": "1x PvM Talent point orb, 1x Skilling Talent point orb",
+    "target": null
+  },
+  {
+    "id": "apprentice_levelupleveluplevelup",
+    "tier": "Apprentice",
+    "name": "LevelupLevelupLevelup",
+    "description": "Reach a total level of 1250. Levels lost from prestige are counted.",
+    "rewardsText": "1x PvM Talent point orb, 1x Skilling Talent point orb",
+    "target": null
+  },
+  {
+    "id": "apprentice_power_leveller",
+    "tier": "Apprentice",
+    "name": "Power Leveller",
+    "description": "Reach a total level of 1500. Levels lost from prestige are counted.",
+    "rewardsText": "1x PvM Talent point orb, 1x Skilling Talent point orb",
+    "target": null
+  },
+  {
+    "id": "apprentice_pvm_prestige_apprentice",
+    "tier": "Apprentice",
+    "name": "PvM Prestige Apprentice",
+    "description": "Prestige 3 times in any combat skills.",
+    "rewardsText": "1x PvM Talent point orb",
+    "target": null
+  },
+  {
+    "id": "apprentice_skilling_prestige_apprentice",
+    "tier": "Apprentice",
+    "name": "Skilling Prestige Apprentice",
+    "description": "Prestige 3 times in any non-combat skills.",
+    "rewardsText": "1x Skilling Talent point orb",
+    "target": null
+  },
+  {
+    "id": "apprentice_unexpected_guests",
+    "tier": "Apprentice",
+    "name": "Unexpected Guests",
+    "description": "Interact with 10 random events",
+    "rewardsText": "250,000x Coins",
+    "target": null
+  },
+  {
+    "id": "apprentice_enhanced_crystal_chest_apprentice",
+    "tier": "Apprentice",
+    "name": "Enhanced Crystal Chest Apprentice",
+    "description": "Open 10x Enhanced Crystal Chests",
+    "rewardsText": "5x Enhanced crystal key",
+    "target": 10
+  },
+  {
+    "id": "apprentice_ethereal_chest_apprentice",
+    "tier": "Apprentice",
+    "name": "Ethereal Chest Apprentice",
+    "description": "Open 10x Ethereal Chests",
+    "rewardsText": "5x Barrows chest key",
+    "target": 10
+  },
+  {
+    "id": "apprentice_giant_chest_apprentice",
+    "tier": "Apprentice",
+    "name": "Giant Chest Apprentice",
+    "description": "Open 10x Giant Chests",
+    "rewardsText": "5x Giant key",
+    "target": 10
+  },
+  {
+    "id": "apprentice_scurrius_specialist",
+    "tier": "Apprentice",
+    "name": "Scurrius Specialist",
+    "description": "Don't take a hit from Scurrius's off prayer attacks.",
+    "rewardsText": "1x 2k XP lamp",
+    "target": null
+  },
+  {
+    "id": "apprentice_scurrius_fanatic",
+    "tier": "Apprentice",
+    "name": "Scurrius Fanatic",
+    "description": "Don't take a hit from falling rocks.",
+    "rewardsText": "1x 1k XP lamp",
+    "target": null
+  },
+  {
+    "id": "apprentice_the_exterminator",
+    "tier": "Apprentice",
+    "name": "The Exterminator",
+    "description": "Kill 30 rat adds in a single fight.",
+    "rewardsText": "1x 1k XP lamp",
+    "target": null
+  },
+  {
+    "id": "adept_voting_adept",
+    "tier": "Adept",
+    "name": "Voting Adept",
+    "description": "Vote 50 times for with ::vote and claim the rewards with ::claimvotes.",
+    "rewardsText": "3x Enhanced crystal key, 1,500,000x Coins",
+    "target": null
+  },
+  {
+    "id": "adept_healthy",
+    "tier": "Adept",
+    "name": "Healthy",
+    "description": "Restore 60 HP at the rejuvination pool at home",
+    "rewardsText": "1x Upgrade gem pack",
+    "target": null
+  },
+  {
+    "id": "adept_50_easy_clues",
+    "tier": "Adept",
+    "name": "50 Easy Clues",
+    "description": "Open 50 Easy Clue caskets",
+    "rewardsText": "200x Booster Token",
+    "target": null
+  },
+  {
+    "id": "adept_150_easy_clues",
+    "tier": "Adept",
+    "name": "150 Easy Clues",
+    "description": "Open 150 Easy Clue caskets",
+    "rewardsText": "400x Booster Token",
+    "target": null
+  },
+  {
+    "id": "adept_250_easy_clues",
+    "tier": "Adept",
+    "name": "250 Easy Clues",
+    "description": "Open 250 Easy Clue caskets",
+    "rewardsText": "600x Booster Token",
+    "target": null
+  },
+  {
+    "id": "adept_10_medium_clues",
+    "tier": "Adept",
+    "name": "10 Medium Clues",
+    "description": "Open 10 Medium Clue caskets",
+    "rewardsText": "2x Hard clue scroll, 60x Booster Token",
+    "target": null
+  },
+  {
+    "id": "adept_25_medium_clues",
+    "tier": "Adept",
+    "name": "25 Medium Clues",
+    "description": "Open 25 Medium Clue caskets",
+    "rewardsText": "2x Hard clue scroll, 90x Booster Token",
+    "target": null
+  },
+  {
+    "id": "adept_1_hard_clue",
+    "tier": "Adept",
+    "name": "1 Hard Clue",
+    "description": "Open 1 Hard Clue caskets",
+    "rewardsText": "1x Hard clue scroll, 1x Elite clue scroll",
+    "target": null
+  },
+  {
+    "id": "adept_5_hard_clues",
+    "tier": "Adept",
+    "name": "5 Hard Clues",
+    "description": "Open 5 Hard Clue caskets",
+    "rewardsText": "1x Hard clue scroll, 1x Elite clue scroll, 90x Booster Token",
+    "target": null
+  },
+  {
+    "id": "adept_devout",
+    "tier": "Adept",
+    "name": "Devout",
+    "description": "Restore 60 prayer points at the rejuvination pool at home",
+    "rewardsText": "1x Ensouled troll head, 1x Ensouled tzhaar head, 1x Ensouled unicorn head",
+    "target": null
+  },
+  {
+    "id": "adept_collection_log_adept",
+    "tier": "Adept",
+    "name": "Collection Log Adept",
+    "description": "Unlock 150 total Collection Log slots",
+    "rewardsText": "5x Crystal key, 5x Enhanced crystal key, 1,500,000x Coins",
+    "target": null
+  },
+  {
+    "id": "adept_just_warming_up",
+    "tier": "Adept",
+    "name": "Just Warming Up",
+    "description": "Kill Jad one time.",
+    "rewardsText": "250x Boss token",
+    "target": null
+  },
+  {
+    "id": "adept_moooooole",
+    "tier": "Adept",
+    "name": "Moooooole",
+    "description": "Kill the Giant Mole one time.",
+    "rewardsText": "250x Boss token",
+    "target": null
+  },
+  {
+    "id": "adept_one_eyed_wonder",
+    "tier": "Adept",
+    "name": "One Eyed Wonder",
+    "description": "Kill Obor one time.",
+    "rewardsText": "250x Boss token",
+    "target": null
+  },
+  {
+    "id": "adept_making_a_mossy_mess",
+    "tier": "Adept",
+    "name": "Making a Mossy Mess",
+    "description": "Kill Bryophyta one time.",
+    "rewardsText": "250x Boss token",
+    "target": null
+  },
+  {
+    "id": "adept_mooooooooooole",
+    "tier": "Adept",
+    "name": "Mooooooooooole",
+    "description": "Kill the Giant Mole five times.",
+    "rewardsText": "250x Boss token",
+    "target": null
+  },
+  {
+    "id": "adept_obor_basher",
+    "tier": "Adept",
+    "name": "Obor Basher",
+    "description": "Kill Obor five times.",
+    "rewardsText": "250x Boss token",
+    "target": null
+  },
+  {
+    "id": "adept_moss_moderator",
+    "tier": "Adept",
+    "name": "Moss Moderator",
+    "description": "Kill Bryophyta five times.",
+    "rewardsText": "250x Boss token",
+    "target": null
+  },
+  {
+    "id": "adept_general_massacre",
+    "tier": "Adept",
+    "name": "General Massacre",
+    "description": "Kill 1 of each: General Graardor, K'ril Tsutsaroth, Commander Zilyana, Kree'arra",
+    "rewardsText": "250x Boss token",
+    "target": null
+  },
+  {
+    "id": "adept_monster_massacre",
+    "tier": "Adept",
+    "name": "Monster Massacre",
+    "description": "Kill 5000x NPCs",
+    "rewardsText": "1x PvM Talent point orb",
+    "target": 5000
+  },
+  {
+    "id": "adept_whats_sup_erior_nothin_much_wbu",
+    "tier": "Adept",
+    "name": "Whats sup(erior)? Nothin' much WBU",
+    "description": "Slay 50x Superior Slayer creatures",
+    "rewardsText": "5x Upgrade gem pack",
+    "target": 50
+  },
+  {
+    "id": "adept_world_boss_adept",
+    "tier": "Adept",
+    "name": "World Boss Adept",
+    "description": "Kill 100 of any world boss in the world boss arena.<br>::wb to teleport there!",
+    "rewardsText": "5x Random World Boss Jar",
+    "target": null
+  },
+  {
+    "id": "adept_grinder",
+    "tier": "Adept",
+    "name": "Grinder",
+    "description": "Reach a total level of 1750. Levels lost from prestige are counted.",
+    "rewardsText": "1x PvM Talent point orb, 1x Skilling Talent point orb",
+    "target": null
+  },
+  {
+    "id": "adept_grinderer",
+    "tier": "Adept",
+    "name": "Grinderer",
+    "description": "Reach a total level of 2000. Levels lost from prestige are counted.",
+    "rewardsText": "1x PvM Talent point orb, 1x Skilling Talent point orb",
+    "target": null
+  },
+  {
+    "id": "adept_sticky_fingers",
+    "tier": "Adept",
+    "name": "Sticky Fingers",
+    "description": "Gather 4x of any: Uncut sapphire, Uncut emerald, Uncut ruby, Uncut diamond, Uncut dragonstone, Uncut onyx, Uncut zenyte in one action 1 time.",
+    "rewardsText": "1x Skilling Talent point orb",
+    "target": 4
+  },
+  {
+    "id": "adept_suit_up",
+    "tier": "Adept",
+    "name": "Suit up",
+    "description": "Equip any 4 repaired Barrows equipment pieces. (Ethereal weapons do not count)",
+    "rewardsText": "250x Boss token, 100x Ethereal essence",
+    "target": null
+  },
+  {
+    "id": "adept_to_infinity_and_beyond",
+    "tier": "Adept",
+    "name": "To Infinity, and Beyond!",
+    "description": "Equip: Infinity boots, Infinity bottoms, Infinity top, Infinity hat, Infinity gloves.",
+    "rewardsText": "1,000x Upgrade gems",
+    "target": null
+  },
+  {
+    "id": "adept_sherwood_sheriff",
+    "tier": "Adept",
+    "name": "Sherwood Sheriff",
+    "description": "Equip: Robin hood hat, Rangers' tunic, Rangers' tights, Ranger gloves, Ranger boots.",
+    "rewardsText": "1,000x Upgrade gems",
+    "target": null
+  },
+  {
+    "id": "adept_justi_in_case",
+    "tier": "Adept",
+    "name": "Justi in case...",
+    "description": "Equip: Justiciar faceguard, Justiciar chestguard, Justiciar legguards.",
+    "rewardsText": "1,000x Upgrade gems",
+    "target": null
+  },
+  {
+    "id": "adept_smarty_pants",
+    "tier": "Adept",
+    "name": "Smarty Pants",
+    "description": "Be in the top 5 players to answer 3 trivia questions.",
+    "rewardsText": "1x Utility Talent point orb, 10x Trivia point token",
+    "target": null
+  },
+  {
+    "id": "adept_pvm_prestige_adept",
+    "tier": "Adept",
+    "name": "PvM Prestige Adept",
+    "description": "Prestige 10 times in any combat skills.",
+    "rewardsText": "1x PvM Talent point orb",
+    "target": null
+  },
+  {
+    "id": "adept_skilling_prestige_adept",
+    "tier": "Adept",
+    "name": "Skilling Prestige Adept",
+    "description": "Prestige 10 times in any non-combat skills.",
+    "rewardsText": "1x Skilling Talent point orb",
+    "target": null
+  },
+  {
+    "id": "adept_new_drip",
+    "tier": "Adept",
+    "name": "New Drip",
+    "description": "Equip any piece of godwars dungeon gear.",
+    "rewardsText": "1,000x Upgrade gems",
+    "target": null
+  },
+  {
+    "id": "adept_the_bigger_they_are",
+    "tier": "Adept",
+    "name": "The bigger they are...",
+    "description": "Kill 1x Kraken, Cerberus, Thermonuclear smoke devil.",
+    "rewardsText": "100x Slayer point tome",
+    "target": 1
+  },
+  {
+    "id": "adept_slayer_adept",
+    "tier": "Adept",
+    "name": "Slayer Adept",
+    "description": "Complete 50x Slayer tasks",
+    "rewardsText": "100x Slayer point tome",
+    "target": 50
+  },
+  {
+    "id": "adept_getting_bossy",
+    "tier": "Adept",
+    "name": "Getting Bossy",
+    "description": "Complete 1x boss Slayer task",
+    "rewardsText": "100x Slayer point tome",
+    "target": 1
+  },
+  {
+    "id": "adept_bless_rng",
+    "tier": "Adept",
+    "name": "Bless RNG",
+    "description": "Sacrifice 1 fire cape at Tzhaar-Hur-Tel",
+    "rewardsText": "1x Fire cape",
+    "target": null
+  },
+  {
+    "id": "adept_fast_flicker",
+    "tier": "Adept",
+    "name": "Fast Flicker",
+    "description": "Win a Say Your Prayers event",
+    "rewardsText": "1x Chicken dinner",
+    "target": null
+  },
+  {
+    "id": "adept_still_no_pet",
+    "tier": "Adept",
+    "name": "Still no pet??",
+    "description": "Sacrifice 10 fire capes at Tzhaar-Hur-Tel",
+    "rewardsText": "2x Fire cape",
+    "target": null
+  },
+  {
+    "id": "adept_wow_bro_thats_soooo_random",
+    "tier": "Adept",
+    "name": "Wow bro, that's soooo random",
+    "description": "Interact with 50 random events",
+    "rewardsText": "2x Square sandwich",
+    "target": null
+  },
+  {
+    "id": "adept_enhanced_crystal_chest_adept",
+    "tier": "Adept",
+    "name": "Enhanced Crystal Chest Adept",
+    "description": "Open 25x Enhanced Crystal Chests",
+    "rewardsText": "4x Enhanced crystal key",
+    "target": 25
+  },
+  {
+    "id": "adept_ethereal_chest_adept",
+    "tier": "Adept",
+    "name": "Ethereal Chest Adept",
+    "description": "Open 25x Ethereal Chests",
+    "rewardsText": "4x Barrows chest key",
+    "target": 25
+  },
+  {
+    "id": "adept_giant_chest_adept",
+    "tier": "Adept",
+    "name": "Giant Chest Adept",
+    "description": "Open 25x Giant Chests",
+    "rewardsText": "4x Giant key",
+    "target": 25
+  },
+  {
+    "id": "adept_grubby_feet",
+    "tier": "Adept",
+    "name": "Grubby Feet",
+    "description": "Open 25x Grubby Chests",
+    "rewardsText": "100x Red spiders' eggs",
+    "target": 25
+  },
+  {
+    "id": "expert_voting_expert",
+    "tier": "Expert",
+    "name": "Voting Expert",
+    "description": "Vote 250 times for with ::vote and claim the rewards with ::claimvotes.",
+    "rewardsText": "25x Vote token, 10,000,000x Coins",
+    "target": null
+  },
+  {
+    "id": "expert_big_red_gulp",
+    "tier": "Expert",
+    "name": "Big Red Gulp",
+    "description": "Restore 80 HP at the rejuvination pool at home",
+    "rewardsText": "2x Upgrade gem pack",
+    "target": null
+  },
+  {
+    "id": "expert_big_white_gulp",
+    "tier": "Expert",
+    "name": "Big White Gulp",
+    "description": "Restore 80 prayer points at the rejuvination pool at home",
+    "rewardsText": "1x Ensouled abyssal head, 1x Ensouled demon head, 1x Ensouled dragon head",
+    "target": null
+  },
+  {
+    "id": "expert_50_medium_clues",
+    "tier": "Expert",
+    "name": "50 Medium Clues",
+    "description": "Open 50 Medium Clue caskets",
+    "rewardsText": "300x Booster Token",
+    "target": null
+  },
+  {
+    "id": "expert_150_medium_clues",
+    "tier": "Expert",
+    "name": "150 Medium Clues",
+    "description": "Open 150 Medium Clue caskets",
+    "rewardsText": "600x Booster Token",
+    "target": null
+  },
+  {
+    "id": "expert_250_medium_clues",
+    "tier": "Expert",
+    "name": "250 Medium Clues",
+    "description": "Open 250 Medium Clue caskets",
+    "rewardsText": "900x Booster Token",
+    "target": null
+  },
+  {
+    "id": "expert_10_hard_clues",
+    "tier": "Expert",
+    "name": "10 Hard Clues",
+    "description": "Open 10 Hard Clue caskets",
+    "rewardsText": "2x Elite clue scroll, 90x Booster Token",
+    "target": null
+  },
+  {
+    "id": "expert_25_hard_clues",
+    "tier": "Expert",
+    "name": "25 Hard Clues",
+    "description": "Open 25 Hard Clue caskets",
+    "rewardsText": "2x Elite clue scroll, 120x Booster Token",
+    "target": null
+  },
+  {
+    "id": "expert_1_elite_clue",
+    "tier": "Expert",
+    "name": "1 Elite Clue",
+    "description": "Open 1 Elite Clue caskets",
+    "rewardsText": "1x Elite clue scroll, 1x Master clue scroll",
+    "target": null
+  },
+  {
+    "id": "expert_5_elite_clues",
+    "tier": "Expert",
+    "name": "5 Elite Clues",
+    "description": "Open 5 Elite Clue caskets",
+    "rewardsText": "1x Elite clue scroll, 1x Master clue scroll, 120x Booster Token",
+    "target": null
+  },
+  {
+    "id": "expert_collection_log_expert",
+    "tier": "Expert",
+    "name": "Collection Log Expert",
+    "description": "Unlock 350 total Collection Log slots",
+    "rewardsText": "1x Idle anim override: Feeling cute",
+    "target": null
+  },
+  {
+    "id": "expert_electric_fingers",
+    "tier": "Expert",
+    "name": "Electric fingers",
+    "description": "Be in the top 4 players to answer 5 trivia questions.",
+    "rewardsText": "1x Utility Talent point orb, 25x Trivia point token",
+    "target": null
+  },
+  {
+    "id": "expert_mining_expert",
+    "tier": "Expert",
+    "name": "Mining Expert",
+    "description": "Gather 150x Dragonite Ore, Demonite Ore.",
+    "rewardsText": "225x Upgrade gems",
+    "target": 150
+  },
+  {
+    "id": "expert_woodcutting_expert",
+    "tier": "Expert",
+    "name": "Woodcutting Expert",
+    "description": "Gather 150x Magic logs.",
+    "rewardsText": "225x Upgrade gems",
+    "target": 150
+  },
+  {
+    "id": "expert_fishing_expert",
+    "tier": "Expert",
+    "name": "Fishing Expert",
+    "description": "Gather 150x Raw shark.",
+    "rewardsText": "225x Upgrade gems",
+    "target": 150
+  },
+  {
+    "id": "expert_thieving_expert_1",
+    "tier": "Expert",
+    "name": "Thieving Expert 1",
+    "description": "Gather 150x Uncut emerald.",
+    "rewardsText": "225x Upgrade gems",
+    "target": 150
+  },
+  {
+    "id": "expert_thieving_expert_2",
+    "tier": "Expert",
+    "name": "Thieving Expert 2",
+    "description": "Gather 150x Uncut ruby.",
+    "rewardsText": "225x Upgrade gems",
+    "target": 150
+  },
+  {
+    "id": "expert_ziggy_stardust",
+    "tier": "Expert",
+    "name": "Ziggy Stardust",
+    "description": "Gather 500x Stardust.",
+    "rewardsText": "100x Stardust",
+    "target": 500
+  },
+  {
+    "id": "expert_cold_blooded_killer",
+    "tier": "Expert",
+    "name": "Cold Blooded Killer",
+    "description": "Kill 20000x NPCs",
+    "rewardsText": "250,000x PVM token, 10,000,000x Coins",
+    "target": 20000
+  },
+  {
+    "id": "expert_superior_ity_complex",
+    "tier": "Expert",
+    "name": "Superior-ity Complex",
+    "description": "Slay 250x Superior Slayer creatures",
+    "rewardsText": "5x Upgrade gem pack, 1x Imbued heart",
+    "target": 250
+  },
+  {
+    "id": "expert_slayer_expert",
+    "tier": "Expert",
+    "name": "Slayer Expert",
+    "description": "Complete 250x Slayer tasks",
+    "rewardsText": "2x Upgrade gem pack",
+    "target": 250
+  },
+  {
+    "id": "expert_first_level_80",
+    "tier": "Expert",
+    "name": "First Level 80",
+    "description": "Get your first level 80 in any skill.",
+    "rewardsText": "2x 2k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_first_level_90",
+    "tier": "Expert",
+    "name": "First Level 90",
+    "description": "Get your first level 90 in any skill.",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_first_level_95",
+    "tier": "Expert",
+    "name": "First Level 95",
+    "description": "Get your first level 95 in any skill.",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_boss_bitch",
+    "tier": "Expert",
+    "name": "Boss Bitch",
+    "description": "Complete 1x boss Slayer task",
+    "rewardsText": "2x Upgrade gem pack",
+    "target": 1
+  },
+  {
+    "id": "expert_knock_knock_whos_there_more_boss_tasks",
+    "tier": "Expert",
+    "name": "Knock knock. Who's there? More Boss Tasks!!!",
+    "description": "Complete 25x boss Slayer tasks",
+    "rewardsText": "3x Upgrade gem pack, 2,500x Boss token",
+    "target": 25
+  },
+  {
+    "id": "expert_world_boss_expert",
+    "tier": "Expert",
+    "name": "World Boss Expert",
+    "description": "Kill 500 of any world boss in the world boss arena.<br>::wb to teleport there!",
+    "rewardsText": "2x Random World Boss Jar",
+    "target": null
+  },
+  {
+    "id": "expert_bandosian_drip",
+    "tier": "Expert",
+    "name": "Bandosian Drip",
+    "description": "Equip a Bandos chestplate, tassets, boots, and a Neitiznot faceguard",
+    "rewardsText": "1x PvM Talent point orb",
+    "target": null
+  },
+  {
+    "id": "expert_armadylian_drip",
+    "tier": "Expert",
+    "name": "Armadylian Drip",
+    "description": "Equip an Armadyl chestplate, chainskirt, and helmet",
+    "rewardsText": "1x PvM Talent point orb",
+    "target": null
+  },
+  {
+    "id": "expert_zamorakian_drip",
+    "tier": "Expert",
+    "name": "Zamorakian Drip",
+    "description": "Equip a Dagonhai hat, robe top, and robe bottoms",
+    "rewardsText": "1x PvM Talent point orb",
+    "target": null
+  },
+  {
+    "id": "expert_taste_of_success",
+    "tier": "Expert",
+    "name": "Taste Of Success",
+    "description": "Craft 1 items at, or above, tier 90",
+    "rewardsText": "5x 2x drop token, 2x Upgrade gem pack",
+    "target": null
+  },
+  {
+    "id": "expert_good_luck_brian",
+    "tier": "Expert",
+    "name": "Good Luck Brian",
+    "description": "Craft 5 items at, or above, tier 90",
+    "rewardsText": "5x 3x drop token, 5x Upgrade gem pack",
+    "target": null
+  },
+  {
+    "id": "expert_tempered_devout",
+    "tier": "Expert",
+    "name": "Tempered Devout",
+    "description": "Temper any GWD T90 items a total of 10 times",
+    "rewardsText": "2x Bandos Mystery Box, 2x Armadyl Mystery Box, 2x Saradomin Mystery Box, 2x Zamorak Mystery Box",
+    "target": null
+  },
+  {
+    "id": "expert_temper_acles",
+    "tier": "Expert",
+    "name": "Temper-acles",
+    "description": "Temper any of Abyssal tentacle, Trident of the seas, Occult necklace 10 times total",
+    "rewardsText": "2x Bandos Mystery Box, 2x Armadyl Mystery Box, 2x Saradomin Mystery Box, 2x Zamorak Mystery Box",
+    "target": null
+  },
+  {
+    "id": "expert_steady_hands",
+    "tier": "Expert",
+    "name": "Steady Hands",
+    "description": "Win a Say Your Prayers event 10 times",
+    "rewardsText": "1x Jal-Tok mystery box",
+    "target": null
+  },
+  {
+    "id": "expert_rockin_the_croc",
+    "tier": "Expert",
+    "name": "Rockin' the croc'",
+    "description": "Complete Zebak without any team member dying",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_bug_b_gone",
+    "tier": "Expert",
+    "name": "Bug-B-Gone",
+    "description": "Complete Kephri without anyone dying",
+    "rewardsText": "1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_doesnt_bug_me",
+    "tier": "Expert",
+    "name": "Doesn't Bug Me",
+    "description": "Kill the arcane scarab before it performs it's attack",
+    "rewardsText": "1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_i_can_dance_too",
+    "tier": "Expert",
+    "name": "I can dance too...",
+    "description": "Complete Kephri without any explosions hitting anyone",
+    "rewardsText": "1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_egg_crusher",
+    "tier": "Expert",
+    "name": "Egg crusher",
+    "description": "Complete Kephri without any agile scarabs spawning",
+    "rewardsText": "1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_gone_bananas",
+    "tier": "Expert",
+    "name": "Gone bananas",
+    "description": "Defeat Baba without anyone dying",
+    "rewardsText": "1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_cant_be_rocked",
+    "tier": "Expert",
+    "name": "Can't be rocked",
+    "description": "Defeat Baba without anyone being damaged by thrown rocks",
+    "rewardsText": "1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_couldnt_be_bouldered",
+    "tier": "Expert",
+    "name": "Couldn't be bouldered",
+    "description": "Defeat Baba without anyone being damaged by rolling boulders",
+    "rewardsText": "1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_not_my_shadow",
+    "tier": "Expert",
+    "name": "Not my shadow!",
+    "description": "Defeat Baba without anyone being damaged by shadow attacks",
+    "rewardsText": "1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_akkhant_believe_it",
+    "tier": "Expert",
+    "name": "Akkhan't believe it",
+    "description": "Kill Akkha without anyone dying",
+    "rewardsText": "1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_dont_move",
+    "tier": "Expert",
+    "name": "Don't move!",
+    "description": "Defeat Akkha without anyone taking damage from Trailing Orbs",
+    "rewardsText": "1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_ill_remember_this",
+    "tier": "Expert",
+    "name": "I'll remember this",
+    "description": "Defeat Akkha without anyone taking damage from Memory Blast (requires more than 1 player)",
+    "rewardsText": "1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_im_a_specialist",
+    "tier": "Expert",
+    "name": "I'm a specialist",
+    "description": "Defeat Akkha without anyone taking damage from Detonate Special",
+    "rewardsText": "1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_those_are_sticky",
+    "tier": "Expert",
+    "name": "Those are sticky",
+    "description": "Defeat Akkha without anyone taking damage from Unstable Orb",
+    "rewardsText": "1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_hellhound_hunter",
+    "tier": "Expert",
+    "name": "Hellhound Hunter",
+    "description": "Kill 10x Cerberus.",
+    "rewardsText": "300x Boss token, 1x Key master teleport",
+    "target": 10
+  },
+  {
+    "id": "expert_underworld_slayer",
+    "tier": "Expert",
+    "name": "Underworld Slayer",
+    "description": "Kill 50x Cerberus.",
+    "rewardsText": "500x Boss token, 1x Key master teleport",
+    "target": 50
+  },
+  {
+    "id": "expert_fiend_flayer",
+    "tier": "Expert",
+    "name": "Fiend Flayer",
+    "description": "Kill 100x Cerberus.",
+    "rewardsText": "750x Boss token, 1x Key master teleport",
+    "target": 100
+  },
+  {
+    "id": "expert_doombringer",
+    "tier": "Expert",
+    "name": "Doombringer",
+    "description": "Kill 250x Cerberus.",
+    "rewardsText": "1x Key master's key, 2x Key master teleport",
+    "target": 250
+  },
+  {
+    "id": "expert_hellfire_conqueror",
+    "tier": "Expert",
+    "name": "Hellfire Conqueror",
+    "description": "Kill 500x Cerberus.",
+    "rewardsText": "1x Cerberus' tooth, 3x Key master teleport",
+    "target": 500
+  },
+  {
+    "id": "expert_swamp_slayer",
+    "tier": "Expert",
+    "name": "Swamp Slayer",
+    "description": "Kill 10x Zulrah.",
+    "rewardsText": "2,000x Zulrah's scales",
+    "target": 10
+  },
+  {
+    "id": "expert_venom_vanquisher",
+    "tier": "Expert",
+    "name": "Venom Vanquisher",
+    "description": "Kill 50x Zulrah.",
+    "rewardsText": "2,500x Zulrah's scales",
+    "target": 50
+  },
+  {
+    "id": "expert_fangbreaker",
+    "tier": "Expert",
+    "name": "Fangbreaker",
+    "description": "Kill 100x Zulrah.",
+    "rewardsText": "5,000x Zulrah's scales",
+    "target": 100
+  },
+  {
+    "id": "expert_serpent_smasher",
+    "tier": "Expert",
+    "name": "Serpent Smasher",
+    "description": "Kill 250x Zulrah.",
+    "rewardsText": "7,500x Zulrah's scales, 2x Toxic orb",
+    "target": 250
+  },
+  {
+    "id": "expert_marsh_monarch",
+    "tier": "Expert",
+    "name": "Marsh Monarch",
+    "description": "Kill 500x Zulrah.",
+    "rewardsText": "15,000x Zulrah's scales, 3x Toxic orb",
+    "target": 500
+  },
+  {
+    "id": "expert_nex_novice",
+    "tier": "Expert",
+    "name": "Nex Novice",
+    "description": "Kill 10x Nex.",
+    "rewardsText": "50x Nihil shard",
+    "target": 10
+  },
+  {
+    "id": "expert_nex_adept",
+    "tier": "Expert",
+    "name": "Nex Adept",
+    "description": "Kill 50x Nex.",
+    "rewardsText": "75x Nihil shard",
+    "target": 50
+  },
+  {
+    "id": "expert_smokeless_victory",
+    "tier": "Expert",
+    "name": "Smokeless Victory",
+    "description": "Defeat Nex without coughing",
+    "rewardsText": "25x Nihil shard",
+    "target": null
+  },
+  {
+    "id": "expert_pathogen_party",
+    "tier": "Expert",
+    "name": "Pathogen Party",
+    "description": "Defeat Nex after spreading the cough to 4 others at once",
+    "rewardsText": "25x Nihil shard",
+    "target": null
+  },
+  {
+    "id": "expert_dashing_through_danger",
+    "tier": "Expert",
+    "name": "Dashing Through Danger",
+    "description": "Defeat Nex without getting hit by the aisle dash attack in the smoke phase",
+    "rewardsText": "25x Nihil shard",
+    "target": null
+  },
+  {
+    "id": "expert_shadow_dancer",
+    "tier": "Expert",
+    "name": "Shadow Dancer",
+    "description": "Defeat Nex without getting hit by any shadow smash attack",
+    "rewardsText": "25x Nihil shard",
+    "target": null
+  },
+  {
+    "id": "expert_hemophobia",
+    "tier": "Expert",
+    "name": "Hemophobia",
+    "description": "Defeat Nex without standing in any of the blood pools",
+    "rewardsText": "25x Nihil shard",
+    "target": null
+  },
+  {
+    "id": "expert_icy_footwork",
+    "tier": "Expert",
+    "name": "Icy Footwork",
+    "description": "Complete the ice and zaros phases without getting hit by any ice phase attacks or orbs",
+    "rewardsText": "25x Nihil shard",
+    "target": null
+  },
+  {
+    "id": "expert_undying_nexerer",
+    "tier": "Expert",
+    "name": "Undying Nexerer",
+    "description": "Defeat Nex without anybody dying",
+    "rewardsText": "25x Nihil shard",
+    "target": null
+  },
+  {
+    "id": "expert_ufo_dodger",
+    "tier": "Expert",
+    "name": "UFO Dodger",
+    "description": "Complete Phase 1 Wardens without anyone getting hit by the UFO attack",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_movement_expert",
+    "tier": "Expert",
+    "name": "Movement Expert",
+    "description": "Complete Phase 1 Wardens without anyone getting hit by the DD/spread attack (requires a party of more than 1)",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_perfectly_balanced",
+    "tier": "Expert",
+    "name": "Perfectly Balanced",
+    "description": "Complete Phase 1 Wardens without anyone touching the orbs that charge the Warden's attacks.",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_obelisk_pro",
+    "tier": "Expert",
+    "name": "Obelisk Pro",
+    "description": "Complete Warden's first phase without any team member dying",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_warden_pro",
+    "tier": "Expert",
+    "name": "Warden Pro",
+    "description": "Complete Warden's first phase without any team member dying",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_im_a_fan_too",
+    "tier": "Expert",
+    "name": "I'm a fan too",
+    "description": "Complete the Windmill attack in Wardens Phase 2 without anyone getting hit",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_fast_feet",
+    "tier": "Expert",
+    "name": "Fast feet",
+    "description": "Complete the Falling Skulls attack in Wardens Phase 2 without anyone getting hit",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_first_one_then_the_other",
+    "tier": "Expert",
+    "name": "First one then the other",
+    "description": "Complete the Converging Beam attack in Wardens Phase 2 without anyone getting hit",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_quick_flicks",
+    "tier": "Expert",
+    "name": "Quick flicks",
+    "description": "Complete Wardens Phase 2 without anyone getting hit off prayer by an auto attack",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_why_did_you_turn_that_off",
+    "tier": "Expert",
+    "name": "Why did you turn that off?",
+    "description": "Get your prayers back on before you get hit by the prayer disable special",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_dont_jail_me",
+    "tier": "Expert",
+    "name": "Don't jail me!",
+    "description": "Everyone successfully dodges the Imprisonment attack in Wardens Phase 2",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_watch_for_the_ghosts",
+    "tier": "Expert",
+    "name": "Watch for the ghosts",
+    "description": "No phantom attacks received off-prayer for Zebak or Akkha, not hit by Kephri or Ba-Ba",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_fancy_feet",
+    "tier": "Expert",
+    "name": "Fancy Feet",
+    "description": "Everybody successfully evades Phase 3 Warden's floor slams",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_skull_clicker",
+    "tier": "Expert",
+    "name": "Skull clicker",
+    "description": "Successfully clear all sets of energy siphons",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "expert_no_jad_hands_here",
+    "tier": "Expert",
+    "name": "No Jad Hands Here",
+    "description": "Sacrifice 50 fire capes at Tzhaar-Hur-Tel",
+    "rewardsText": "1x Goat dung, 2x Upgrade gem pack",
+    "target": null
+  },
+  {
+    "id": "expert_pleeeeeease",
+    "tier": "Expert",
+    "name": "PLEEEEEEASE!",
+    "description": "Sacrifice 150 fire capes at Tzhaar-Hur-Tel",
+    "rewardsText": "5x Upgrade gem pack",
+    "target": null
+  },
+  {
+    "id": "expert_enhanced_crystal_chest_expert",
+    "tier": "Expert",
+    "name": "Enhanced Crystal Chest Expert",
+    "description": "Open 100x Enhanced Crystal Chests",
+    "rewardsText": "10x Enhanced crystal key",
+    "target": 100
+  },
+  {
+    "id": "expert_ethereal_chest_expert",
+    "tier": "Expert",
+    "name": "Ethereal Chest Expert",
+    "description": "Open 100x Ethereal Chests",
+    "rewardsText": "10x Barrows chest key",
+    "target": 100
+  },
+  {
+    "id": "expert_giant_chest_expert",
+    "tier": "Expert",
+    "name": "Giant Chest Expert",
+    "description": "Open 100x Giant Chests",
+    "rewardsText": "10x Giant key",
+    "target": 100
+  },
+  {
+    "id": "expert_mud_incarnate",
+    "tier": "Expert",
+    "name": "Mud Incarnate",
+    "description": "Open 100x Grubby Chests",
+    "rewardsText": "250x Crushed nest, 250x White berries",
+    "target": 100
+  },
+  {
+    "id": "expert_tomb_peeper",
+    "tier": "Expert",
+    "name": "Tomb Peeper",
+    "description": "Open 10x ToA Common Chests",
+    "rewardsText": "50x Eldritch ashes, 50x Scarab dung, 50x Big banana, 50x Herbal mixture (unf)",
+    "target": 10
+  },
+  {
+    "id": "expert_sandwich_fan",
+    "tier": "Expert",
+    "name": "Sandwich Fan",
+    "description": "Interact with 150 random events",
+    "rewardsText": "2x Square sandwich",
+    "target": null
+  },
+  {
+    "id": "expert_attack_prestiger",
+    "tier": "Expert",
+    "name": "Attack Prestiger",
+    "description": "Prestige 2 times in Attack.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_defence_prestiger",
+    "tier": "Expert",
+    "name": "Defence Prestiger",
+    "description": "Prestige 2 times in Defence.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_strength_prestiger",
+    "tier": "Expert",
+    "name": "Strength Prestiger",
+    "description": "Prestige 2 times in Strength.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_hitpoints_prestiger",
+    "tier": "Expert",
+    "name": "Hitpoints Prestiger",
+    "description": "Prestige 2 times in Hitpoints.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_ranged_prestiger",
+    "tier": "Expert",
+    "name": "Ranged Prestiger",
+    "description": "Prestige 2 times in Ranged.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_prayer_prestiger",
+    "tier": "Expert",
+    "name": "Prayer Prestiger",
+    "description": "Prestige 2 times in Prayer.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_magic_prestiger",
+    "tier": "Expert",
+    "name": "Magic Prestiger",
+    "description": "Prestige 2 times in Magic.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_cooking_prestiger",
+    "tier": "Expert",
+    "name": "Cooking Prestiger",
+    "description": "Prestige 2 times in Cooking.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_woodcutting_prestiger",
+    "tier": "Expert",
+    "name": "Woodcutting Prestiger",
+    "description": "Prestige 2 times in Woodcutting.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_fletching_prestiger",
+    "tier": "Expert",
+    "name": "Fletching Prestiger",
+    "description": "Prestige 2 times in Fletching.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_fishing_prestiger",
+    "tier": "Expert",
+    "name": "Fishing Prestiger",
+    "description": "Prestige 2 times in Fishing.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_firemaking_prestiger",
+    "tier": "Expert",
+    "name": "Firemaking Prestiger",
+    "description": "Prestige 2 times in Firemaking.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_crafting_prestiger",
+    "tier": "Expert",
+    "name": "Crafting Prestiger",
+    "description": "Prestige 2 times in Crafting.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_smithing_prestiger",
+    "tier": "Expert",
+    "name": "Smithing Prestiger",
+    "description": "Prestige 2 times in Smithing.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_mining_prestiger",
+    "tier": "Expert",
+    "name": "Mining Prestiger",
+    "description": "Prestige 2 times in Mining.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_herblore_prestiger",
+    "tier": "Expert",
+    "name": "Herblore Prestiger",
+    "description": "Prestige 2 times in Herblore.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_thieving_prestiger",
+    "tier": "Expert",
+    "name": "Thieving Prestiger",
+    "description": "Prestige 2 times in Thieving.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_slayer_prestiger",
+    "tier": "Expert",
+    "name": "Slayer Prestiger",
+    "description": "Prestige 2 times in Slayer.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_farming_prestiger",
+    "tier": "Expert",
+    "name": "Farming Prestiger",
+    "description": "Prestige 2 times in Farming.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_runecrafting_prestiger",
+    "tier": "Expert",
+    "name": "Runecrafting Prestiger",
+    "description": "Prestige 2 times in Runecrafting.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_not_so_special_now",
+    "tier": "Expert",
+    "name": "Not so special now",
+    "description": "Don't take a hit from the Alchemical Hydra's specials.",
+    "rewardsText": "1x PvM Talent point orb, 100x Slayer point tome",
+    "target": null
+  },
+  {
+    "id": "expert_i_can_count",
+    "tier": "Expert",
+    "name": "I can count!",
+    "description": "Don't take a hit from the Alchemical Hydra off prayer",
+    "rewardsText": "1x PvM Talent point orb, 100x Slayer point tome",
+    "target": null
+  },
+  {
+    "id": "expert_try_moving",
+    "tier": "Expert",
+    "name": "Try Moving",
+    "description": "Complete the Maiden of Sugadinti without standing on a blood orb's splash",
+    "rewardsText": "500x Boss token, 250x Blood rune, 250x Death rune, 250x Soul rune",
+    "target": null
+  },
+  {
+    "id": "expert_spider_watching",
+    "tier": "Expert",
+    "name": "Spider Watching",
+    "description": "Complete the Maiden of Sugadinti without her healing from any nylocas",
+    "rewardsText": "500x Boss token, 250x Blood rune, 250x Death rune, 250x Soul rune",
+    "target": null
+  },
+  {
+    "id": "expert_blood_infection",
+    "tier": "Expert",
+    "name": "Blood Infection",
+    "description": "Complete the Maiden of Sugadinti without standing on a blood orb's trail",
+    "rewardsText": "500x Boss token, 250x Blood rune, 250x Death rune, 250x Soul rune",
+    "target": null
+  },
+  {
+    "id": "expert_swarmed",
+    "tier": "Expert",
+    "name": "Swarmed",
+    "description": "Complete the Pestilent Bloat without anyone taking damage from flies",
+    "rewardsText": "500x Boss token, 1x Dragonstone supply crate",
+    "target": null
+  },
+  {
+    "id": "expert_late_retreat",
+    "tier": "Expert",
+    "name": "Late Retreat",
+    "description": "Complete the Pestilent Bloat without anyone being hit by his stomp",
+    "rewardsText": "500x Boss token, 1x Dragonstone supply crate",
+    "target": null
+  },
+  {
+    "id": "expert_who_missed_one",
+    "tier": "Expert",
+    "name": "Who missed one?",
+    "description": "Complete the Nylocas without anyone missing their small nylo",
+    "rewardsText": "500x Boss token, 20x Rangers' fabric, 20x Infinity cloth",
+    "target": null
+  },
+  {
+    "id": "expert_oops_its_weak_to",
+    "tier": "Expert",
+    "name": "Oops! It's weak to...",
+    "description": "Complete the Nylocas without anyone attacking with the wrong style",
+    "rewardsText": "500x Boss token, 20x Rangers' fabric, 20x Infinity cloth",
+    "target": null
+  },
+  {
+    "id": "expert_stand_together",
+    "tier": "Expert",
+    "name": "Stand Together",
+    "description": "Complete Sotetseg with sharing every colossal orb",
+    "rewardsText": "500x Boss token, 1x Dragonstone supply crate",
+    "target": null
+  },
+  {
+    "id": "expert_losing_the_race",
+    "tier": "Expert",
+    "name": "Losing the Race",
+    "description": "Complete Sotetseg without anyone recieveing damage from the maze's tornado",
+    "rewardsText": "500x Boss token, 1x Dragonstone supply crate",
+    "target": null
+  },
+  {
+    "id": "expert_too_much_trust",
+    "tier": "Expert",
+    "name": "Too Much Trust",
+    "description": "Complete Sotetseg without anyone missing a tile in the maze",
+    "rewardsText": "500x Boss token, 1x Dragonstone supply crate",
+    "target": null
+  },
+  {
+    "id": "expert_misplaced_faith",
+    "tier": "Expert",
+    "name": "Misplaced Faith",
+    "description": "Complete Sotetseg without anyone missing a prayer",
+    "rewardsText": "500x Boss token, 1x Dragonstone supply crate",
+    "target": null
+  },
+  {
+    "id": "expert_wait",
+    "tier": "Expert",
+    "name": "Wait...",
+    "description": "Complete Xarpus without taking any reflect damage",
+    "rewardsText": "500x Boss token, 1x Upgrade gem pack",
+    "target": null
+  },
+  {
+    "id": "expert_antidote_pls",
+    "tier": "Expert",
+    "name": "Antidote pls",
+    "description": "Complete Xarpus without anyone standing on poison",
+    "rewardsText": "500x Boss token, 1x Upgrade gem pack",
+    "target": null
+  },
+  {
+    "id": "expert_you_tried",
+    "tier": "Expert",
+    "name": "You Tried...?",
+    "description": "Complete Xarpus with every Exhumed being stood on",
+    "rewardsText": "500x Boss token, 1x Upgrade gem pack",
+    "target": null
+  },
+  {
+    "id": "expert_stay_behind",
+    "tier": "Expert",
+    "name": "Stay Behind",
+    "description": "Complete Verzik Vitur without anyone being hit by the boss in Phase 1",
+    "rewardsText": "500x Boss token, 2x Olympian feast, 1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_might_run_out",
+    "tier": "Expert",
+    "name": "Might Run Out",
+    "description": "Complete Verzik Vitur without any of the pillars collapsing (Does not effect \"Perfect\" achievements)",
+    "rewardsText": "500x Boss token, 2x Olympian feast, 1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_rubble_remains",
+    "tier": "Expert",
+    "name": "Rubble Remains",
+    "description": "Complete Verzik Vitur without anyone being damaged by collapsing pillars",
+    "rewardsText": "500x Boss token, 2x Olympian feast, 1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_you_saw_it_coming",
+    "tier": "Expert",
+    "name": "You saw it coming",
+    "description": "Complete Verzik Vitur without anyone being damaged by her ranged attacks in phase 2",
+    "rewardsText": "500x Boss token, 5x Olympian feast, 1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_what_do_i_pray_here",
+    "tier": "Expert",
+    "name": "What do I pray here?",
+    "description": "Complete Verzik Vitur without anyone being hit off-prayer by her red magic attacks",
+    "rewardsText": "500x Boss token, 5x Olympian feast, 1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_bounced_back",
+    "tier": "Expert",
+    "name": "Bounced Back",
+    "description": "Complete Verzik Vitur without anyone being bounced by Verzik",
+    "rewardsText": "500x Boss token, 5x Olympian feast, 1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_are_you_with_them",
+    "tier": "Expert",
+    "name": "Are you with them?",
+    "description": "Complete Verzik Vitur without anyone healing Verzik with their attacks",
+    "rewardsText": "500x Boss token, 5x Olympian feast, 1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_pop",
+    "tier": "Expert",
+    "name": "Pop!",
+    "description": "Dodge all exploding Nylocas' explosion during Verzik's fight",
+    "rewardsText": "500x Boss token, 5x Olympian feast, 1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_conductive_catastrophe",
+    "tier": "Expert",
+    "name": "Conductive Catastrophe",
+    "description": "Complete Verzik Vitur without the lightning ball ending at a player",
+    "rewardsText": "500x Boss token, 5x Olympian feast, 1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_misinput",
+    "tier": "Expert",
+    "name": "Misinput",
+    "description": "Complete Verzik Vitur without anyone missing a prayer swap during phase 3",
+    "rewardsText": "500x Boss token, 5x Olympian feast, 1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_close_quarters",
+    "tier": "Expert",
+    "name": "Close Quarters",
+    "description": "Successfully avoid triggering any of Verzik's melee attacks in phase 3",
+    "rewardsText": "500x Boss token, 5x Olympian feast, 1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_web_of_regret",
+    "tier": "Expert",
+    "name": "Web of Regret",
+    "description": "Complete Verzik Vitur without anyone getting stuck in Verzik's webs",
+    "rewardsText": "500x Boss token, 5x Olympian feast, 1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_pool_panic",
+    "tier": "Expert",
+    "name": "Pool Panic",
+    "description": "Complete Verzik Vitur without anyone taking a hit from the yellow orbs",
+    "rewardsText": "500x Boss token, 5x Olympian feast, 1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_to_me_to_you",
+    "tier": "Expert",
+    "name": "To me, to you!",
+    "description": "Complete Verzik Vitur without the green ball dealing any damage",
+    "rewardsText": "500x Boss token, 5x Olympian feast, 1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_tornado_chaser",
+    "tier": "Expert",
+    "name": "Tornado Chaser",
+    "description": "Complete Verzik Vitur without anyone being hit by the tornadoes",
+    "rewardsText": "500x Boss token, 5x Olympian feast, 1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_surge_dodger",
+    "tier": "Expert",
+    "name": "Surge Dodger",
+    "description": "Don't take a hit from Yama's fire surge.",
+    "rewardsText": "1x Upgrade gem pack, 100x Slayer point tome",
+    "target": null
+  },
+  {
+    "id": "expert_skull_dodger",
+    "tier": "Expert",
+    "name": "Skull Dodger",
+    "description": "Don't take a hit from Yama's flaming skull.",
+    "rewardsText": "1x Upgrade gem pack, 100x Slayer point tome",
+    "target": null
+  },
+  {
+    "id": "expert_void_slayer",
+    "tier": "Expert",
+    "name": "Void slayer",
+    "description": "Kill Yama without any voidflares exploding.",
+    "rewardsText": "1x Upgrade gem pack, 100x Slayer point tome",
+    "target": null
+  },
+  {
+    "id": "expert_15_kills_in_a_scurrius_instance",
+    "tier": "Expert",
+    "name": "15 Kills in a Scurrius Instance",
+    "description": "Kill Scurrius 15 times in a single instance.",
+    "rewardsText": "1x 2k XP lamp",
+    "target": null
+  },
+  {
+    "id": "expert_perfect_scurrius",
+    "tier": "Expert",
+    "name": "Perfect Scurrius",
+    "description": "Kill Scurrius without taking any off prayer hits, or getting hit by a special.",
+    "rewardsText": "1x Scurrius' spine, 1x Combatant Scroll",
+    "target": null
+  },
+  {
+    "id": "expert_lactose_intolerant",
+    "tier": "Expert",
+    "name": "Lactose Intolerant",
+    "description": "Don't let Scurrius eat cheese more than once.",
+    "rewardsText": "5x 1k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_voting_master",
+    "tier": "Master",
+    "name": "Voting Master",
+    "description": "Vote 500 times for with ::vote and claim the rewards with ::claimvotes.",
+    "rewardsText": "1x $10 Bond, 50x Vote token, 10,000,000x Coins, 1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_food_whos_that",
+    "tier": "Master",
+    "name": "Food? Who's that",
+    "description": "Restore 110 HP at the rejuvination pool at home",
+    "rewardsText": "1x Hard clue scroll, 1x Elite clue scroll",
+    "target": null
+  },
+  {
+    "id": "master_altar_avoider",
+    "tier": "Master",
+    "name": "Altar Avoider",
+    "description": "Restore 110 prayer points at the rejuvination pool at home",
+    "rewardsText": "1x Hard clue scroll, 1x Elite clue scroll",
+    "target": null
+  },
+  {
+    "id": "master_50_hard_clues",
+    "tier": "Master",
+    "name": "50 Hard Clues",
+    "description": "Open 50 Hard Clue caskets",
+    "rewardsText": "400x Booster Token",
+    "target": null
+  },
+  {
+    "id": "master_150_hard_clues",
+    "tier": "Master",
+    "name": "150 Hard Clues",
+    "description": "Open 150 Hard Clue caskets",
+    "rewardsText": "800x Booster Token",
+    "target": null
+  },
+  {
+    "id": "master_250_hard_clues",
+    "tier": "Master",
+    "name": "250 Hard Clues",
+    "description": "Open 250 Hard Clue caskets",
+    "rewardsText": "1,200x Booster Token",
+    "target": null
+  },
+  {
+    "id": "master_10_elite_clues",
+    "tier": "Master",
+    "name": "10 Elite Clues",
+    "description": "Open 10 Elite Clue caskets",
+    "rewardsText": "2x Master clue scroll, 120x Booster Token",
+    "target": null
+  },
+  {
+    "id": "master_25_elite_clues",
+    "tier": "Master",
+    "name": "25 Elite Clues",
+    "description": "Open 25 Elite Clue caskets",
+    "rewardsText": "2x Master clue scroll, 150x Booster Token",
+    "target": null
+  },
+  {
+    "id": "master_1_master_clue",
+    "tier": "Master",
+    "name": "1 Master Clue",
+    "description": "Open 1 Master Clue caskets",
+    "rewardsText": "1x Master clue scroll",
+    "target": null
+  },
+  {
+    "id": "master_5_master_clues",
+    "tier": "Master",
+    "name": "5 Master Clues",
+    "description": "Open 5 Master Clue caskets",
+    "rewardsText": "1x Master clue scroll, 150x Booster Token",
+    "target": null
+  },
+  {
+    "id": "master_collection_log_master",
+    "tier": "Master",
+    "name": "Collection Log Master",
+    "description": "Unlock 500 total Collection Log slots",
+    "rewardsText": "1x Idle anim override: Flexing",
+    "target": null
+  },
+  {
+    "id": "master_attack_master",
+    "tier": "Master",
+    "name": "Attack Master",
+    "description": "Equip a Attack skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_strength_master",
+    "tier": "Master",
+    "name": "Strength Master",
+    "description": "Equip a Strength skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_defence_master",
+    "tier": "Master",
+    "name": "Defence Master",
+    "description": "Equip a Defence skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_ranged_master",
+    "tier": "Master",
+    "name": "Ranged Master",
+    "description": "Equip a Ranged skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_prayer_master",
+    "tier": "Master",
+    "name": "Prayer Master",
+    "description": "Equip a Prayer skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_magic_master",
+    "tier": "Master",
+    "name": "Magic Master",
+    "description": "Equip a Magic skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_runecrafting_master",
+    "tier": "Master",
+    "name": "Runecrafting Master",
+    "description": "Equip a Runecrafting skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_hitpoints_master",
+    "tier": "Master",
+    "name": "Hitpoints Master",
+    "description": "Equip a Hitpoints skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_herblore_master",
+    "tier": "Master",
+    "name": "Herblore Master",
+    "description": "Equip a Herblore skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_thieving_master",
+    "tier": "Master",
+    "name": "Thieving Master",
+    "description": "Equip a Thieving skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_crafting_master",
+    "tier": "Master",
+    "name": "Crafting Master",
+    "description": "Equip a Crafting skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_fletching_master",
+    "tier": "Master",
+    "name": "Fletching Master",
+    "description": "Equip a Fletching skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_slayer_master",
+    "tier": "Master",
+    "name": "Slayer Master",
+    "description": "Equip a Slayer skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_mining_master",
+    "tier": "Master",
+    "name": "Mining Master",
+    "description": "Equip a Mining skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_smithing_master",
+    "tier": "Master",
+    "name": "Smithing Master",
+    "description": "Equip a Smithing skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_fishing_master",
+    "tier": "Master",
+    "name": "Fishing Master",
+    "description": "Equip a Fishing skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_cooking_master",
+    "tier": "Master",
+    "name": "Cooking Master",
+    "description": "Equip a Cooking skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_firemaking_master",
+    "tier": "Master",
+    "name": "Firemaking Master",
+    "description": "Equip a Firemaking skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_woodcutting_master",
+    "tier": "Master",
+    "name": "Woodcutting Master",
+    "description": "Equip a Woodcutting skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_farming_master",
+    "tier": "Master",
+    "name": "Farming Master",
+    "description": "Equip a Farming skill cape",
+    "rewardsText": "1x 10k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_skill_cape_enjoyer",
+    "tier": "Master",
+    "name": "Skill Cape Enjoyer",
+    "description": "Equip a trimmed skill cape for every skill that works",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_max_cape_master",
+    "tier": "Master",
+    "name": "Max Cape Master",
+    "description": "Equip a max cape for any 5 skills that work",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_meat_beater",
+    "tier": "Master",
+    "name": "Meat Beater",
+    "description": "Kill 50000x NPCs",
+    "rewardsText": "500,000x PVM token, 25,000,000x Coins",
+    "target": 50000
+  },
+  {
+    "id": "master_slayer_master",
+    "tier": "Master",
+    "name": "Slayer Master",
+    "description": "Complete 500x Slayer tasks",
+    "rewardsText": "5x Upgrade gem pack",
+    "target": 500
+  },
+  {
+    "id": "master_first_level_99",
+    "tier": "Master",
+    "name": "First Level 99",
+    "description": "Get your first level 99 in any skill.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_first_level_110",
+    "tier": "Master",
+    "name": "First Level 110",
+    "description": "Get your first level 110 in any skill.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_first_level_120",
+    "tier": "Master",
+    "name": "First Level 120",
+    "description": "Get your first level 120 in any skill.",
+    "rewardsText": "1x 20k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_first_level_126",
+    "tier": "Master",
+    "name": "First Level 126",
+    "description": "Get your first level 126 in any skill.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_boom_boom_boss_basher",
+    "tier": "Master",
+    "name": "Boom Boom Boss Basher",
+    "description": "Complete 100x boss Slayer tasks",
+    "rewardsText": "5x Upgrade gem pack, 5,000x Boss token",
+    "target": 100
+  },
+  {
+    "id": "master_world_boss_master",
+    "tier": "Master",
+    "name": "World Boss Master",
+    "description": "Kill 1000 of any world boss in the world boss arena.<br>::wb to teleport there!",
+    "rewardsText": "5x Random World Boss Jar",
+    "target": null
+  },
+  {
+    "id": "master_no_heart_yet",
+    "tier": "Master",
+    "name": "No heart yet?",
+    "description": "Slay 1000x Superior Slayer creatures",
+    "rewardsText": "10x Upgrade gem pack, 5x Imbued heart",
+    "target": 1000
+  },
+  {
+    "id": "master_dusty_pick",
+    "tier": "Master",
+    "name": "Dusty Pick",
+    "description": "Gather 2500x Stardust.",
+    "rewardsText": "250x Stardust",
+    "target": 2500
+  },
+  {
+    "id": "master_yeah_za_ryte",
+    "tier": "Master",
+    "name": "Yeah (Za)ryte",
+    "description": "Gather 500x Zaryte ore.",
+    "rewardsText": "50x Nihil shard",
+    "target": 500
+  },
+  {
+    "id": "master_are_you_al_za_ryte",
+    "tier": "Master",
+    "name": "Are you al(Za)ryte?",
+    "description": "Gather 1000x Zaryte ore.",
+    "rewardsText": "50x Nihil shard",
+    "target": 1000
+  },
+  {
+    "id": "master_dust_dust_dust_dust_dust",
+    "tier": "Master",
+    "name": "Dust Dust Dust Dust Dust",
+    "description": "Gather 10000x Stardust.",
+    "rewardsText": "1,250x Stardust",
+    "target": 10000
+  },
+  {
+    "id": "master_such_craft_very_wow",
+    "tier": "Master",
+    "name": "Such craft, very wow",
+    "description": "Craft 1 items at, or above, tier 100",
+    "rewardsText": "1x Divine artisan flask, 5x 3x drop token",
+    "target": null
+  },
+  {
+    "id": "master_perfect_zebak",
+    "tier": "Master",
+    "name": "Perfect Zebak",
+    "description": "Kill Zebak without taking damage from: Normal attacks, poison tiles, waves, Zebak's scream, or blood clouds.",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "master_croc_expert",
+    "tier": "Master",
+    "name": "Croc expert",
+    "description": "Complete Zebak with the maximum gear level of 90",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "master_perfect_kephri",
+    "tier": "Master",
+    "name": "Perfect Kephri",
+    "description": "Defeat Kephri without letting the mage Scarab attack, letting an Agile Scarab spawn, without anyone getting hit by dung or eggs, and without anyone getting hit by a fire ball",
+    "rewardsText": "1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "master_perfect_baba",
+    "tier": "Master",
+    "name": "Perfect Baba",
+    "description": "Defeat baba without being hit by his boulders, thrown rocks, shadow attacks, or melee off prayer.",
+    "rewardsText": "1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "master_perfect_akkha",
+    "tier": "Master",
+    "name": "Perfect Akkha",
+    "description": "Kill Akkha without taking damage off prayer, by unstable orbs, or any of his specials",
+    "rewardsText": "1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "master_cerberus_bane",
+    "tier": "Master",
+    "name": "Cerberus' Bane",
+    "description": "Kill 1000x Cerberus.",
+    "rewardsText": "5x Key master teleport",
+    "target": 1000
+  },
+  {
+    "id": "master_red_rocket",
+    "tier": "Master",
+    "name": "Red Rocket",
+    "description": "Kill 1x Ignis.",
+    "rewardsText": "1x Key master teleport",
+    "target": 1
+  },
+  {
+    "id": "master_danger_doggy_daycare",
+    "tier": "Master",
+    "name": "Danger Doggy Daycare",
+    "description": "Kill 10x Ignis.",
+    "rewardsText": "2x Key master teleport",
+    "target": 10
+  },
+  {
+    "id": "master_hellfire_dominator",
+    "tier": "Master",
+    "name": "Hellfire Dominator",
+    "description": "Kill 50x Ignis.",
+    "rewardsText": "5x Key master teleport",
+    "target": 50
+  },
+  {
+    "id": "master_infernal_tyrant",
+    "tier": "Master",
+    "name": "Infernal Tyrant",
+    "description": "Kill 150x Ignis.",
+    "rewardsText": "2x Cerberus' tooth, 15x Key master teleport",
+    "target": 150
+  },
+  {
+    "id": "master_fiery_footwork",
+    "tier": "Master",
+    "name": "Fiery Footwork",
+    "description": "Kill Ignis without taking damage from any fire pools",
+    "rewardsText": "2x PvM Talent point orb",
+    "target": null
+  },
+  {
+    "id": "master_scourge_of_the_swamp",
+    "tier": "Master",
+    "name": "Scourge of the Swamp",
+    "description": "Kill 1000x Zulrah.",
+    "rewardsText": "25,000x Zulrah's scales, 5x Toxic orb",
+    "target": 1000
+  },
+  {
+    "id": "master_toxic_trainee",
+    "tier": "Master",
+    "name": "Toxic Trainee",
+    "description": "Kill 1x Danger Snek.",
+    "rewardsText": "10,000x Zulrah's scales, 1x Toxic orb",
+    "target": 1
+  },
+  {
+    "id": "master_toxic_tactician",
+    "tier": "Master",
+    "name": "Toxic Tactician",
+    "description": "Kill 10x Danger Snek.",
+    "rewardsText": "15,000x Zulrah's scales, 2x Toxic orb",
+    "target": 10
+  },
+  {
+    "id": "master_toxic_tyrant",
+    "tier": "Master",
+    "name": "Toxic Tyrant",
+    "description": "Kill 50x Danger Snek.",
+    "rewardsText": "15,000x Zulrah's scales, 5x Toxic orb",
+    "target": 50
+  },
+  {
+    "id": "master_master_of_toxins",
+    "tier": "Master",
+    "name": "Master of Toxins",
+    "description": "Kill 150x Danger Snek.",
+    "rewardsText": "25,000x Zulrah's scales, 15x Toxic orb",
+    "target": 150
+  },
+  {
+    "id": "master_not_an_olympian",
+    "tier": "Master",
+    "name": "Not an Olympian",
+    "description": "Complete 1 olympian raid",
+    "rewardsText": "1x Olympian fabric",
+    "target": null
+  },
+  {
+    "id": "master_olympian_novice",
+    "tier": "Master",
+    "name": "Olympian Novice",
+    "description": "Complete 15 olympian raids",
+    "rewardsText": "3x Olympian fabric",
+    "target": null
+  },
+  {
+    "id": "master_olympian_initiate",
+    "tier": "Master",
+    "name": "Olympian Initiate",
+    "description": "Complete 50 olympian raids",
+    "rewardsText": "5x Olympian fabric, 5x Olympian feast",
+    "target": null
+  },
+  {
+    "id": "master_god_slayer",
+    "tier": "Master",
+    "name": "God Slayer",
+    "description": "Complete 125 olympian raids",
+    "rewardsText": "5x Olympian bar, 5x Olympian feast",
+    "target": null
+  },
+  {
+    "id": "master_divine_challenger",
+    "tier": "Master",
+    "name": "Divine Challenger",
+    "description": "Complete 250 olympian raids",
+    "rewardsText": "5x Hecate's Mana (IIII), 5x Olympian bar, 5x Olympian fabric, 1x Olympian component side-grade token",
+    "target": null
+  },
+  {
+    "id": "master_nexpert",
+    "tier": "Master",
+    "name": "Nexpert",
+    "description": "Kill 150x Nex.",
+    "rewardsText": "100x Nihil shard",
+    "target": 150
+  },
+  {
+    "id": "master_nexterminator",
+    "tier": "Master",
+    "name": "Nexterminator",
+    "description": "Kill 500x Nex.",
+    "rewardsText": "100x Nihil shard",
+    "target": 500
+  },
+  {
+    "id": "master_nexorcist",
+    "tier": "Master",
+    "name": "Nexorcist",
+    "description": "Kill 150x Azrael.",
+    "rewardsText": "100x Nihil shard",
+    "target": 150
+  },
+  {
+    "id": "master_nex_master",
+    "tier": "Master",
+    "name": "Nex Master",
+    "description": "Defeat Nex without getting hit by any avoidable mechanics or anybody dying",
+    "rewardsText": "50x Nihil shard",
+    "target": null
+  },
+  {
+    "id": "master_the_floor_is_ice",
+    "tier": "Master",
+    "name": "The Floor is Ice",
+    "description": "Avoid all Nex ice attacks in hard mode",
+    "rewardsText": "50x Nihil shard",
+    "target": null
+  },
+  {
+    "id": "master_deathless_wardens",
+    "tier": "Master",
+    "name": "Deathless Wardens",
+    "description": "Complete the entire wardens encounter without anyone dying",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "master_rather_shocking",
+    "tier": "Master",
+    "name": "Rather shocking",
+    "description": "No party members hit by Warden's enrage phase lightning",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA common key",
+    "target": null
+  },
+  {
+    "id": "master_make_it_stop",
+    "tier": "Master",
+    "name": "Make It Stop",
+    "description": "Sacrifice 350 fire capes at Tzhaar-Hur-Tel",
+    "rewardsText": "5x Divine luck flask",
+    "target": null
+  },
+  {
+    "id": "master_enhanced_crystal_chest_master",
+    "tier": "Master",
+    "name": "Enhanced Crystal Chest Master",
+    "description": "Open 250x Enhanced Crystal Chests",
+    "rewardsText": "25x Enhanced crystal key",
+    "target": 250
+  },
+  {
+    "id": "master_ethereal_chest_master",
+    "tier": "Master",
+    "name": "Ethereal Chest Master",
+    "description": "Open 250x Ethereal Chests",
+    "rewardsText": "25x Barrows chest key",
+    "target": 250
+  },
+  {
+    "id": "master_giant_chest_master",
+    "tier": "Master",
+    "name": "Giant Chest Master",
+    "description": "Open 250x Giant Chests",
+    "rewardsText": "25x Giant key",
+    "target": 250
+  },
+  {
+    "id": "master_rub_rub_rub_thanks_for_the_grub",
+    "tier": "Master",
+    "name": "Rub rub rub thanks for the grub",
+    "description": "Open 250x Grubby Chests",
+    "rewardsText": "500x Limpwurt root",
+    "target": 250
+  },
+  {
+    "id": "master_tomb_raider",
+    "tier": "Master",
+    "name": "Tomb Raider",
+    "description": "Open 25x ToA Common Chests",
+    "rewardsText": "1x ToA key fragment mystery box",
+    "target": 25
+  },
+  {
+    "id": "master_seeing_purple",
+    "tier": "Master",
+    "name": "Seeing purple",
+    "description": "Open 1 TOA purple chest",
+    "rewardsText": "1x ToA key fragment mystery box",
+    "target": null
+  },
+  {
+    "id": "master_purple_party",
+    "tier": "Master",
+    "name": "Purple party",
+    "description": "Open 5 TOA purple chests",
+    "rewardsText": "1x ToA key fragment mystery box",
+    "target": null
+  },
+  {
+    "id": "master_im_not_a_bot",
+    "tier": "Master",
+    "name": "I'm not a bot!",
+    "description": "Interact with 300 random events",
+    "rewardsText": "2x Square sandwich",
+    "target": null
+  },
+  {
+    "id": "master_attack_sweat",
+    "tier": "Master",
+    "name": "Attack Sweat",
+    "description": "Prestige 5 times in Attack.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_defence_sweat",
+    "tier": "Master",
+    "name": "Defence Sweat",
+    "description": "Prestige 5 times in Defence.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_strength_sweat",
+    "tier": "Master",
+    "name": "Strength Sweat",
+    "description": "Prestige 5 times in Strength.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_hitpoints_sweat",
+    "tier": "Master",
+    "name": "Hitpoints Sweat",
+    "description": "Prestige 5 times in Hitpoints.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_ranged_sweat",
+    "tier": "Master",
+    "name": "Ranged Sweat",
+    "description": "Prestige 5 times in Ranged.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_prayer_sweat",
+    "tier": "Master",
+    "name": "Prayer Sweat",
+    "description": "Prestige 5 times in Prayer.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_magic_sweat",
+    "tier": "Master",
+    "name": "Magic Sweat",
+    "description": "Prestige 5 times in Magic.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_cooking_sweat",
+    "tier": "Master",
+    "name": "Cooking Sweat",
+    "description": "Prestige 5 times in Cooking.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_woodcutting_sweat",
+    "tier": "Master",
+    "name": "Woodcutting Sweat",
+    "description": "Prestige 5 times in Woodcutting.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_fletching_sweat",
+    "tier": "Master",
+    "name": "Fletching Sweat",
+    "description": "Prestige 5 times in Fletching.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_fishing_sweat",
+    "tier": "Master",
+    "name": "Fishing Sweat",
+    "description": "Prestige 5 times in Fishing.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_firemaking_sweat",
+    "tier": "Master",
+    "name": "Firemaking Sweat",
+    "description": "Prestige 5 times in Firemaking.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_crafting_sweat",
+    "tier": "Master",
+    "name": "Crafting Sweat",
+    "description": "Prestige 5 times in Crafting.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_smithing_sweat",
+    "tier": "Master",
+    "name": "Smithing Sweat",
+    "description": "Prestige 5 times in Smithing.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_mining_sweat",
+    "tier": "Master",
+    "name": "Mining Sweat",
+    "description": "Prestige 5 times in Mining.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_herblore_sweat",
+    "tier": "Master",
+    "name": "Herblore Sweat",
+    "description": "Prestige 5 times in Herblore.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_thieving_sweat",
+    "tier": "Master",
+    "name": "Thieving Sweat",
+    "description": "Prestige 5 times in Thieving.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_slayer_sweat",
+    "tier": "Master",
+    "name": "Slayer Sweat",
+    "description": "Prestige 5 times in Slayer.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_farming_sweat",
+    "tier": "Master",
+    "name": "Farming Sweat",
+    "description": "Prestige 5 times in Farming.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_runecrafting_sweat",
+    "tier": "Master",
+    "name": "Runecrafting Sweat",
+    "description": "Prestige 5 times in Runecrafting.",
+    "rewardsText": "1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "master_perfect_hydra",
+    "tier": "Master",
+    "name": "Perfect Hydra",
+    "description": "Subdue the Alchemical Hydra without taking any off prayer hits, or getting hit by a special.",
+    "rewardsText": "3x 2x drop token",
+    "target": null
+  },
+  {
+    "id": "master_youre_strong_but_im_stronger",
+    "tier": "Master",
+    "name": "You're strong, but I'm stronger",
+    "description": "Defeat hydra without luring him over any vents.",
+    "rewardsText": "3x 3x drop token",
+    "target": null
+  },
+  {
+    "id": "master_echo_kings_challenge",
+    "tier": "Master",
+    "name": "Echo Kings Challenge",
+    "description": "Take no damage in a solo instance and have all 3 kings dead at the same time.",
+    "rewardsText": "1x Fremennik echo orb",
+    "target": null
+  },
+  {
+    "id": "master_deathless_maiden",
+    "tier": "Master",
+    "name": "Deathless Maiden",
+    "description": "Complete the Maiden of Sugadinti without anyone dying",
+    "rewardsText": "1x Pandora's essence (lesser)",
+    "target": null
+  },
+  {
+    "id": "master_perfect_maiden",
+    "tier": "Master",
+    "name": "Perfect Maiden",
+    "description": "Complete the Maiden of Sugadinti without failing any achievements",
+    "rewardsText": "1x Pandora's essence (lesser)",
+    "target": null
+  },
+  {
+    "id": "master_tag_out",
+    "tier": "Master",
+    "name": "Tag Out",
+    "description": "Complete the Maiden of Sugadinti without her attacking someone twice in a row",
+    "rewardsText": "1,000x Boss token, 250x Blood rune, 250x Death rune, 250x Soul rune",
+    "target": null
+  },
+  {
+    "id": "master_perfect_bloat",
+    "tier": "Master",
+    "name": "Perfect Bloat",
+    "description": "Complete the Pestilent Bloat without failing any achievements",
+    "rewardsText": "1x Pandora's essence (lesser)",
+    "target": null
+  },
+  {
+    "id": "master_deathless_bloat",
+    "tier": "Master",
+    "name": "Deathless Bloat",
+    "description": "Complete the Pestilent Bloat without anyone dying",
+    "rewardsText": "1x Pandora's essence (lesser)",
+    "target": null
+  },
+  {
+    "id": "master_look_at_the_ground",
+    "tier": "Master",
+    "name": "Look At The Ground",
+    "description": "Complete the Pestilent Bloat (Hard Mode) without anyone being hit by falling body parts",
+    "rewardsText": "1x Pandora's essence (lesser)",
+    "target": null
+  },
+  {
+    "id": "master_deathless_nylocas",
+    "tier": "Master",
+    "name": "Deathless Nylocas",
+    "description": "Complete the Nylocas without anyone dying",
+    "rewardsText": "1x Pandora's essence (lesser)",
+    "target": null
+  },
+  {
+    "id": "master_perfect_nylocas",
+    "tier": "Master",
+    "name": "Perfect Nylocas",
+    "description": "Complete the Nylocas without failing any achievements",
+    "rewardsText": "1x Pandora's essence (lesser)",
+    "target": null
+  },
+  {
+    "id": "master_perfect_sotetseg",
+    "tier": "Master",
+    "name": "Perfect Sotetseg",
+    "description": "Complete Sotetseg without failing any achievements",
+    "rewardsText": "1x Pandora's essence (lesser)",
+    "target": null
+  },
+  {
+    "id": "master_deathless_sotetseg",
+    "tier": "Master",
+    "name": "Deathless Sotetseg",
+    "description": "Complete Sotetseg without anyone dying",
+    "rewardsText": "1x Pandora's essence (lesser)",
+    "target": null
+  },
+  {
+    "id": "master_no_group_hug",
+    "tier": "Master",
+    "name": "No Group Hug?",
+    "description": "Complete Sotetseg (Hard Mode) with sharing every colossal orb",
+    "rewardsText": "1x Pandora's essence (lesser)",
+    "target": null
+  },
+  {
+    "id": "master_perfect_xarpus",
+    "tier": "Master",
+    "name": "Perfect Xarpus",
+    "description": "Complete Xarpus without failing any achievements",
+    "rewardsText": "1x Pandora's essence (lesser)",
+    "target": null
+  },
+  {
+    "id": "master_deathless_xarpus",
+    "tier": "Master",
+    "name": "Deathless Xarpus",
+    "description": "Complete Xarpus without anyone dying",
+    "rewardsText": "1x Pandora's essence (lesser)",
+    "target": null
+  },
+  {
+    "id": "master_deathless_verzik",
+    "tier": "Master",
+    "name": "Deathless Verzik",
+    "description": "Complete Verzik Vitur without anyone dying",
+    "rewardsText": "1x Pandora's essence",
+    "target": null
+  },
+  {
+    "id": "master_perfect_verzik",
+    "tier": "Master",
+    "name": "Perfect Verzik",
+    "description": "Complete Verzik Vitur without failing any achievements",
+    "rewardsText": "2x Pandora's essence",
+    "target": null
+  },
+  {
+    "id": "master_seeing_red",
+    "tier": "Master",
+    "name": "Seeing Red",
+    "description": "Complete Verzik Vitur without any of the red Nylocas healing Verzik",
+    "rewardsText": "5x Olympian feast, 2x Pandora's essence",
+    "target": null
+  },
+  {
+    "id": "master_yama_specialist",
+    "tier": "Master",
+    "name": "Yama Specialist",
+    "description": "Don't take a hit from Yama's specials.",
+    "rewardsText": "1x Divine Strength Flask, 1x Dossier",
+    "target": null
+  },
+  {
+    "id": "master_elemental_specialist",
+    "tier": "Master",
+    "name": "Elemental Specialist",
+    "description": "Don't take a hit from Yama off prayer",
+    "rewardsText": "1x Divine prayer flask, 1x Dossier",
+    "target": null
+  },
+  {
+    "id": "master_floor_attacker",
+    "tier": "Master",
+    "name": "Floor Attacker",
+    "description": "Don't take a hit from Yama's floor attacks.",
+    "rewardsText": "1x Divine luck flask, 1x Dossier",
+    "target": null
+  },
+  {
+    "id": "grandmaster_mvp_supporter",
+    "tier": "Grandmaster",
+    "name": "MVP Supporter",
+    "description": "Vote 1000 times for with ::vote and claim the rewards with ::claimvotes.",
+    "rewardsText": "1x $25 Bond, 100x Vote token, 2x Divine luck flask, 1x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "grandmaster_50_elite_clues",
+    "tier": "Grandmaster",
+    "name": "50 Elite Clues",
+    "description": "Open 50 Elite Clue caskets",
+    "rewardsText": "500x Booster Token",
+    "target": null
+  },
+  {
+    "id": "grandmaster_150_elite_clues",
+    "tier": "Grandmaster",
+    "name": "150 Elite Clues",
+    "description": "Open 150 Elite Clue caskets",
+    "rewardsText": "1,000x Booster Token",
+    "target": null
+  },
+  {
+    "id": "grandmaster_250_elite_clues",
+    "tier": "Grandmaster",
+    "name": "250 Elite Clues",
+    "description": "Open 250 Elite Clue caskets",
+    "rewardsText": "1,500x Booster Token",
+    "target": null
+  },
+  {
+    "id": "grandmaster_50_master_clues",
+    "tier": "Grandmaster",
+    "name": "50 Master Clues",
+    "description": "Open 50 Master Clue caskets",
+    "rewardsText": "600x Booster Token",
+    "target": null
+  },
+  {
+    "id": "grandmaster_150_master_clues",
+    "tier": "Grandmaster",
+    "name": "150 Master Clues",
+    "description": "Open 150 Master Clue caskets",
+    "rewardsText": "1,200x Booster Token",
+    "target": null
+  },
+  {
+    "id": "grandmaster_250_master_clues",
+    "tier": "Grandmaster",
+    "name": "250 Master Clues",
+    "description": "Open 250 Master Clue caskets",
+    "rewardsText": "1,800x Booster Token",
+    "target": null
+  },
+  {
+    "id": "grandmaster_collection_log_grandmaster",
+    "tier": "Grandmaster",
+    "name": "Collection Log Grandmaster",
+    "description": "Unlock 600 total Collection Log slots",
+    "rewardsText": "1x Idle anim override: Triumphant",
+    "target": null
+  },
+  {
+    "id": "grandmaster_max_cape_grandmaster",
+    "tier": "Grandmaster",
+    "name": "Max Cape Grandmaster",
+    "description": "Equip a max cape for every skill that works",
+    "rewardsText": "5x 50k XP lamp",
+    "target": null
+  },
+  {
+    "id": "grandmaster_meat_beat_compleat",
+    "tier": "Grandmaster",
+    "name": "Meat Beat Compleat",
+    "description": "Kill 100000x NPCs",
+    "rewardsText": "1,000,000x PVM token, 25,000,000x Coins",
+    "target": 100000
+  },
+  {
+    "id": "grandmaster_slayer_grandmaster",
+    "tier": "Grandmaster",
+    "name": "Slayer Grandmaster",
+    "description": "Complete 1000x Slayer tasks",
+    "rewardsText": "5x Upgrade gem pack, 1x Divine artisan flask",
+    "target": 1000
+  },
+  {
+    "id": "grandmaster_loves2boss",
+    "tier": "Grandmaster",
+    "name": "Loves2Boss",
+    "description": "Complete 250x boss Slayer tasks",
+    "rewardsText": "10x Upgrade gem pack, 5x Divine luck flask, 10,000x Boss token",
+    "target": 250
+  },
+  {
+    "id": "grandmaster_world_boss_grandmaster",
+    "tier": "Grandmaster",
+    "name": "World Boss Grandmaster",
+    "description": "Kill 2500 of any world boss in the world boss arena.<br>::wb to teleport there!",
+    "rewardsText": "10x Random World Boss Jar",
+    "target": null
+  },
+  {
+    "id": "grandmaster_full_time_squishy",
+    "tier": "Grandmaster",
+    "name": "Full Time Squishy",
+    "description": "Slay 2500x Superior Slayer creatures",
+    "rewardsText": "10x Upgrade gem pack, 250x Crystal key, 5x Imbued heart",
+    "target": 2500
+  },
+  {
+    "id": "grandmaster_zaryte_zone_zenith",
+    "tier": "Grandmaster",
+    "name": "Zaryte zone zenith",
+    "description": "Gather 5000x Zaryte ore.",
+    "rewardsText": "250x Nihil shard",
+    "target": 5000
+  },
+  {
+    "id": "grandmaster_zebak_grandmaster",
+    "tier": "Grandmaster",
+    "name": "Zebak Grandmaster",
+    "description": "Kill Zebak 5 times in a row without taking damage from: Normal attacks, poison tiles, waves, Zebak's scream, or blood clouds.",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA key fragment (Zebak)",
+    "target": null
+  },
+  {
+    "id": "grandmaster_kephri_grandmaster",
+    "tier": "Grandmaster",
+    "name": "Kephri Grandmaster",
+    "description": "Complete 5 perfect kills in a row",
+    "rewardsText": "1x TOA key fragment (Kephri)",
+    "target": null
+  },
+  {
+    "id": "grandmaster_baba_grandmaster",
+    "tier": "Grandmaster",
+    "name": "Baba Grandmaster",
+    "description": "Complete 5 perfect kills in a row",
+    "rewardsText": "1x TOA key fragment (Baba)",
+    "target": null
+  },
+  {
+    "id": "grandmaster_akkha_grandmaster",
+    "tier": "Grandmaster",
+    "name": "Akkha Grandmaster",
+    "description": "Complete 5 perfect kills in a row",
+    "rewardsText": "1x TOA key fragment (Akkha)",
+    "target": null
+  },
+  {
+    "id": "grandmaster_ignis_daddy",
+    "tier": "Grandmaster",
+    "name": "Ignis Daddy",
+    "description": "Kill 500x Ignis.",
+    "rewardsText": "15x Key master teleport",
+    "target": 500
+  },
+  {
+    "id": "grandmaster_ignis_grandmaster",
+    "tier": "Grandmaster",
+    "name": "Ignis Grandmaster",
+    "description": "Kill Ignis perfectly (Avoid all lava pools, no off prayer hits)",
+    "rewardsText": "2x PvM Talent point orb",
+    "target": null
+  },
+  {
+    "id": "grandmaster_spice_lover",
+    "tier": "Grandmaster",
+    "name": "Spice Lover",
+    "description": "Kill Ignis without protecting against any ranged or mage attacks, and avoiding all lava pools.",
+    "rewardsText": "2x PvM Talent point orb",
+    "target": null
+  },
+  {
+    "id": "grandmaster_suck_the_venom_out",
+    "tier": "Grandmaster",
+    "name": "Suck the venom out!",
+    "description": "Kill Danger Snek without protecting against any ranged or mage attacks, and avoiding all poison clouds.",
+    "rewardsText": "2x Toxic orb",
+    "target": null
+  },
+  {
+    "id": "grandmaster_danger_snek_grandmaster",
+    "tier": "Grandmaster",
+    "name": "Danger snek Grandmaster",
+    "description": "Kill Danger Snek perfectly (Avoid all poison clouds, no off prayer hits, no snakeling damage)",
+    "rewardsText": "2x Toxic orb",
+    "target": null
+  },
+  {
+    "id": "grandmaster_divine_challenger_2",
+    "tier": "Grandmaster",
+    "name": "Divine Challenger 2",
+    "description": "Complete 500 olympian raids",
+    "rewardsText": "5x Hecate's Mana (IIII), 2x Divine luck flask, 1x Olympian component side-grade token",
+    "target": null
+  },
+  {
+    "id": "grandmaster_nexceptional",
+    "tier": "Grandmaster",
+    "name": "Nexceptional",
+    "description": "Kill 500x Azrael.",
+    "rewardsText": "100x Nihil shard",
+    "target": 500
+  },
+  {
+    "id": "grandmaster_nex_grandmaster",
+    "tier": "Grandmaster",
+    "name": "Nex Grandmaster",
+    "description": "Defeat Nex in hard mode, without getting hit by any avoidable mechanics or anybody dying",
+    "rewardsText": "1x Ancient blood ornament kit",
+    "target": null
+  },
+  {
+    "id": "grandmaster_nex_grandmaster_team",
+    "tier": "Grandmaster",
+    "name": "Nex Grandmaster Team",
+    "description": "Defeat Nex in hard mode, with at least 3 people, without anyone getting hit by any avoidable mechanics or dying",
+    "rewardsText": "500x Nihil shard",
+    "target": null
+  },
+  {
+    "id": "grandmaster_perfect_wardens",
+    "tier": "Grandmaster",
+    "name": "Perfect Wardens",
+    "description": "Complete the entire wardens encounter without failing any other achievement (excluding Teamwork in solos)",
+    "rewardsText": "1x PvM Talent point orb, 1x TOA rare key",
+    "target": null
+  },
+  {
+    "id": "grandmaster_surely_green_logged_by_now",
+    "tier": "Grandmaster",
+    "name": "Surely green logged by now?",
+    "description": "Open 30 TOA purple chests",
+    "rewardsText": "4x ToA key fragment mystery box",
+    "target": null
+  },
+  {
+    "id": "grandmaster_perfect_theatre",
+    "tier": "Grandmaster",
+    "name": "Perfect Theatre",
+    "description": "Complete the entire Theatre of Blood without failing any achievements",
+    "rewardsText": "2x Divine luck flask, 1x Pandora's essence (perfect)",
+    "target": null
+  },
+  {
+    "id": "grandmaster_deathless_theatre",
+    "tier": "Grandmaster",
+    "name": "Deathless Theatre",
+    "description": "Complete the entire Theatre of Blood without anyone dying",
+    "rewardsText": "1x Pandora's essence, 1x Divine prayer flask",
+    "target": null
+  },
+  {
+    "id": "grandmaster_deathless_maiden_2",
+    "tier": "Grandmaster",
+    "name": "Deathless Maiden 2",
+    "description": "Complete the Maiden of Sugadinti (Hard Mode) without anyone dying",
+    "rewardsText": "1x Pandora's essence (lesser)",
+    "target": null
+  },
+  {
+    "id": "grandmaster_perfect_maiden_2",
+    "tier": "Grandmaster",
+    "name": "Perfect Maiden 2",
+    "description": "Complete the Maiden of Sugadinti (Hard Mode) without failing any achievements",
+    "rewardsText": "1x Pandora's essence, 1x Divine Production Flask",
+    "target": null
+  },
+  {
+    "id": "grandmaster_perfect_bloat_2",
+    "tier": "Grandmaster",
+    "name": "Perfect Bloat 2",
+    "description": "Complete the Pestilent Bloat (Hard Mode) without failing any achievements",
+    "rewardsText": "1x Pandora's essence, 1x Divine prayer flask",
+    "target": null
+  },
+  {
+    "id": "grandmaster_deathless_bloat_2",
+    "tier": "Grandmaster",
+    "name": "Deathless Bloat 2",
+    "description": "Complete the Pestilent Bloat (Hard Mode) without anyone dying",
+    "rewardsText": "1x Pandora's essence (lesser)",
+    "target": null
+  },
+  {
+    "id": "grandmaster_deathless_nylocas_2",
+    "tier": "Grandmaster",
+    "name": "Deathless Nylocas 2",
+    "description": "Complete the Nylocas (Hard Mode) without anyone dying",
+    "rewardsText": "1x Pandora's essence (lesser)",
+    "target": null
+  },
+  {
+    "id": "grandmaster_perfect_nylocas_2",
+    "tier": "Grandmaster",
+    "name": "Perfect Nylocas 2",
+    "description": "Complete the Nylocas (Hard Mode) without failing any achievements",
+    "rewardsText": "1x Pandora's essence, 1x Divine Production Flask",
+    "target": null
+  },
+  {
+    "id": "grandmaster_perfect_sotetseg_2",
+    "tier": "Grandmaster",
+    "name": "Perfect Sotetseg 2",
+    "description": "Complete Sotetseg (Hard Mode) without failing any achievements",
+    "rewardsText": "1x Pandora's essence, 1x Divine prayer flask",
+    "target": null
+  },
+  {
+    "id": "grandmaster_deathless_sotetseg_2",
+    "tier": "Grandmaster",
+    "name": "Deathless Sotetseg 2",
+    "description": "Complete Sotetseg (Hard Mode) without anyone dying",
+    "rewardsText": "1x Pandora's essence (lesser)",
+    "target": null
+  },
+  {
+    "id": "grandmaster_perfect_xarpus_2",
+    "tier": "Grandmaster",
+    "name": "Perfect Xarpus 2",
+    "description": "Complete Xarpus (Hard Mode) without failing any achievements",
+    "rewardsText": "1x Pandora's essence, 1x Divine Strength Flask",
+    "target": null
+  },
+  {
+    "id": "grandmaster_deathless_xarpus_2",
+    "tier": "Grandmaster",
+    "name": "Deathless Xarpus 2",
+    "description": "Complete Xarpus (Hard Mode) without anyone dying",
+    "rewardsText": "1x Pandora's essence (lesser)",
+    "target": null
+  },
+  {
+    "id": "grandmaster_deathless_verzik_2",
+    "tier": "Grandmaster",
+    "name": "Deathless Verzik 2",
+    "description": "Complete Verzik Vitur (Hard Mode) without anyone dying",
+    "rewardsText": "2x Pandora's essence",
+    "target": null
+  },
+  {
+    "id": "grandmaster_perfect_verzik_2",
+    "tier": "Grandmaster",
+    "name": "Perfect Verzik 2",
+    "description": "Complete Verzik Vitur (Hard Mode) without failing any achievements",
+    "rewardsText": "3x Pandora's essence, 1x Divine luck flask",
+    "target": null
+  },
+  {
+    "id": "grandmaster_perfect_yama",
+    "tier": "Grandmaster",
+    "name": "Perfect Yama",
+    "description": "Defeat Yama without taking any off prayer hits, or getting hit by a special.",
+    "rewardsText": "25x Oathplate shards, 1x Dossier",
+    "target": null
+  },
+  {
+    "id": "heroic_olympian_weapon_sink_1",
+    "tier": "Heroic",
+    "name": "Olympian Weapon Sink 1",
+    "description": "Temper any of Heavenly bow, Heavenly ballista, Poseidon's trident, Kodai wand, Hydra claws, Titanforged maul 5 times total",
+    "rewardsText": "1x Olympian raid mystery box",
+    "target": null
+  },
+  {
+    "id": "heroic_olympian_weapon_sink_2",
+    "tier": "Heroic",
+    "name": "Olympian Weapon Sink 2",
+    "description": "Temper any of Heavenly bow, Heavenly ballista, Poseidon's trident, Kodai wand, Hydra claws, Titanforged maul 10 times total",
+    "rewardsText": "1x Olympian raid mystery box",
+    "target": null
+  },
+  {
+    "id": "heroic_divine_challenger_3",
+    "tier": "Heroic",
+    "name": "Divine Challenger 3",
+    "description": "Complete 1000 olympian raids",
+    "rewardsText": "1x Olympian raid mystery box (lesser)",
+    "target": null
+  },
+  {
+    "id": "heroic_perfect_theatre_2",
+    "tier": "Heroic",
+    "name": "Perfect Theatre 2",
+    "description": "Complete the entire Theatre of Blood (Hard Mode) without failing any achievements",
+    "rewardsText": "2x Divine luck flask, 1x Pandora's essence (perfect)",
+    "target": null
+  },
+  {
+    "id": "heroic_deathless_theatre_2",
+    "tier": "Heroic",
+    "name": "Deathless Theatre 2",
+    "description": "Complete the entire Theatre of Blood (Hard Mode) without anyone dying",
+    "rewardsText": "1x Divine Strength Flask, 2x Pandora's essence",
+    "target": null
+  }
+]
