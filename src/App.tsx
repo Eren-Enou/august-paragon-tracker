@@ -92,7 +92,7 @@ function inferTags(a: { name: string; description: string; rewardsText: string }
   // --- Gear (add Temper) ---
   if (
     has(
-      /\bequip\b|\b(armou?r|boots|helm(et)?|platebody|body|platelegs|legs|gloves|shield|staff|bow|crossbow|cape|temper)\b/
+      /\bequip\b|\b(armou?r|boots|helm(et)?|platebody|platelegs|legs|gloves|shield|staff|bow|crossbow|cape|temper)\b/
     )
   ) {
     tags.push("Gear");
