@@ -339,6 +339,12 @@ export default function App() {
   }
 }, [achievements]);
 
+  useEffect(() => {
+      const sm = achievements.filter(a => a.name === "Slayer Master" && a.tier === "Master");
+      console.log("Slayer Master entries:", sm);
+  }, [achievements]);
+
+
 
   // Export / Import
   function exportProgress() {

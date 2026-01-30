@@ -1,6 +1,6 @@
 [
   {
-    "id": "starter_gatherer",
+    "id": "9d78a19d194f",
     "tier": "Starter",
     "name": "Gatherer",
     "description": "Gather 1x of each: Luminite Ore, Dragon Ore, Raw swordfish, Bark, Yew logs, Uncut sapphire, Grimy ranarr weed, Grimy kwuarm.",
@@ -8,7 +8,7 @@
     "target": 1
   },
   {
-    "id": "starter_craftsman",
+    "id": "fc204d1cb5c6",
     "tier": "Starter",
     "name": "Craftsman",
     "description": "Craft one of each: Dragon boots, Dragon gloves, Swordfish, Yew shortbow, Sapphire, Prayer potion(3), Super strength(3), Tome of fire, Splitbark helm.",
@@ -16,7 +16,7 @@
     "target": null
   },
   {
-    "id": "starter_voting_novice",
+    "id": "0bab6400adf9",
     "tier": "Starter",
     "name": "Voting Novice",
     "description": "Vote 3 times for with ::vote and claim the rewards with ::claimvotes.",
@@ -24,7 +24,7 @@
     "target": null
   },
   {
-    "id": "starter_healthy_sip",
+    "id": "2545b89a0b75",
     "tier": "Starter",
     "name": "Healthy Sip",
     "description": "Restore 10 HP at the rejuvination pool at home",
@@ -32,7 +32,7 @@
     "target": null
   },
   {
-    "id": "starter_holy_sip",
+    "id": "6f533ce8ff71",
     "tier": "Starter",
     "name": "Holy Sip",
     "description": "Restore 5 prayer points at the rejuvination pool at home",
@@ -40,7 +40,7 @@
     "target": null
   },
   {
-    "id": "starter_1_beginner_clue",
+    "id": "eb03e32f44e2",
     "tier": "Starter",
     "name": "1 Beginner Clue",
     "description": "Open 1 Beginner Clue caskets",
@@ -48,7 +48,7 @@
     "target": null
   },
   {
-    "id": "starter_5_beginner_clues",
+    "id": "2837e39b7358",
     "tier": "Starter",
     "name": "5 Beginner Clues",
     "description": "Open 5 Beginner Clue caskets",
@@ -56,7 +56,7 @@
     "target": null
   },
   {
-    "id": "starter_10_beginner_clues",
+    "id": "2c04a95d1495",
     "tier": "Starter",
     "name": "10 Beginner Clues",
     "description": "Open 10 Beginner Clue caskets",
@@ -64,7 +64,7 @@
     "target": null
   },
   {
-    "id": "starter_25_beginner_clues",
+    "id": "33a41b90b487",
     "tier": "Starter",
     "name": "25 Beginner Clues",
     "description": "Open 25 Beginner Clue caskets",
@@ -72,7 +72,7 @@
     "target": null
   },
   {
-    "id": "starter_1_easy_clue",
+    "id": "2cfe528f4e2c",
     "tier": "Starter",
     "name": "1 Easy Clue",
     "description": "Open 1 Easy Clue caskets",
@@ -80,7 +80,7 @@
     "target": null
   },
   {
-    "id": "starter_5_easy_clues",
+    "id": "6ab759a16357",
     "tier": "Starter",
     "name": "5 Easy Clues",
     "description": "Open 5 Easy Clue caskets",
@@ -88,7 +88,7 @@
     "target": null
   },
   {
-    "id": "starter_open_the_wiki",
+    "id": "0f7cc2ccf9b9",
     "tier": "Starter",
     "name": "Open the Wiki",
     "description": "Type ::w or ::info to open the August RSPS Wiki!",
@@ -96,7 +96,7 @@
     "target": null
   },
   {
-    "id": "starter_collection_log_slot_completed",
+    "id": "091f7337f06f",
     "tier": "Starter",
     "name": "Collection Log Slot: Completed",
     "description": "Unlock 25 total Collection Log slots",
@@ -104,7 +104,7 @@
     "target": null
   },
   {
-    "id": "starter_equip_full_granite_armour",
+    "id": "264547153ac0",
     "tier": "Starter",
     "name": "Equip Full Granite Armour",
     "description": "Equip: Granite helm, Granite body, Granite legs, Granite shield, Granite longsword.",
@@ -112,7 +112,7 @@
     "target": null
   },
   {
-    "id": "starter_dragon_slayer",
+    "id": "0d6092b6a230",
     "tier": "Starter",
     "name": "Dragon Slayer",
     "description": "Equip: Dragon full helm, Dragon chainbody, Dragon platelegs, Dragon sq shield, Dragon scimitar.",
@@ -120,7 +120,7 @@
     "target": null
   },
   {
-    "id": "starter_red_ranger",
+    "id": "80c60959f97c",
     "tier": "Starter",
     "name": "Red Ranger",
     "description": "Equip: Red d'hide body, Red d'hide chaps, Red d'hide vambraces, Dragon crossbow.",
@@ -128,7 +128,7 @@
     "target": null
   },
   {
-    "id": "starter_splitbark_sorcerer",
+    "id": "ea2c3e6a618e",
     "tier": "Starter",
     "name": "Splitbark Sorcerer",
     "description": "Equip: Splitbark helm, Splitbark body, Splitbark legs, Splitbark gauntlets, Splitbark boots.",
@@ -136,7 +136,7 @@
     "target": null
   },
   {
-    "id": "starter_hash_slinging_slasher",
+    "id": "0c24f245ec5b",
     "tier": "Starter",
     "name": "Hash Slinging Slasher",
     "description": "Kill 200x NPCs",
@@ -144,7 +144,7 @@
     "target": 200
   },
   {
-    "id": "starter_barrows_novice",
+    "id": "2e9c1bcf1617",
     "tier": "Starter",
     "name": "Barrows Novice",
     "description": "Kill 50x Dharok the Wretched, Ahrim the Blighted, Verac the Defiled, Torag the Corrupted, Guthan the Infested, Karil the Tainted.",
@@ -152,7 +152,7 @@
     "target": 50
   },
   {
-    "id": "starter_world_boss_novice",
+    "id": "6882275a51d1",
     "tier": "Starter",
     "name": "World Boss Novice",
     "description": "Kill any world boss in the world boss arena.<br>::wb to teleport there!",
@@ -160,7 +160,7 @@
     "target": null
   },
   {
-    "id": "starter_dry_for_a_defender",
+    "id": "fc9db4179e73",
     "tier": "Starter",
     "name": "Dry for a Defender??",
     "description": "Kill 100x Cyclops.",
@@ -168,7 +168,7 @@
     "target": 100
   },
   {
-    "id": "starter_mining_novice_1",
+    "id": "d5f9e15bc36f",
     "tier": "Starter",
     "name": "Mining Novice 1",
     "description": "Gather 25x of each: Copper ore, Tin ore, Iron ore, Coal.",
@@ -176,7 +176,7 @@
     "target": 25
   },
   {
-    "id": "starter_mining_novice_2",
+    "id": "750b8e700f60",
     "tier": "Starter",
     "name": "Mining Novice 2",
     "description": "Gather 25x of each: Mithril ore, Adamantite ore, Runite ore, Granite (5kg).",
@@ -184,7 +184,7 @@
     "target": 25
   },
   {
-    "id": "starter_woodcutting_novice_1",
+    "id": "1576882f0b2d",
     "tier": "Starter",
     "name": "Woodcutting Novice 1",
     "description": "Gather 50x of each: Logs, Oak logs.",
@@ -192,7 +192,7 @@
     "target": 50
   },
   {
-    "id": "starter_woodcutting_novice_2",
+    "id": "f0393914275c",
     "tier": "Starter",
     "name": "Woodcutting Novice 2",
     "description": "Gather 50x of each: Willow logs, Maple logs.",
@@ -200,7 +200,7 @@
     "target": 50
   },
   {
-    "id": "starter_fishing_novice_1",
+    "id": "c809920d64e0",
     "tier": "Starter",
     "name": "Fishing Novice 1",
     "description": "Gather 50x Raw shrimps, Raw anchovies, Raw sardine, Raw herring.",
@@ -208,7 +208,7 @@
     "target": 50
   },
   {
-    "id": "starter_fishing_novice_2",
+    "id": "8d68aa7dafa5",
     "tier": "Starter",
     "name": "Fishing Novice 2",
     "description": "Gather 50x Raw trout, Raw cod, Raw pike, Raw salmon.",
@@ -216,7 +216,7 @@
     "target": 50
   },
   {
-    "id": "starter_thieving_novice_1",
+    "id": "a2503e9d0703",
     "tier": "Starter",
     "name": "Thieving Novice 1",
     "description": "Gather 50x of each: Cake, Silk.",
@@ -224,7 +224,7 @@
     "target": 50
   },
   {
-    "id": "starter_thieving_novice_2",
+    "id": "51f05c5ca3da",
     "tier": "Starter",
     "name": "Thieving Novice 2",
     "description": "Gather 50x of each: Fur, Silver ore.",
@@ -232,7 +232,7 @@
     "target": 50
   },
   {
-    "id": "starter_slayer_novice",
+    "id": "ab266abb0131",
     "tier": "Starter",
     "name": "Slayer Novice",
     "description": "Complete 5x Slayer tasks",
@@ -240,7 +240,7 @@
     "target": 5
   },
   {
-    "id": "starter_first_level_5",
+    "id": "847eaacbaaab",
     "tier": "Starter",
     "name": "First Level 5",
     "description": "Get your first level 5 in any skill.",
@@ -248,7 +248,7 @@
     "target": null
   },
   {
-    "id": "starter_first_level_10",
+    "id": "22d5cc39b11f",
     "tier": "Starter",
     "name": "First Level 10",
     "description": "Get your first level 10 in any skill.",
@@ -256,7 +256,7 @@
     "target": null
   },
   {
-    "id": "starter_first_level_20",
+    "id": "d729490f6116",
     "tier": "Starter",
     "name": "First Level 20",
     "description": "Get your first level 20 in any skill.",
@@ -264,7 +264,7 @@
     "target": null
   },
   {
-    "id": "starter_first_level_30",
+    "id": "2f1bac78edb1",
     "tier": "Starter",
     "name": "First Level 30",
     "description": "Get your first level 30 in any skill.",
@@ -272,7 +272,7 @@
     "target": null
   },
   {
-    "id": "starter_first_level_40",
+    "id": "534a94f0bf08",
     "tier": "Starter",
     "name": "First Level 40",
     "description": "Get your first level 40 in any skill.",
@@ -280,7 +280,7 @@
     "target": null
   },
   {
-    "id": "starter_ramping_up",
+    "id": "6b0fbdfadf39",
     "tier": "Starter",
     "name": "Ramping Up",
     "description": "Reach a total level of 300. Levels lost from prestige are counted.",
@@ -288,7 +288,7 @@
     "target": null
   },
   {
-    "id": "starter_totally_gaming",
+    "id": "a7396e671954",
     "tier": "Starter",
     "name": "Totally Gaming",
     "description": "Reach a total level of 500. Levels lost from prestige are counted.",
@@ -296,7 +296,7 @@
     "target": null
   },
   {
-    "id": "starter_total_noob",
+    "id": "6ccd9f0748c0",
     "tier": "Starter",
     "name": "Total Noob",
     "description": "Reach a total level of 750. Levels lost from prestige are counted.",
@@ -304,7 +304,7 @@
     "target": null
   },
   {
-    "id": "starter_prestige_apprentice",
+    "id": "9e396794fa98",
     "tier": "Starter",
     "name": "Prestige Apprentice",
     "description": "Prestige 1 time in any skill.",
@@ -312,7 +312,7 @@
     "target": null
   },
   {
-    "id": "starter_random_act_of_kindness",
+    "id": "7e9f82a896ca",
     "tier": "Starter",
     "name": "Random Act of Kindness",
     "description": "Interact with your first random event",
@@ -320,7 +320,7 @@
     "target": null
   },
   {
-    "id": "starter_crystal_chest_novice",
+    "id": "b19a1da889e8",
     "tier": "Starter",
     "name": "Crystal Chest Novice",
     "description": "Open 3x Crystal Chests",
@@ -328,7 +328,7 @@
     "target": 3
   },
   {
-    "id": "starter_enhanced_crystal_chest_novice",
+    "id": "10354ed650f7",
     "tier": "Starter",
     "name": "Enhanced Crystal Chest Novice",
     "description": "Open 1x Enhanced Crystal Chest",
@@ -336,7 +336,7 @@
     "target": 1
   },
   {
-    "id": "starter_ethereal_chest_novice",
+    "id": "8040b78c1149",
     "tier": "Starter",
     "name": "Ethereal Chest Novice",
     "description": "Open 1x Ethereal Chest",
@@ -344,7 +344,7 @@
     "target": 1
   },
   {
-    "id": "starter_giant_chest_novice",
+    "id": "c89676c4fbd1",
     "tier": "Starter",
     "name": "Giant Chest Novice",
     "description": "Open 1x Giant Chest",
@@ -352,7 +352,7 @@
     "target": 1
   },
   {
-    "id": "apprentice_voting_apprentice",
+    "id": "75ece8e89451",
     "tier": "Apprentice",
     "name": "Voting Apprentice",
     "description": "Vote 20 times for with ::vote and claim the rewards with ::claimvotes.",
@@ -360,7 +360,7 @@
     "target": null
   },
   {
-    "id": "apprentice_ready_for_round_2",
+    "id": "c07dc8035cf9",
     "tier": "Apprentice",
     "name": "Ready For Round 2",
     "description": "Restore 30 HP at the rejuvination pool at home",
@@ -368,7 +368,7 @@
     "target": null
   },
   {
-    "id": "apprentice_quite_the_prayer",
+    "id": "7c74af6bc32e",
     "tier": "Apprentice",
     "name": "Quite The Prayer",
     "description": "Restore 25 prayer points at the rejuvination pool at home",
@@ -376,7 +376,7 @@
     "target": null
   },
   {
-    "id": "apprentice_50_beginner_clues",
+    "id": "8fb54f7dd054",
     "tier": "Apprentice",
     "name": "50 Beginner Clues",
     "description": "Open 50 Beginner Clue caskets",
@@ -384,7 +384,7 @@
     "target": null
   },
   {
-    "id": "apprentice_150_beginner_clues",
+    "id": "f652a1530dc2",
     "tier": "Apprentice",
     "name": "150 Beginner Clues",
     "description": "Open 150 Beginner Clue caskets",
@@ -392,7 +392,7 @@
     "target": null
   },
   {
-    "id": "apprentice_250_beginner_clues",
+    "id": "cca0fe8d8c55",
     "tier": "Apprentice",
     "name": "250 Beginner Clues",
     "description": "Open 250 Beginner Clue caskets",
@@ -400,7 +400,7 @@
     "target": null
   },
   {
-    "id": "apprentice_10_easy_clues",
+    "id": "16867d0e0db3",
     "tier": "Apprentice",
     "name": "10 Easy Clues",
     "description": "Open 10 Easy Clue caskets",
@@ -408,7 +408,7 @@
     "target": null
   },
   {
-    "id": "apprentice_25_easy_clues",
+    "id": "32fd425063ac",
     "tier": "Apprentice",
     "name": "25 Easy Clues",
     "description": "Open 25 Easy Clue caskets",
@@ -416,7 +416,7 @@
     "target": null
   },
   {
-    "id": "apprentice_1_medium_clue",
+    "id": "720221378820",
     "tier": "Apprentice",
     "name": "1 Medium Clue",
     "description": "Open 1 Medium Clue caskets",
@@ -424,7 +424,7 @@
     "target": null
   },
   {
-    "id": "apprentice_5_medium_clues",
+    "id": "cb7964c3f821",
     "tier": "Apprentice",
     "name": "5 Medium Clues",
     "description": "Open 5 Medium Clue caskets",
@@ -432,7 +432,7 @@
     "target": null
   },
   {
-    "id": "apprentice_collection_log_apprentice",
+    "id": "e43b68e1c7f1",
     "tier": "Apprentice",
     "name": "Collection Log Apprentice",
     "description": "Unlock 75 total Collection Log slots",
@@ -440,7 +440,7 @@
     "target": null
   },
   {
-    "id": "apprentice_stick_and_poke",
+    "id": "0518b557a1a0",
     "tier": "Apprentice",
     "name": "Stick and Poke",
     "description": "Equip a Dragon defender.",
@@ -448,7 +448,7 @@
     "target": null
   },
   {
-    "id": "apprentice_bolt_rack_bowman",
+    "id": "afdc592a7a61",
     "tier": "Apprentice",
     "name": "Bolt Rack Bowman",
     "description": "Equip a Karil's crossbow.",
@@ -456,7 +456,7 @@
     "target": null
   },
   {
-    "id": "apprentice_ahrim_job",
+    "id": "4915f84f635c",
     "tier": "Apprentice",
     "name": "Ahrim Job",
     "description": "Equip a Ahrim's staff.",
@@ -464,7 +464,7 @@
     "target": null
   },
   {
-    "id": "apprentice_monster_masher",
+    "id": "7e0412f5dba0",
     "tier": "Apprentice",
     "name": "Monster Masher",
     "description": "Kill 1000x NPCs",
@@ -472,7 +472,7 @@
     "target": 1000
   },
   {
-    "id": "apprentice_superior_noob",
+    "id": "7db3d5ddf0f1",
     "tier": "Apprentice",
     "name": "Superior Noob",
     "description": "Slay 10x Superior Slayer creatures",
@@ -480,7 +480,7 @@
     "target": 10
   },
   {
-    "id": "apprentice_ethereal_specialist",
+    "id": "9131157e0d3b",
     "tier": "Apprentice",
     "name": "Ethereal Specialist",
     "description": "Kill 250x Dharok the Wretched, Ahrim the Blighted, Verac the Defiled, Torag the Corrupted, Guthan the Infested, Karil the Tainted.",
@@ -488,7 +488,7 @@
     "target": 250
   },
   {
-    "id": "apprentice_world_boss_apprentice",
+    "id": "aa481e8d0931",
     "tier": "Apprentice",
     "name": "World Boss Apprentice",
     "description": "Kill 10 of any world boss in the world boss arena.<br>::wb to teleport there!",
@@ -496,7 +496,7 @@
     "target": null
   },
   {
-    "id": "apprentice_mining_apprentice_1",
+    "id": "30fb38faeb3c",
     "tier": "Apprentice",
     "name": "Mining Apprentice 1",
     "description": "Gather 50x of each: Tephra, Dragon Ore, Luminite Ore.",
@@ -504,7 +504,7 @@
     "target": 50
   },
   {
-    "id": "apprentice_mining_apprentice_2",
+    "id": "af057d2cf9a7",
     "tier": "Apprentice",
     "name": "Mining Apprentice 2",
     "description": "Gather 150x Oxi Ore.",
@@ -512,7 +512,7 @@
     "target": 150
   },
   {
-    "id": "apprentice_woodcutting_apprentice",
+    "id": "1179de32f1c9",
     "tier": "Apprentice",
     "name": "Woodcutting Apprentice",
     "description": "Gather 150x Yew logs.",
@@ -520,7 +520,7 @@
     "target": 150
   },
   {
-    "id": "apprentice_fishing_apprentice_1",
+    "id": "384e481ca143",
     "tier": "Apprentice",
     "name": "Fishing Apprentice 1",
     "description": "Gather 50x of each: Raw bass, Casket.",
@@ -528,7 +528,7 @@
     "target": 50
   },
   {
-    "id": "apprentice_fishing_apprentice_2",
+    "id": "6122373edcc4",
     "tier": "Apprentice",
     "name": "Fishing Apprentice 2",
     "description": "Gather 50x of each: Raw lobster, Raw tuna, Raw swordfish.",
@@ -536,7 +536,7 @@
     "target": 50
   },
   {
-    "id": "apprentice_thieving_apprentice_1",
+    "id": "6186a1abbe29",
     "tier": "Apprentice",
     "name": "Thieving Apprentice 1",
     "description": "Gather 250x Upgrade gems.",
@@ -544,7 +544,7 @@
     "target": 250
   },
   {
-    "id": "apprentice_thieving_apprentice_2",
+    "id": "57f28ea9231f",
     "tier": "Apprentice",
     "name": "Thieving Apprentice 2",
     "description": "Gather 150000x Coins.",
@@ -552,7 +552,7 @@
     "target": 150000
   },
   {
-    "id": "apprentice_slayer_apprentice",
+    "id": "e0f2286d9fee",
     "tier": "Apprentice",
     "name": "Slayer Apprentice",
     "description": "Complete 15x Slayer tasks",
@@ -560,7 +560,7 @@
     "target": 15
   },
   {
-    "id": "apprentice_first_level_50",
+    "id": "99bf7c750a43",
     "tier": "Apprentice",
     "name": "First Level 50",
     "description": "Get your first level 50 in any skill.",
@@ -568,7 +568,7 @@
     "target": null
   },
   {
-    "id": "apprentice_first_level_60",
+    "id": "aaae8f3ffc58",
     "tier": "Apprentice",
     "name": "First Level 60",
     "description": "Get your first level 60 in any skill.",
@@ -576,7 +576,7 @@
     "target": null
   },
   {
-    "id": "apprentice_first_level_70",
+    "id": "12167cb0b49b",
     "tier": "Apprentice",
     "name": "First Level 70",
     "description": "Get your first level 70 in any skill.",
@@ -584,7 +584,7 @@
     "target": null
   },
   {
-    "id": "apprentice_1k_gang",
+    "id": "85d0d4cf8fca",
     "tier": "Apprentice",
     "name": "1k Gang",
     "description": "Reach a total level of 1000. Levels lost from prestige are counted.",
@@ -592,7 +592,7 @@
     "target": null
   },
   {
-    "id": "apprentice_levelupleveluplevelup",
+    "id": "55f954eeab46",
     "tier": "Apprentice",
     "name": "LevelupLevelupLevelup",
     "description": "Reach a total level of 1250. Levels lost from prestige are counted.",
@@ -600,7 +600,7 @@
     "target": null
   },
   {
-    "id": "apprentice_power_leveller",
+    "id": "4147c19a1cff",
     "tier": "Apprentice",
     "name": "Power Leveller",
     "description": "Reach a total level of 1500. Levels lost from prestige are counted.",
@@ -608,7 +608,7 @@
     "target": null
   },
   {
-    "id": "apprentice_pvm_prestige_apprentice",
+    "id": "7d0dbfcd0991",
     "tier": "Apprentice",
     "name": "PvM Prestige Apprentice",
     "description": "Prestige 3 times in any combat skills.",
@@ -616,7 +616,7 @@
     "target": null
   },
   {
-    "id": "apprentice_skilling_prestige_apprentice",
+    "id": "0b063f6b6eec",
     "tier": "Apprentice",
     "name": "Skilling Prestige Apprentice",
     "description": "Prestige 3 times in any non-combat skills.",
@@ -624,7 +624,7 @@
     "target": null
   },
   {
-    "id": "apprentice_unexpected_guests",
+    "id": "84b80373e691",
     "tier": "Apprentice",
     "name": "Unexpected Guests",
     "description": "Interact with 10 random events",
@@ -632,7 +632,7 @@
     "target": null
   },
   {
-    "id": "apprentice_enhanced_crystal_chest_apprentice",
+    "id": "53a37845c99b",
     "tier": "Apprentice",
     "name": "Enhanced Crystal Chest Apprentice",
     "description": "Open 10x Enhanced Crystal Chests",
@@ -640,7 +640,7 @@
     "target": 10
   },
   {
-    "id": "apprentice_ethereal_chest_apprentice",
+    "id": "a0bdc92e35ea",
     "tier": "Apprentice",
     "name": "Ethereal Chest Apprentice",
     "description": "Open 10x Ethereal Chests",
@@ -648,7 +648,7 @@
     "target": 10
   },
   {
-    "id": "apprentice_giant_chest_apprentice",
+    "id": "352ff0d2a2aa",
     "tier": "Apprentice",
     "name": "Giant Chest Apprentice",
     "description": "Open 10x Giant Chests",
@@ -656,7 +656,7 @@
     "target": 10
   },
   {
-    "id": "apprentice_scurrius_specialist",
+    "id": "9190bcc53004",
     "tier": "Apprentice",
     "name": "Scurrius Specialist",
     "description": "Don't take a hit from Scurrius's off prayer attacks.",
@@ -664,7 +664,7 @@
     "target": null
   },
   {
-    "id": "apprentice_scurrius_fanatic",
+    "id": "eaba7891c883",
     "tier": "Apprentice",
     "name": "Scurrius Fanatic",
     "description": "Don't take a hit from falling rocks.",
@@ -672,7 +672,7 @@
     "target": null
   },
   {
-    "id": "apprentice_the_exterminator",
+    "id": "df64988378c4",
     "tier": "Apprentice",
     "name": "The Exterminator",
     "description": "Kill 30 rat adds in a single fight.",
@@ -680,7 +680,7 @@
     "target": null
   },
   {
-    "id": "adept_voting_adept",
+    "id": "b40a011b0e1b",
     "tier": "Adept",
     "name": "Voting Adept",
     "description": "Vote 50 times for with ::vote and claim the rewards with ::claimvotes.",
@@ -688,7 +688,7 @@
     "target": null
   },
   {
-    "id": "adept_healthy",
+    "id": "1a7104cfd262",
     "tier": "Adept",
     "name": "Healthy",
     "description": "Restore 60 HP at the rejuvination pool at home",
@@ -696,7 +696,7 @@
     "target": null
   },
   {
-    "id": "adept_50_easy_clues",
+    "id": "30c1dd9d2505",
     "tier": "Adept",
     "name": "50 Easy Clues",
     "description": "Open 50 Easy Clue caskets",
@@ -704,7 +704,7 @@
     "target": null
   },
   {
-    "id": "adept_150_easy_clues",
+    "id": "4186a6e65f0c",
     "tier": "Adept",
     "name": "150 Easy Clues",
     "description": "Open 150 Easy Clue caskets",
@@ -712,7 +712,7 @@
     "target": null
   },
   {
-    "id": "adept_250_easy_clues",
+    "id": "46836d24500a",
     "tier": "Adept",
     "name": "250 Easy Clues",
     "description": "Open 250 Easy Clue caskets",
@@ -720,7 +720,7 @@
     "target": null
   },
   {
-    "id": "adept_10_medium_clues",
+    "id": "11672d7e70ef",
     "tier": "Adept",
     "name": "10 Medium Clues",
     "description": "Open 10 Medium Clue caskets",
@@ -728,7 +728,7 @@
     "target": null
   },
   {
-    "id": "adept_25_medium_clues",
+    "id": "639101360a53",
     "tier": "Adept",
     "name": "25 Medium Clues",
     "description": "Open 25 Medium Clue caskets",
@@ -736,7 +736,7 @@
     "target": null
   },
   {
-    "id": "adept_1_hard_clue",
+    "id": "ba9cfead476d",
     "tier": "Adept",
     "name": "1 Hard Clue",
     "description": "Open 1 Hard Clue caskets",
@@ -744,7 +744,7 @@
     "target": null
   },
   {
-    "id": "adept_5_hard_clues",
+    "id": "814aef1eeb85",
     "tier": "Adept",
     "name": "5 Hard Clues",
     "description": "Open 5 Hard Clue caskets",
@@ -752,7 +752,7 @@
     "target": null
   },
   {
-    "id": "adept_devout",
+    "id": "7cbfb7d0be45",
     "tier": "Adept",
     "name": "Devout",
     "description": "Restore 60 prayer points at the rejuvination pool at home",
@@ -760,7 +760,7 @@
     "target": null
   },
   {
-    "id": "adept_collection_log_adept",
+    "id": "bb3f89a4c0ed",
     "tier": "Adept",
     "name": "Collection Log Adept",
     "description": "Unlock 150 total Collection Log slots",
@@ -768,7 +768,7 @@
     "target": null
   },
   {
-    "id": "adept_just_warming_up",
+    "id": "509140b51b59",
     "tier": "Adept",
     "name": "Just Warming Up",
     "description": "Kill Jad one time.",
@@ -776,7 +776,7 @@
     "target": null
   },
   {
-    "id": "adept_moooooole",
+    "id": "49019599418f",
     "tier": "Adept",
     "name": "Moooooole",
     "description": "Kill the Giant Mole one time.",
@@ -784,7 +784,7 @@
     "target": null
   },
   {
-    "id": "adept_one_eyed_wonder",
+    "id": "5e657912acdb",
     "tier": "Adept",
     "name": "One Eyed Wonder",
     "description": "Kill Obor one time.",
@@ -792,7 +792,7 @@
     "target": null
   },
   {
-    "id": "adept_making_a_mossy_mess",
+    "id": "e19ce7d541fe",
     "tier": "Adept",
     "name": "Making a Mossy Mess",
     "description": "Kill Bryophyta one time.",
@@ -800,7 +800,7 @@
     "target": null
   },
   {
-    "id": "adept_mooooooooooole",
+    "id": "55c2ad936f7e",
     "tier": "Adept",
     "name": "Mooooooooooole",
     "description": "Kill the Giant Mole five times.",
@@ -808,7 +808,7 @@
     "target": null
   },
   {
-    "id": "adept_obor_basher",
+    "id": "98fe1689135a",
     "tier": "Adept",
     "name": "Obor Basher",
     "description": "Kill Obor five times.",
@@ -816,7 +816,7 @@
     "target": null
   },
   {
-    "id": "adept_moss_moderator",
+    "id": "a98eb7aee5b2",
     "tier": "Adept",
     "name": "Moss Moderator",
     "description": "Kill Bryophyta five times.",
@@ -824,7 +824,7 @@
     "target": null
   },
   {
-    "id": "adept_general_massacre",
+    "id": "b61f010efbb4",
     "tier": "Adept",
     "name": "General Massacre",
     "description": "Kill 1 of each: General Graardor, K'ril Tsutsaroth, Commander Zilyana, Kree'arra",
@@ -832,7 +832,7 @@
     "target": null
   },
   {
-    "id": "adept_monster_massacre",
+    "id": "78f45ee29006",
     "tier": "Adept",
     "name": "Monster Massacre",
     "description": "Kill 5000x NPCs",
@@ -840,7 +840,7 @@
     "target": 5000
   },
   {
-    "id": "adept_whats_sup_erior_nothin_much_wbu",
+    "id": "a472e1f1352d",
     "tier": "Adept",
     "name": "Whats sup(erior)? Nothin' much WBU",
     "description": "Slay 50x Superior Slayer creatures",
@@ -848,7 +848,7 @@
     "target": 50
   },
   {
-    "id": "adept_world_boss_adept",
+    "id": "38063ad6f371",
     "tier": "Adept",
     "name": "World Boss Adept",
     "description": "Kill 100 of any world boss in the world boss arena.<br>::wb to teleport there!",
@@ -856,7 +856,7 @@
     "target": null
   },
   {
-    "id": "adept_grinder",
+    "id": "87a33cd97b64",
     "tier": "Adept",
     "name": "Grinder",
     "description": "Reach a total level of 1750. Levels lost from prestige are counted.",
@@ -864,7 +864,7 @@
     "target": null
   },
   {
-    "id": "adept_grinderer",
+    "id": "04ec4f1ca511",
     "tier": "Adept",
     "name": "Grinderer",
     "description": "Reach a total level of 2000. Levels lost from prestige are counted.",
@@ -872,7 +872,7 @@
     "target": null
   },
   {
-    "id": "adept_sticky_fingers",
+    "id": "342b467be86d",
     "tier": "Adept",
     "name": "Sticky Fingers",
     "description": "Gather 4x of any: Uncut sapphire, Uncut emerald, Uncut ruby, Uncut diamond, Uncut dragonstone, Uncut onyx, Uncut zenyte in one action 1 time.",
@@ -880,7 +880,7 @@
     "target": 4
   },
   {
-    "id": "adept_suit_up",
+    "id": "17f410ef41f7",
     "tier": "Adept",
     "name": "Suit up",
     "description": "Equip any 4 repaired Barrows equipment pieces. (Ethereal weapons do not count)",
@@ -888,7 +888,7 @@
     "target": null
   },
   {
-    "id": "adept_to_infinity_and_beyond",
+    "id": "52fb12b842bc",
     "tier": "Adept",
     "name": "To Infinity, and Beyond!",
     "description": "Equip: Infinity boots, Infinity bottoms, Infinity top, Infinity hat, Infinity gloves.",
@@ -896,7 +896,7 @@
     "target": null
   },
   {
-    "id": "adept_sherwood_sheriff",
+    "id": "f6d59d1e3ce3",
     "tier": "Adept",
     "name": "Sherwood Sheriff",
     "description": "Equip: Robin hood hat, Rangers' tunic, Rangers' tights, Ranger gloves, Ranger boots.",
@@ -904,7 +904,7 @@
     "target": null
   },
   {
-    "id": "adept_justi_in_case",
+    "id": "ca0b9dd33f20",
     "tier": "Adept",
     "name": "Justi in case...",
     "description": "Equip: Justiciar faceguard, Justiciar chestguard, Justiciar legguards.",
@@ -912,7 +912,7 @@
     "target": null
   },
   {
-    "id": "adept_smarty_pants",
+    "id": "40ef1c5f01b3",
     "tier": "Adept",
     "name": "Smarty Pants",
     "description": "Be in the top 5 players to answer 3 trivia questions.",
@@ -920,7 +920,7 @@
     "target": null
   },
   {
-    "id": "adept_pvm_prestige_adept",
+    "id": "9a3839ba5040",
     "tier": "Adept",
     "name": "PvM Prestige Adept",
     "description": "Prestige 10 times in any combat skills.",
@@ -928,7 +928,7 @@
     "target": null
   },
   {
-    "id": "adept_skilling_prestige_adept",
+    "id": "ce628798f9af",
     "tier": "Adept",
     "name": "Skilling Prestige Adept",
     "description": "Prestige 10 times in any non-combat skills.",
@@ -936,7 +936,7 @@
     "target": null
   },
   {
-    "id": "adept_new_drip",
+    "id": "fd19c6ea113d",
     "tier": "Adept",
     "name": "New Drip",
     "description": "Equip any piece of godwars dungeon gear.",
@@ -944,7 +944,7 @@
     "target": null
   },
   {
-    "id": "adept_the_bigger_they_are",
+    "id": "5abdf3eafef3",
     "tier": "Adept",
     "name": "The bigger they are...",
     "description": "Kill 1x Kraken, Cerberus, Thermonuclear smoke devil.",
@@ -952,7 +952,7 @@
     "target": 1
   },
   {
-    "id": "adept_slayer_adept",
+    "id": "6ef58d8f8c93",
     "tier": "Adept",
     "name": "Slayer Adept",
     "description": "Complete 50x Slayer tasks",
@@ -960,7 +960,7 @@
     "target": 50
   },
   {
-    "id": "adept_getting_bossy",
+    "id": "21d629f0c888",
     "tier": "Adept",
     "name": "Getting Bossy",
     "description": "Complete 1x boss Slayer task",
@@ -968,7 +968,7 @@
     "target": 1
   },
   {
-    "id": "adept_bless_rng",
+    "id": "f6803884c490",
     "tier": "Adept",
     "name": "Bless RNG",
     "description": "Sacrifice 1 fire cape at Tzhaar-Hur-Tel",
@@ -976,7 +976,7 @@
     "target": null
   },
   {
-    "id": "adept_fast_flicker",
+    "id": "1c05a7781d5c",
     "tier": "Adept",
     "name": "Fast Flicker",
     "description": "Win a Say Your Prayers event",
@@ -984,7 +984,7 @@
     "target": null
   },
   {
-    "id": "adept_still_no_pet",
+    "id": "23ea6c93b693",
     "tier": "Adept",
     "name": "Still no pet??",
     "description": "Sacrifice 10 fire capes at Tzhaar-Hur-Tel",
@@ -992,7 +992,7 @@
     "target": null
   },
   {
-    "id": "adept_wow_bro_thats_soooo_random",
+    "id": "c88edd967f72",
     "tier": "Adept",
     "name": "Wow bro, that's soooo random",
     "description": "Interact with 50 random events",
@@ -1000,7 +1000,7 @@
     "target": null
   },
   {
-    "id": "adept_enhanced_crystal_chest_adept",
+    "id": "cdcbf6c65566",
     "tier": "Adept",
     "name": "Enhanced Crystal Chest Adept",
     "description": "Open 25x Enhanced Crystal Chests",
@@ -1008,7 +1008,7 @@
     "target": 25
   },
   {
-    "id": "adept_ethereal_chest_adept",
+    "id": "9fbcc609e3ce",
     "tier": "Adept",
     "name": "Ethereal Chest Adept",
     "description": "Open 25x Ethereal Chests",
@@ -1016,7 +1016,7 @@
     "target": 25
   },
   {
-    "id": "adept_giant_chest_adept",
+    "id": "d727c4c5dba9",
     "tier": "Adept",
     "name": "Giant Chest Adept",
     "description": "Open 25x Giant Chests",
@@ -1024,7 +1024,7 @@
     "target": 25
   },
   {
-    "id": "adept_grubby_feet",
+    "id": "6581c2c35527",
     "tier": "Adept",
     "name": "Grubby Feet",
     "description": "Open 25x Grubby Chests",
@@ -1032,7 +1032,7 @@
     "target": 25
   },
   {
-    "id": "expert_voting_expert",
+    "id": "fd2495a7962c",
     "tier": "Expert",
     "name": "Voting Expert",
     "description": "Vote 250 times for with ::vote and claim the rewards with ::claimvotes.",
@@ -1040,7 +1040,7 @@
     "target": null
   },
   {
-    "id": "expert_big_red_gulp",
+    "id": "2e6aec6e21ea",
     "tier": "Expert",
     "name": "Big Red Gulp",
     "description": "Restore 80 HP at the rejuvination pool at home",
@@ -1048,7 +1048,7 @@
     "target": null
   },
   {
-    "id": "expert_big_white_gulp",
+    "id": "12421bf306fa",
     "tier": "Expert",
     "name": "Big White Gulp",
     "description": "Restore 80 prayer points at the rejuvination pool at home",
@@ -1056,7 +1056,7 @@
     "target": null
   },
   {
-    "id": "expert_50_medium_clues",
+    "id": "ee42100b613f",
     "tier": "Expert",
     "name": "50 Medium Clues",
     "description": "Open 50 Medium Clue caskets",
@@ -1064,7 +1064,7 @@
     "target": null
   },
   {
-    "id": "expert_150_medium_clues",
+    "id": "3ee1a0763e3a",
     "tier": "Expert",
     "name": "150 Medium Clues",
     "description": "Open 150 Medium Clue caskets",
@@ -1072,7 +1072,7 @@
     "target": null
   },
   {
-    "id": "expert_250_medium_clues",
+    "id": "e0faeafad678",
     "tier": "Expert",
     "name": "250 Medium Clues",
     "description": "Open 250 Medium Clue caskets",
@@ -1080,7 +1080,7 @@
     "target": null
   },
   {
-    "id": "expert_10_hard_clues",
+    "id": "22ab2c059c74",
     "tier": "Expert",
     "name": "10 Hard Clues",
     "description": "Open 10 Hard Clue caskets",
@@ -1088,7 +1088,7 @@
     "target": null
   },
   {
-    "id": "expert_25_hard_clues",
+    "id": "8a6361b183a4",
     "tier": "Expert",
     "name": "25 Hard Clues",
     "description": "Open 25 Hard Clue caskets",
@@ -1096,7 +1096,7 @@
     "target": null
   },
   {
-    "id": "expert_1_elite_clue",
+    "id": "4114bbe7165f",
     "tier": "Expert",
     "name": "1 Elite Clue",
     "description": "Open 1 Elite Clue caskets",
@@ -1104,7 +1104,7 @@
     "target": null
   },
   {
-    "id": "expert_5_elite_clues",
+    "id": "ea8533b7c09c",
     "tier": "Expert",
     "name": "5 Elite Clues",
     "description": "Open 5 Elite Clue caskets",
@@ -1112,7 +1112,7 @@
     "target": null
   },
   {
-    "id": "expert_collection_log_expert",
+    "id": "fc057727bbbb",
     "tier": "Expert",
     "name": "Collection Log Expert",
     "description": "Unlock 350 total Collection Log slots",
@@ -1120,7 +1120,7 @@
     "target": null
   },
   {
-    "id": "expert_electric_fingers",
+    "id": "9ef56965372f",
     "tier": "Expert",
     "name": "Electric fingers",
     "description": "Be in the top 4 players to answer 5 trivia questions.",
@@ -1128,7 +1128,7 @@
     "target": null
   },
   {
-    "id": "expert_mining_expert",
+    "id": "bc929023087e",
     "tier": "Expert",
     "name": "Mining Expert",
     "description": "Gather 150x Dragonite Ore, Demonite Ore.",
@@ -1136,7 +1136,7 @@
     "target": 150
   },
   {
-    "id": "expert_woodcutting_expert",
+    "id": "497c076b5597",
     "tier": "Expert",
     "name": "Woodcutting Expert",
     "description": "Gather 150x Magic logs.",
@@ -1144,7 +1144,7 @@
     "target": 150
   },
   {
-    "id": "expert_fishing_expert",
+    "id": "a6916d6da6f4",
     "tier": "Expert",
     "name": "Fishing Expert",
     "description": "Gather 150x Raw shark.",
@@ -1152,7 +1152,7 @@
     "target": 150
   },
   {
-    "id": "expert_thieving_expert_1",
+    "id": "08dddf03d21c",
     "tier": "Expert",
     "name": "Thieving Expert 1",
     "description": "Gather 150x Uncut emerald.",
@@ -1160,7 +1160,7 @@
     "target": 150
   },
   {
-    "id": "expert_thieving_expert_2",
+    "id": "070e2d7c8557",
     "tier": "Expert",
     "name": "Thieving Expert 2",
     "description": "Gather 150x Uncut ruby.",
@@ -1168,7 +1168,7 @@
     "target": 150
   },
   {
-    "id": "expert_ziggy_stardust",
+    "id": "c718da602a8a",
     "tier": "Expert",
     "name": "Ziggy Stardust",
     "description": "Gather 500x Stardust.",
@@ -1176,7 +1176,7 @@
     "target": 500
   },
   {
-    "id": "expert_cold_blooded_killer",
+    "id": "0d5f3cc54d88",
     "tier": "Expert",
     "name": "Cold Blooded Killer",
     "description": "Kill 20000x NPCs",
@@ -1184,7 +1184,7 @@
     "target": 20000
   },
   {
-    "id": "expert_superior_ity_complex",
+    "id": "927043960318",
     "tier": "Expert",
     "name": "Superior-ity Complex",
     "description": "Slay 250x Superior Slayer creatures",
@@ -1192,7 +1192,7 @@
     "target": 250
   },
   {
-    "id": "expert_slayer_expert",
+    "id": "3ff26968985f",
     "tier": "Expert",
     "name": "Slayer Expert",
     "description": "Complete 250x Slayer tasks",
@@ -1200,7 +1200,7 @@
     "target": 250
   },
   {
-    "id": "expert_first_level_80",
+    "id": "f6662d51a62d",
     "tier": "Expert",
     "name": "First Level 80",
     "description": "Get your first level 80 in any skill.",
@@ -1208,7 +1208,7 @@
     "target": null
   },
   {
-    "id": "expert_first_level_90",
+    "id": "d9d4d8eab7af",
     "tier": "Expert",
     "name": "First Level 90",
     "description": "Get your first level 90 in any skill.",
@@ -1216,7 +1216,7 @@
     "target": null
   },
   {
-    "id": "expert_first_level_95",
+    "id": "12fd353d0365",
     "tier": "Expert",
     "name": "First Level 95",
     "description": "Get your first level 95 in any skill.",
@@ -1224,7 +1224,7 @@
     "target": null
   },
   {
-    "id": "expert_boss_bitch",
+    "id": "e6e05bd172e0",
     "tier": "Expert",
     "name": "Boss Bitch",
     "description": "Complete 1x boss Slayer task",
@@ -1232,7 +1232,7 @@
     "target": 1
   },
   {
-    "id": "expert_knock_knock_whos_there_more_boss_tasks",
+    "id": "a815f48247bb",
     "tier": "Expert",
     "name": "Knock knock. Who's there? More Boss Tasks!!!",
     "description": "Complete 25x boss Slayer tasks",
@@ -1240,7 +1240,7 @@
     "target": 25
   },
   {
-    "id": "expert_world_boss_expert",
+    "id": "cf5728c289c6",
     "tier": "Expert",
     "name": "World Boss Expert",
     "description": "Kill 500 of any world boss in the world boss arena.<br>::wb to teleport there!",
@@ -1248,7 +1248,7 @@
     "target": null
   },
   {
-    "id": "expert_bandosian_drip",
+    "id": "1cd14d09201c",
     "tier": "Expert",
     "name": "Bandosian Drip",
     "description": "Equip a Bandos chestplate, tassets, boots, and a Neitiznot faceguard",
@@ -1256,7 +1256,7 @@
     "target": null
   },
   {
-    "id": "expert_armadylian_drip",
+    "id": "177ad44fd43f",
     "tier": "Expert",
     "name": "Armadylian Drip",
     "description": "Equip an Armadyl chestplate, chainskirt, and helmet",
@@ -1264,7 +1264,7 @@
     "target": null
   },
   {
-    "id": "expert_zamorakian_drip",
+    "id": "eacad866d7a0",
     "tier": "Expert",
     "name": "Zamorakian Drip",
     "description": "Equip a Dagonhai hat, robe top, and robe bottoms",
@@ -1272,7 +1272,7 @@
     "target": null
   },
   {
-    "id": "expert_taste_of_success",
+    "id": "aeb108e5468f",
     "tier": "Expert",
     "name": "Taste Of Success",
     "description": "Craft 1 items at, or above, tier 90",
@@ -1280,7 +1280,7 @@
     "target": null
   },
   {
-    "id": "expert_good_luck_brian",
+    "id": "1942502a3159",
     "tier": "Expert",
     "name": "Good Luck Brian",
     "description": "Craft 5 items at, or above, tier 90",
@@ -1288,7 +1288,7 @@
     "target": null
   },
   {
-    "id": "expert_tempered_devout",
+    "id": "33eeb33a845f",
     "tier": "Expert",
     "name": "Tempered Devout",
     "description": "Temper any GWD T90 items a total of 10 times",
@@ -1296,7 +1296,7 @@
     "target": null
   },
   {
-    "id": "expert_temper_acles",
+    "id": "fa74e9de97a6",
     "tier": "Expert",
     "name": "Temper-acles",
     "description": "Temper any of Abyssal tentacle, Trident of the seas, Occult necklace 10 times total",
@@ -1304,7 +1304,7 @@
     "target": null
   },
   {
-    "id": "expert_steady_hands",
+    "id": "a999c7e6f48a",
     "tier": "Expert",
     "name": "Steady Hands",
     "description": "Win a Say Your Prayers event 10 times",
@@ -1312,7 +1312,7 @@
     "target": null
   },
   {
-    "id": "expert_rockin_the_croc",
+    "id": "257bc901a748",
     "tier": "Expert",
     "name": "Rockin' the croc'",
     "description": "Complete Zebak without any team member dying",
@@ -1320,7 +1320,7 @@
     "target": null
   },
   {
-    "id": "expert_bug_b_gone",
+    "id": "15d1411757d5",
     "tier": "Expert",
     "name": "Bug-B-Gone",
     "description": "Complete Kephri without anyone dying",
@@ -1328,7 +1328,7 @@
     "target": null
   },
   {
-    "id": "expert_doesnt_bug_me",
+    "id": "98cac50b4baa",
     "tier": "Expert",
     "name": "Doesn't Bug Me",
     "description": "Kill the arcane scarab before it performs it's attack",
@@ -1336,7 +1336,7 @@
     "target": null
   },
   {
-    "id": "expert_i_can_dance_too",
+    "id": "963e5cd393df",
     "tier": "Expert",
     "name": "I can dance too...",
     "description": "Complete Kephri without any explosions hitting anyone",
@@ -1344,7 +1344,7 @@
     "target": null
   },
   {
-    "id": "expert_egg_crusher",
+    "id": "1b1f48eaf91d",
     "tier": "Expert",
     "name": "Egg crusher",
     "description": "Complete Kephri without any agile scarabs spawning",
@@ -1352,7 +1352,7 @@
     "target": null
   },
   {
-    "id": "expert_gone_bananas",
+    "id": "4d3407492a03",
     "tier": "Expert",
     "name": "Gone bananas",
     "description": "Defeat Baba without anyone dying",
@@ -1360,7 +1360,7 @@
     "target": null
   },
   {
-    "id": "expert_cant_be_rocked",
+    "id": "148547c91391",
     "tier": "Expert",
     "name": "Can't be rocked",
     "description": "Defeat Baba without anyone being damaged by thrown rocks",
@@ -1368,7 +1368,7 @@
     "target": null
   },
   {
-    "id": "expert_couldnt_be_bouldered",
+    "id": "5804f6209300",
     "tier": "Expert",
     "name": "Couldn't be bouldered",
     "description": "Defeat Baba without anyone being damaged by rolling boulders",
@@ -1376,7 +1376,7 @@
     "target": null
   },
   {
-    "id": "expert_not_my_shadow",
+    "id": "57bb75e2467a",
     "tier": "Expert",
     "name": "Not my shadow!",
     "description": "Defeat Baba without anyone being damaged by shadow attacks",
@@ -1384,7 +1384,7 @@
     "target": null
   },
   {
-    "id": "expert_akkhant_believe_it",
+    "id": "3cda6d4a65e6",
     "tier": "Expert",
     "name": "Akkhan't believe it",
     "description": "Kill Akkha without anyone dying",
@@ -1392,7 +1392,7 @@
     "target": null
   },
   {
-    "id": "expert_dont_move",
+    "id": "4128a46ae3d9",
     "tier": "Expert",
     "name": "Don't move!",
     "description": "Defeat Akkha without anyone taking damage from Trailing Orbs",
@@ -1400,7 +1400,7 @@
     "target": null
   },
   {
-    "id": "expert_ill_remember_this",
+    "id": "419275c84251",
     "tier": "Expert",
     "name": "I'll remember this",
     "description": "Defeat Akkha without anyone taking damage from Memory Blast (requires more than 1 player)",
@@ -1408,7 +1408,7 @@
     "target": null
   },
   {
-    "id": "expert_im_a_specialist",
+    "id": "d4481cfc79cd",
     "tier": "Expert",
     "name": "I'm a specialist",
     "description": "Defeat Akkha without anyone taking damage from Detonate Special",
@@ -1416,7 +1416,7 @@
     "target": null
   },
   {
-    "id": "expert_those_are_sticky",
+    "id": "b2cc8785bba8",
     "tier": "Expert",
     "name": "Those are sticky",
     "description": "Defeat Akkha without anyone taking damage from Unstable Orb",
@@ -1424,7 +1424,7 @@
     "target": null
   },
   {
-    "id": "expert_hellhound_hunter",
+    "id": "1ff89f2c6b6d",
     "tier": "Expert",
     "name": "Hellhound Hunter",
     "description": "Kill 10x Cerberus.",
@@ -1432,7 +1432,7 @@
     "target": 10
   },
   {
-    "id": "expert_underworld_slayer",
+    "id": "20746a987a90",
     "tier": "Expert",
     "name": "Underworld Slayer",
     "description": "Kill 50x Cerberus.",
@@ -1440,7 +1440,7 @@
     "target": 50
   },
   {
-    "id": "expert_fiend_flayer",
+    "id": "b08e1e39dd68",
     "tier": "Expert",
     "name": "Fiend Flayer",
     "description": "Kill 100x Cerberus.",
@@ -1448,7 +1448,7 @@
     "target": 100
   },
   {
-    "id": "expert_doombringer",
+    "id": "3d0822738456",
     "tier": "Expert",
     "name": "Doombringer",
     "description": "Kill 250x Cerberus.",
@@ -1456,7 +1456,7 @@
     "target": 250
   },
   {
-    "id": "expert_hellfire_conqueror",
+    "id": "7310a35df9f1",
     "tier": "Expert",
     "name": "Hellfire Conqueror",
     "description": "Kill 500x Cerberus.",
@@ -1464,7 +1464,7 @@
     "target": 500
   },
   {
-    "id": "expert_swamp_slayer",
+    "id": "630810b2ad5d",
     "tier": "Expert",
     "name": "Swamp Slayer",
     "description": "Kill 10x Zulrah.",
@@ -1472,7 +1472,7 @@
     "target": 10
   },
   {
-    "id": "expert_venom_vanquisher",
+    "id": "1fc0f81f1465",
     "tier": "Expert",
     "name": "Venom Vanquisher",
     "description": "Kill 50x Zulrah.",
@@ -1480,7 +1480,7 @@
     "target": 50
   },
   {
-    "id": "expert_fangbreaker",
+    "id": "5e909dc40e45",
     "tier": "Expert",
     "name": "Fangbreaker",
     "description": "Kill 100x Zulrah.",
@@ -1488,7 +1488,7 @@
     "target": 100
   },
   {
-    "id": "expert_serpent_smasher",
+    "id": "7dd7b644a7e3",
     "tier": "Expert",
     "name": "Serpent Smasher",
     "description": "Kill 250x Zulrah.",
@@ -1496,7 +1496,7 @@
     "target": 250
   },
   {
-    "id": "expert_marsh_monarch",
+    "id": "52c79e7cade1",
     "tier": "Expert",
     "name": "Marsh Monarch",
     "description": "Kill 500x Zulrah.",
@@ -1504,7 +1504,7 @@
     "target": 500
   },
   {
-    "id": "expert_nex_novice",
+    "id": "c0d17688c277",
     "tier": "Expert",
     "name": "Nex Novice",
     "description": "Kill 10x Nex.",
@@ -1512,7 +1512,7 @@
     "target": 10
   },
   {
-    "id": "expert_nex_adept",
+    "id": "32bc0e8ccfc9",
     "tier": "Expert",
     "name": "Nex Adept",
     "description": "Kill 50x Nex.",
@@ -1520,7 +1520,7 @@
     "target": 50
   },
   {
-    "id": "expert_smokeless_victory",
+    "id": "4f0133a7dbdc",
     "tier": "Expert",
     "name": "Smokeless Victory",
     "description": "Defeat Nex without coughing",
@@ -1528,7 +1528,7 @@
     "target": null
   },
   {
-    "id": "expert_pathogen_party",
+    "id": "62fc6e4a9e2d",
     "tier": "Expert",
     "name": "Pathogen Party",
     "description": "Defeat Nex after spreading the cough to 4 others at once",
@@ -1536,7 +1536,7 @@
     "target": null
   },
   {
-    "id": "expert_dashing_through_danger",
+    "id": "ab472c583db9",
     "tier": "Expert",
     "name": "Dashing Through Danger",
     "description": "Defeat Nex without getting hit by the aisle dash attack in the smoke phase",
@@ -1544,7 +1544,7 @@
     "target": null
   },
   {
-    "id": "expert_shadow_dancer",
+    "id": "a3fda1485961",
     "tier": "Expert",
     "name": "Shadow Dancer",
     "description": "Defeat Nex without getting hit by any shadow smash attack",
@@ -1552,7 +1552,7 @@
     "target": null
   },
   {
-    "id": "expert_hemophobia",
+    "id": "1d5ff6f52d6c",
     "tier": "Expert",
     "name": "Hemophobia",
     "description": "Defeat Nex without standing in any of the blood pools",
@@ -1560,7 +1560,7 @@
     "target": null
   },
   {
-    "id": "expert_icy_footwork",
+    "id": "c169f6c30100",
     "tier": "Expert",
     "name": "Icy Footwork",
     "description": "Complete the ice and zaros phases without getting hit by any ice phase attacks or orbs",
@@ -1568,7 +1568,7 @@
     "target": null
   },
   {
-    "id": "expert_undying_nexerer",
+    "id": "36c8880f05a3",
     "tier": "Expert",
     "name": "Undying Nexerer",
     "description": "Defeat Nex without anybody dying",
@@ -1576,7 +1576,7 @@
     "target": null
   },
   {
-    "id": "expert_ufo_dodger",
+    "id": "27a9e34ac790",
     "tier": "Expert",
     "name": "UFO Dodger",
     "description": "Complete Phase 1 Wardens without anyone getting hit by the UFO attack",
@@ -1584,7 +1584,7 @@
     "target": null
   },
   {
-    "id": "expert_movement_expert",
+    "id": "94a329f44f20",
     "tier": "Expert",
     "name": "Movement Expert",
     "description": "Complete Phase 1 Wardens without anyone getting hit by the DD/spread attack (requires a party of more than 1)",
@@ -1592,7 +1592,7 @@
     "target": null
   },
   {
-    "id": "expert_perfectly_balanced",
+    "id": "025ee04b64a8",
     "tier": "Expert",
     "name": "Perfectly Balanced",
     "description": "Complete Phase 1 Wardens without anyone touching the orbs that charge the Warden's attacks.",
@@ -1600,7 +1600,7 @@
     "target": null
   },
   {
-    "id": "expert_obelisk_pro",
+    "id": "94ed5aee3b29",
     "tier": "Expert",
     "name": "Obelisk Pro",
     "description": "Complete Warden's first phase without any team member dying",
@@ -1608,7 +1608,7 @@
     "target": null
   },
   {
-    "id": "expert_warden_pro",
+    "id": "b27d4348e45b",
     "tier": "Expert",
     "name": "Warden Pro",
     "description": "Complete Warden's first phase without any team member dying",
@@ -1616,7 +1616,7 @@
     "target": null
   },
   {
-    "id": "expert_im_a_fan_too",
+    "id": "d61f657f5923",
     "tier": "Expert",
     "name": "I'm a fan too",
     "description": "Complete the Windmill attack in Wardens Phase 2 without anyone getting hit",
@@ -1624,7 +1624,7 @@
     "target": null
   },
   {
-    "id": "expert_fast_feet",
+    "id": "2d09ecb840ed",
     "tier": "Expert",
     "name": "Fast feet",
     "description": "Complete the Falling Skulls attack in Wardens Phase 2 without anyone getting hit",
@@ -1632,7 +1632,7 @@
     "target": null
   },
   {
-    "id": "expert_first_one_then_the_other",
+    "id": "e7ba2b482638",
     "tier": "Expert",
     "name": "First one then the other",
     "description": "Complete the Converging Beam attack in Wardens Phase 2 without anyone getting hit",
@@ -1640,7 +1640,7 @@
     "target": null
   },
   {
-    "id": "expert_quick_flicks",
+    "id": "da0a268ead21",
     "tier": "Expert",
     "name": "Quick flicks",
     "description": "Complete Wardens Phase 2 without anyone getting hit off prayer by an auto attack",
@@ -1648,7 +1648,7 @@
     "target": null
   },
   {
-    "id": "expert_why_did_you_turn_that_off",
+    "id": "6f33ce5b25cc",
     "tier": "Expert",
     "name": "Why did you turn that off?",
     "description": "Get your prayers back on before you get hit by the prayer disable special",
@@ -1656,7 +1656,7 @@
     "target": null
   },
   {
-    "id": "expert_dont_jail_me",
+    "id": "51359134796f",
     "tier": "Expert",
     "name": "Don't jail me!",
     "description": "Everyone successfully dodges the Imprisonment attack in Wardens Phase 2",
@@ -1664,7 +1664,7 @@
     "target": null
   },
   {
-    "id": "expert_watch_for_the_ghosts",
+    "id": "7dd77d1cb678",
     "tier": "Expert",
     "name": "Watch for the ghosts",
     "description": "No phantom attacks received off-prayer for Zebak or Akkha, not hit by Kephri or Ba-Ba",
@@ -1672,7 +1672,7 @@
     "target": null
   },
   {
-    "id": "expert_fancy_feet",
+    "id": "8f16c43affb1",
     "tier": "Expert",
     "name": "Fancy Feet",
     "description": "Everybody successfully evades Phase 3 Warden's floor slams",
@@ -1680,7 +1680,7 @@
     "target": null
   },
   {
-    "id": "expert_skull_clicker",
+    "id": "c4beec961a9c",
     "tier": "Expert",
     "name": "Skull clicker",
     "description": "Successfully clear all sets of energy siphons",
@@ -1688,7 +1688,7 @@
     "target": null
   },
   {
-    "id": "expert_no_jad_hands_here",
+    "id": "3e82d6ce984c",
     "tier": "Expert",
     "name": "No Jad Hands Here",
     "description": "Sacrifice 50 fire capes at Tzhaar-Hur-Tel",
@@ -1696,7 +1696,7 @@
     "target": null
   },
   {
-    "id": "expert_pleeeeeease",
+    "id": "cbe4fe19ed0c",
     "tier": "Expert",
     "name": "PLEEEEEEASE!",
     "description": "Sacrifice 150 fire capes at Tzhaar-Hur-Tel",
@@ -1704,7 +1704,7 @@
     "target": null
   },
   {
-    "id": "expert_enhanced_crystal_chest_expert",
+    "id": "98a81ff67aa5",
     "tier": "Expert",
     "name": "Enhanced Crystal Chest Expert",
     "description": "Open 100x Enhanced Crystal Chests",
@@ -1712,7 +1712,7 @@
     "target": 100
   },
   {
-    "id": "expert_ethereal_chest_expert",
+    "id": "2b4bd57a1304",
     "tier": "Expert",
     "name": "Ethereal Chest Expert",
     "description": "Open 100x Ethereal Chests",
@@ -1720,7 +1720,7 @@
     "target": 100
   },
   {
-    "id": "expert_giant_chest_expert",
+    "id": "4bd911a3f01f",
     "tier": "Expert",
     "name": "Giant Chest Expert",
     "description": "Open 100x Giant Chests",
@@ -1728,7 +1728,7 @@
     "target": 100
   },
   {
-    "id": "expert_mud_incarnate",
+    "id": "24b982fc7710",
     "tier": "Expert",
     "name": "Mud Incarnate",
     "description": "Open 100x Grubby Chests",
@@ -1736,7 +1736,7 @@
     "target": 100
   },
   {
-    "id": "expert_tomb_peeper",
+    "id": "3fb63fbfd8ba",
     "tier": "Expert",
     "name": "Tomb Peeper",
     "description": "Open 10x ToA Common Chests",
@@ -1744,7 +1744,7 @@
     "target": 10
   },
   {
-    "id": "expert_sandwich_fan",
+    "id": "5609c1777e65",
     "tier": "Expert",
     "name": "Sandwich Fan",
     "description": "Interact with 150 random events",
@@ -1752,7 +1752,7 @@
     "target": null
   },
   {
-    "id": "expert_attack_prestiger",
+    "id": "eeb4d5a28e58",
     "tier": "Expert",
     "name": "Attack Prestiger",
     "description": "Prestige 2 times in Attack.",
@@ -1760,7 +1760,7 @@
     "target": null
   },
   {
-    "id": "expert_defence_prestiger",
+    "id": "95aadc697376",
     "tier": "Expert",
     "name": "Defence Prestiger",
     "description": "Prestige 2 times in Defence.",
@@ -1768,7 +1768,7 @@
     "target": null
   },
   {
-    "id": "expert_strength_prestiger",
+    "id": "402b85c56e06",
     "tier": "Expert",
     "name": "Strength Prestiger",
     "description": "Prestige 2 times in Strength.",
@@ -1776,7 +1776,7 @@
     "target": null
   },
   {
-    "id": "expert_hitpoints_prestiger",
+    "id": "449e8c3093f2",
     "tier": "Expert",
     "name": "Hitpoints Prestiger",
     "description": "Prestige 2 times in Hitpoints.",
@@ -1784,7 +1784,7 @@
     "target": null
   },
   {
-    "id": "expert_ranged_prestiger",
+    "id": "3dcad6c8b195",
     "tier": "Expert",
     "name": "Ranged Prestiger",
     "description": "Prestige 2 times in Ranged.",
@@ -1792,7 +1792,7 @@
     "target": null
   },
   {
-    "id": "expert_prayer_prestiger",
+    "id": "7b01a0a997ed",
     "tier": "Expert",
     "name": "Prayer Prestiger",
     "description": "Prestige 2 times in Prayer.",
@@ -1800,7 +1800,7 @@
     "target": null
   },
   {
-    "id": "expert_magic_prestiger",
+    "id": "237d7bacfdd0",
     "tier": "Expert",
     "name": "Magic Prestiger",
     "description": "Prestige 2 times in Magic.",
@@ -1808,7 +1808,7 @@
     "target": null
   },
   {
-    "id": "expert_cooking_prestiger",
+    "id": "218c2be4d767",
     "tier": "Expert",
     "name": "Cooking Prestiger",
     "description": "Prestige 2 times in Cooking.",
@@ -1816,7 +1816,7 @@
     "target": null
   },
   {
-    "id": "expert_woodcutting_prestiger",
+    "id": "aaad95805128",
     "tier": "Expert",
     "name": "Woodcutting Prestiger",
     "description": "Prestige 2 times in Woodcutting.",
@@ -1824,7 +1824,7 @@
     "target": null
   },
   {
-    "id": "expert_fletching_prestiger",
+    "id": "f5684c3f08e4",
     "tier": "Expert",
     "name": "Fletching Prestiger",
     "description": "Prestige 2 times in Fletching.",
@@ -1832,7 +1832,7 @@
     "target": null
   },
   {
-    "id": "expert_fishing_prestiger",
+    "id": "a94260356deb",
     "tier": "Expert",
     "name": "Fishing Prestiger",
     "description": "Prestige 2 times in Fishing.",
@@ -1840,7 +1840,7 @@
     "target": null
   },
   {
-    "id": "expert_firemaking_prestiger",
+    "id": "5fd88de61651",
     "tier": "Expert",
     "name": "Firemaking Prestiger",
     "description": "Prestige 2 times in Firemaking.",
@@ -1848,7 +1848,7 @@
     "target": null
   },
   {
-    "id": "expert_crafting_prestiger",
+    "id": "e337c6262c11",
     "tier": "Expert",
     "name": "Crafting Prestiger",
     "description": "Prestige 2 times in Crafting.",
@@ -1856,7 +1856,7 @@
     "target": null
   },
   {
-    "id": "expert_smithing_prestiger",
+    "id": "a19fc5d89395",
     "tier": "Expert",
     "name": "Smithing Prestiger",
     "description": "Prestige 2 times in Smithing.",
@@ -1864,7 +1864,7 @@
     "target": null
   },
   {
-    "id": "expert_mining_prestiger",
+    "id": "9f98db223061",
     "tier": "Expert",
     "name": "Mining Prestiger",
     "description": "Prestige 2 times in Mining.",
@@ -1872,7 +1872,7 @@
     "target": null
   },
   {
-    "id": "expert_herblore_prestiger",
+    "id": "35109a5499dd",
     "tier": "Expert",
     "name": "Herblore Prestiger",
     "description": "Prestige 2 times in Herblore.",
@@ -1880,7 +1880,7 @@
     "target": null
   },
   {
-    "id": "expert_thieving_prestiger",
+    "id": "e8edea2f2701",
     "tier": "Expert",
     "name": "Thieving Prestiger",
     "description": "Prestige 2 times in Thieving.",
@@ -1888,7 +1888,7 @@
     "target": null
   },
   {
-    "id": "expert_slayer_prestiger",
+    "id": "f6e5a9481b81",
     "tier": "Expert",
     "name": "Slayer Prestiger",
     "description": "Prestige 2 times in Slayer.",
@@ -1896,7 +1896,7 @@
     "target": null
   },
   {
-    "id": "expert_farming_prestiger",
+    "id": "b81744b6b334",
     "tier": "Expert",
     "name": "Farming Prestiger",
     "description": "Prestige 2 times in Farming.",
@@ -1904,7 +1904,7 @@
     "target": null
   },
   {
-    "id": "expert_runecrafting_prestiger",
+    "id": "8f7ef6f7ea26",
     "tier": "Expert",
     "name": "Runecrafting Prestiger",
     "description": "Prestige 2 times in Runecrafting.",
@@ -1912,7 +1912,7 @@
     "target": null
   },
   {
-    "id": "expert_not_so_special_now",
+    "id": "ac7c44b1d94c",
     "tier": "Expert",
     "name": "Not so special now",
     "description": "Don't take a hit from the Alchemical Hydra's specials.",
@@ -1920,7 +1920,7 @@
     "target": null
   },
   {
-    "id": "expert_i_can_count",
+    "id": "8049916de806",
     "tier": "Expert",
     "name": "I can count!",
     "description": "Don't take a hit from the Alchemical Hydra off prayer",
@@ -1928,7 +1928,7 @@
     "target": null
   },
   {
-    "id": "expert_try_moving",
+    "id": "d58722d4394d",
     "tier": "Expert",
     "name": "Try Moving",
     "description": "Complete the Maiden of Sugadinti without standing on a blood orb's splash",
@@ -1936,7 +1936,7 @@
     "target": null
   },
   {
-    "id": "expert_spider_watching",
+    "id": "24b7ff64eaa6",
     "tier": "Expert",
     "name": "Spider Watching",
     "description": "Complete the Maiden of Sugadinti without her healing from any nylocas",
@@ -1944,7 +1944,7 @@
     "target": null
   },
   {
-    "id": "expert_blood_infection",
+    "id": "bb2cdc87f927",
     "tier": "Expert",
     "name": "Blood Infection",
     "description": "Complete the Maiden of Sugadinti without standing on a blood orb's trail",
@@ -1952,7 +1952,7 @@
     "target": null
   },
   {
-    "id": "expert_swarmed",
+    "id": "05fbcf82e399",
     "tier": "Expert",
     "name": "Swarmed",
     "description": "Complete the Pestilent Bloat without anyone taking damage from flies",
@@ -1960,7 +1960,7 @@
     "target": null
   },
   {
-    "id": "expert_late_retreat",
+    "id": "ac6de0b2b622",
     "tier": "Expert",
     "name": "Late Retreat",
     "description": "Complete the Pestilent Bloat without anyone being hit by his stomp",
@@ -1968,7 +1968,7 @@
     "target": null
   },
   {
-    "id": "expert_who_missed_one",
+    "id": "e4566bd90370",
     "tier": "Expert",
     "name": "Who missed one?",
     "description": "Complete the Nylocas without anyone missing their small nylo",
@@ -1976,7 +1976,7 @@
     "target": null
   },
   {
-    "id": "expert_oops_its_weak_to",
+    "id": "ac818b8716c5",
     "tier": "Expert",
     "name": "Oops! It's weak to...",
     "description": "Complete the Nylocas without anyone attacking with the wrong style",
@@ -1984,7 +1984,7 @@
     "target": null
   },
   {
-    "id": "expert_stand_together",
+    "id": "ac8080d50bd1",
     "tier": "Expert",
     "name": "Stand Together",
     "description": "Complete Sotetseg with sharing every colossal orb",
@@ -1992,7 +1992,7 @@
     "target": null
   },
   {
-    "id": "expert_losing_the_race",
+    "id": "9625043ebbda",
     "tier": "Expert",
     "name": "Losing the Race",
     "description": "Complete Sotetseg without anyone recieveing damage from the maze's tornado",
@@ -2000,7 +2000,7 @@
     "target": null
   },
   {
-    "id": "expert_too_much_trust",
+    "id": "1fc89eb655ed",
     "tier": "Expert",
     "name": "Too Much Trust",
     "description": "Complete Sotetseg without anyone missing a tile in the maze",
@@ -2008,7 +2008,7 @@
     "target": null
   },
   {
-    "id": "expert_misplaced_faith",
+    "id": "b703d908d325",
     "tier": "Expert",
     "name": "Misplaced Faith",
     "description": "Complete Sotetseg without anyone missing a prayer",
@@ -2016,7 +2016,7 @@
     "target": null
   },
   {
-    "id": "expert_wait",
+    "id": "afd7c37d6179",
     "tier": "Expert",
     "name": "Wait...",
     "description": "Complete Xarpus without taking any reflect damage",
@@ -2024,7 +2024,7 @@
     "target": null
   },
   {
-    "id": "expert_antidote_pls",
+    "id": "eccc9ea7a879",
     "tier": "Expert",
     "name": "Antidote pls",
     "description": "Complete Xarpus without anyone standing on poison",
@@ -2032,7 +2032,7 @@
     "target": null
   },
   {
-    "id": "expert_you_tried",
+    "id": "f57820922fba",
     "tier": "Expert",
     "name": "You Tried...?",
     "description": "Complete Xarpus with every Exhumed being stood on",
@@ -2040,7 +2040,7 @@
     "target": null
   },
   {
-    "id": "expert_stay_behind",
+    "id": "50392a7f95d9",
     "tier": "Expert",
     "name": "Stay Behind",
     "description": "Complete Verzik Vitur without anyone being hit by the boss in Phase 1",
@@ -2048,7 +2048,7 @@
     "target": null
   },
   {
-    "id": "expert_might_run_out",
+    "id": "e6de451d8b0f",
     "tier": "Expert",
     "name": "Might Run Out",
     "description": "Complete Verzik Vitur without any of the pillars collapsing (Does not effect \"Perfect\" achievements)",
@@ -2056,7 +2056,7 @@
     "target": null
   },
   {
-    "id": "expert_rubble_remains",
+    "id": "6f4df137e9ca",
     "tier": "Expert",
     "name": "Rubble Remains",
     "description": "Complete Verzik Vitur without anyone being damaged by collapsing pillars",
@@ -2064,7 +2064,7 @@
     "target": null
   },
   {
-    "id": "expert_you_saw_it_coming",
+    "id": "4cd308291363",
     "tier": "Expert",
     "name": "You saw it coming",
     "description": "Complete Verzik Vitur without anyone being damaged by her ranged attacks in phase 2",
@@ -2072,7 +2072,7 @@
     "target": null
   },
   {
-    "id": "expert_what_do_i_pray_here",
+    "id": "d6a3c9d9d740",
     "tier": "Expert",
     "name": "What do I pray here?",
     "description": "Complete Verzik Vitur without anyone being hit off-prayer by her red magic attacks",
@@ -2080,7 +2080,7 @@
     "target": null
   },
   {
-    "id": "expert_bounced_back",
+    "id": "e09d7f91ea59",
     "tier": "Expert",
     "name": "Bounced Back",
     "description": "Complete Verzik Vitur without anyone being bounced by Verzik",
@@ -2088,7 +2088,7 @@
     "target": null
   },
   {
-    "id": "expert_are_you_with_them",
+    "id": "ec008601e043",
     "tier": "Expert",
     "name": "Are you with them?",
     "description": "Complete Verzik Vitur without anyone healing Verzik with their attacks",
@@ -2096,7 +2096,7 @@
     "target": null
   },
   {
-    "id": "expert_pop",
+    "id": "7d6cd5d366e4",
     "tier": "Expert",
     "name": "Pop!",
     "description": "Dodge all exploding Nylocas' explosion during Verzik's fight",
@@ -2104,7 +2104,7 @@
     "target": null
   },
   {
-    "id": "expert_conductive_catastrophe",
+    "id": "0bef84cfc4f2",
     "tier": "Expert",
     "name": "Conductive Catastrophe",
     "description": "Complete Verzik Vitur without the lightning ball ending at a player",
@@ -2112,7 +2112,7 @@
     "target": null
   },
   {
-    "id": "expert_misinput",
+    "id": "4b8079b19700",
     "tier": "Expert",
     "name": "Misinput",
     "description": "Complete Verzik Vitur without anyone missing a prayer swap during phase 3",
@@ -2120,7 +2120,7 @@
     "target": null
   },
   {
-    "id": "expert_close_quarters",
+    "id": "cf9ad860ee19",
     "tier": "Expert",
     "name": "Close Quarters",
     "description": "Successfully avoid triggering any of Verzik's melee attacks in phase 3",
@@ -2128,7 +2128,7 @@
     "target": null
   },
   {
-    "id": "expert_web_of_regret",
+    "id": "6fe832140ea1",
     "tier": "Expert",
     "name": "Web of Regret",
     "description": "Complete Verzik Vitur without anyone getting stuck in Verzik's webs",
@@ -2136,7 +2136,7 @@
     "target": null
   },
   {
-    "id": "expert_pool_panic",
+    "id": "ea1ba3e43573",
     "tier": "Expert",
     "name": "Pool Panic",
     "description": "Complete Verzik Vitur without anyone taking a hit from the yellow orbs",
@@ -2144,7 +2144,7 @@
     "target": null
   },
   {
-    "id": "expert_to_me_to_you",
+    "id": "c935f9eba449",
     "tier": "Expert",
     "name": "To me, to you!",
     "description": "Complete Verzik Vitur without the green ball dealing any damage",
@@ -2152,7 +2152,7 @@
     "target": null
   },
   {
-    "id": "expert_tornado_chaser",
+    "id": "49b6239d7878",
     "tier": "Expert",
     "name": "Tornado Chaser",
     "description": "Complete Verzik Vitur without anyone being hit by the tornadoes",
@@ -2160,7 +2160,7 @@
     "target": null
   },
   {
-    "id": "expert_surge_dodger",
+    "id": "96c47430102a",
     "tier": "Expert",
     "name": "Surge Dodger",
     "description": "Don't take a hit from Yama's fire surge.",
@@ -2168,7 +2168,7 @@
     "target": null
   },
   {
-    "id": "expert_skull_dodger",
+    "id": "2e3c886b852f",
     "tier": "Expert",
     "name": "Skull Dodger",
     "description": "Don't take a hit from Yama's flaming skull.",
@@ -2176,7 +2176,7 @@
     "target": null
   },
   {
-    "id": "expert_void_slayer",
+    "id": "89dedf07de93",
     "tier": "Expert",
     "name": "Void slayer",
     "description": "Kill Yama without any voidflares exploding.",
@@ -2184,7 +2184,7 @@
     "target": null
   },
   {
-    "id": "expert_15_kills_in_a_scurrius_instance",
+    "id": "30221fb72c54",
     "tier": "Expert",
     "name": "15 Kills in a Scurrius Instance",
     "description": "Kill Scurrius 15 times in a single instance.",
@@ -2192,7 +2192,7 @@
     "target": null
   },
   {
-    "id": "expert_perfect_scurrius",
+    "id": "bb9e765a1a54",
     "tier": "Expert",
     "name": "Perfect Scurrius",
     "description": "Kill Scurrius without taking any off prayer hits, or getting hit by a special.",
@@ -2200,7 +2200,7 @@
     "target": null
   },
   {
-    "id": "expert_lactose_intolerant",
+    "id": "b86b58950e9a",
     "tier": "Expert",
     "name": "Lactose Intolerant",
     "description": "Don't let Scurrius eat cheese more than once.",
@@ -2208,7 +2208,7 @@
     "target": null
   },
   {
-    "id": "master_voting_master",
+    "id": "f3047858164d",
     "tier": "Master",
     "name": "Voting Master",
     "description": "Vote 500 times for with ::vote and claim the rewards with ::claimvotes.",
@@ -2216,7 +2216,7 @@
     "target": null
   },
   {
-    "id": "master_food_whos_that",
+    "id": "93207776021a",
     "tier": "Master",
     "name": "Food? Who's that",
     "description": "Restore 110 HP at the rejuvination pool at home",
@@ -2224,7 +2224,7 @@
     "target": null
   },
   {
-    "id": "master_altar_avoider",
+    "id": "e6e89c59118d",
     "tier": "Master",
     "name": "Altar Avoider",
     "description": "Restore 110 prayer points at the rejuvination pool at home",
@@ -2232,7 +2232,7 @@
     "target": null
   },
   {
-    "id": "master_50_hard_clues",
+    "id": "2e64a2938c3e",
     "tier": "Master",
     "name": "50 Hard Clues",
     "description": "Open 50 Hard Clue caskets",
@@ -2240,7 +2240,7 @@
     "target": null
   },
   {
-    "id": "master_150_hard_clues",
+    "id": "5c4f90da225f",
     "tier": "Master",
     "name": "150 Hard Clues",
     "description": "Open 150 Hard Clue caskets",
@@ -2248,7 +2248,7 @@
     "target": null
   },
   {
-    "id": "master_250_hard_clues",
+    "id": "1bba388d60f2",
     "tier": "Master",
     "name": "250 Hard Clues",
     "description": "Open 250 Hard Clue caskets",
@@ -2256,7 +2256,7 @@
     "target": null
   },
   {
-    "id": "master_10_elite_clues",
+    "id": "562b9b9a4c23",
     "tier": "Master",
     "name": "10 Elite Clues",
     "description": "Open 10 Elite Clue caskets",
@@ -2264,7 +2264,7 @@
     "target": null
   },
   {
-    "id": "master_25_elite_clues",
+    "id": "0b11b5c8c0d3",
     "tier": "Master",
     "name": "25 Elite Clues",
     "description": "Open 25 Elite Clue caskets",
@@ -2272,7 +2272,7 @@
     "target": null
   },
   {
-    "id": "master_1_master_clue",
+    "id": "63a129473413",
     "tier": "Master",
     "name": "1 Master Clue",
     "description": "Open 1 Master Clue caskets",
@@ -2280,7 +2280,7 @@
     "target": null
   },
   {
-    "id": "master_5_master_clues",
+    "id": "964c15e96d89",
     "tier": "Master",
     "name": "5 Master Clues",
     "description": "Open 5 Master Clue caskets",
@@ -2288,7 +2288,7 @@
     "target": null
   },
   {
-    "id": "master_collection_log_master",
+    "id": "f72751cd7c79",
     "tier": "Master",
     "name": "Collection Log Master",
     "description": "Unlock 500 total Collection Log slots",
@@ -2296,7 +2296,7 @@
     "target": null
   },
   {
-    "id": "master_attack_master",
+    "id": "164a6ac6558f",
     "tier": "Master",
     "name": "Attack Master",
     "description": "Equip a Attack skill cape",
@@ -2304,7 +2304,7 @@
     "target": null
   },
   {
-    "id": "master_strength_master",
+    "id": "f2a864c8146d",
     "tier": "Master",
     "name": "Strength Master",
     "description": "Equip a Strength skill cape",
@@ -2312,7 +2312,7 @@
     "target": null
   },
   {
-    "id": "master_defence_master",
+    "id": "45fe597416c1",
     "tier": "Master",
     "name": "Defence Master",
     "description": "Equip a Defence skill cape",
@@ -2320,7 +2320,7 @@
     "target": null
   },
   {
-    "id": "master_ranged_master",
+    "id": "f788e5995f90",
     "tier": "Master",
     "name": "Ranged Master",
     "description": "Equip a Ranged skill cape",
@@ -2328,7 +2328,7 @@
     "target": null
   },
   {
-    "id": "master_prayer_master",
+    "id": "80e95fdb53d7",
     "tier": "Master",
     "name": "Prayer Master",
     "description": "Equip a Prayer skill cape",
@@ -2336,7 +2336,7 @@
     "target": null
   },
   {
-    "id": "master_magic_master",
+    "id": "eb9992cfb87d",
     "tier": "Master",
     "name": "Magic Master",
     "description": "Equip a Magic skill cape",
@@ -2344,7 +2344,7 @@
     "target": null
   },
   {
-    "id": "master_runecrafting_master",
+    "id": "69b616cf5abe",
     "tier": "Master",
     "name": "Runecrafting Master",
     "description": "Equip a Runecrafting skill cape",
@@ -2352,7 +2352,7 @@
     "target": null
   },
   {
-    "id": "master_hitpoints_master",
+    "id": "20aec84e43d0",
     "tier": "Master",
     "name": "Hitpoints Master",
     "description": "Equip a Hitpoints skill cape",
@@ -2360,7 +2360,7 @@
     "target": null
   },
   {
-    "id": "master_herblore_master",
+    "id": "cb37a59d8915",
     "tier": "Master",
     "name": "Herblore Master",
     "description": "Equip a Herblore skill cape",
@@ -2368,7 +2368,7 @@
     "target": null
   },
   {
-    "id": "master_thieving_master",
+    "id": "a298f0f4605f",
     "tier": "Master",
     "name": "Thieving Master",
     "description": "Equip a Thieving skill cape",
@@ -2376,7 +2376,7 @@
     "target": null
   },
   {
-    "id": "master_crafting_master",
+    "id": "f6bcc64510dc",
     "tier": "Master",
     "name": "Crafting Master",
     "description": "Equip a Crafting skill cape",
@@ -2384,7 +2384,7 @@
     "target": null
   },
   {
-    "id": "master_fletching_master",
+    "id": "d8629d2a0972",
     "tier": "Master",
     "name": "Fletching Master",
     "description": "Equip a Fletching skill cape",
@@ -2392,7 +2392,7 @@
     "target": null
   },
   {
-    "id": "master_slayer_master",
+    "id": "f53c62252b91",
     "tier": "Master",
     "name": "Slayer Master",
     "description": "Equip a Slayer skill cape",
@@ -2400,7 +2400,7 @@
     "target": null
   },
   {
-    "id": "master_mining_master",
+    "id": "daa63456a725",
     "tier": "Master",
     "name": "Mining Master",
     "description": "Equip a Mining skill cape",
@@ -2408,7 +2408,7 @@
     "target": null
   },
   {
-    "id": "master_smithing_master",
+    "id": "42c9574b3b00",
     "tier": "Master",
     "name": "Smithing Master",
     "description": "Equip a Smithing skill cape",
@@ -2416,7 +2416,7 @@
     "target": null
   },
   {
-    "id": "master_fishing_master",
+    "id": "62e3fac3677f",
     "tier": "Master",
     "name": "Fishing Master",
     "description": "Equip a Fishing skill cape",
@@ -2424,7 +2424,7 @@
     "target": null
   },
   {
-    "id": "master_cooking_master",
+    "id": "68716b1dee22",
     "tier": "Master",
     "name": "Cooking Master",
     "description": "Equip a Cooking skill cape",
@@ -2432,7 +2432,7 @@
     "target": null
   },
   {
-    "id": "master_firemaking_master",
+    "id": "90679923bb3a",
     "tier": "Master",
     "name": "Firemaking Master",
     "description": "Equip a Firemaking skill cape",
@@ -2440,7 +2440,7 @@
     "target": null
   },
   {
-    "id": "master_woodcutting_master",
+    "id": "123809a7348a",
     "tier": "Master",
     "name": "Woodcutting Master",
     "description": "Equip a Woodcutting skill cape",
@@ -2448,7 +2448,7 @@
     "target": null
   },
   {
-    "id": "master_farming_master",
+    "id": "c70443648dcc",
     "tier": "Master",
     "name": "Farming Master",
     "description": "Equip a Farming skill cape",
@@ -2456,7 +2456,7 @@
     "target": null
   },
   {
-    "id": "master_skill_cape_enjoyer",
+    "id": "f8215c8272ec",
     "tier": "Master",
     "name": "Skill Cape Enjoyer",
     "description": "Equip a trimmed skill cape for every skill that works",
@@ -2464,7 +2464,7 @@
     "target": null
   },
   {
-    "id": "master_max_cape_master",
+    "id": "eebbbd3b0aa5",
     "tier": "Master",
     "name": "Max Cape Master",
     "description": "Equip a max cape for any 5 skills that work",
@@ -2472,7 +2472,7 @@
     "target": null
   },
   {
-    "id": "master_meat_beater",
+    "id": "d8c1bc168d86",
     "tier": "Master",
     "name": "Meat Beater",
     "description": "Kill 50000x NPCs",
@@ -2480,7 +2480,7 @@
     "target": 50000
   },
   {
-    "id": "master_slayer_master",
+    "id": "2c79c8f01cd1",
     "tier": "Master",
     "name": "Slayer Master",
     "description": "Complete 500x Slayer tasks",
@@ -2488,7 +2488,7 @@
     "target": 500
   },
   {
-    "id": "master_first_level_99",
+    "id": "d5a85cab6c4e",
     "tier": "Master",
     "name": "First Level 99",
     "description": "Get your first level 99 in any skill.",
@@ -2496,7 +2496,7 @@
     "target": null
   },
   {
-    "id": "master_first_level_110",
+    "id": "a8b149ff93bb",
     "tier": "Master",
     "name": "First Level 110",
     "description": "Get your first level 110 in any skill.",
@@ -2504,7 +2504,7 @@
     "target": null
   },
   {
-    "id": "master_first_level_120",
+    "id": "acfab534bbe0",
     "tier": "Master",
     "name": "First Level 120",
     "description": "Get your first level 120 in any skill.",
@@ -2512,7 +2512,7 @@
     "target": null
   },
   {
-    "id": "master_first_level_126",
+    "id": "e83ecf330e3a",
     "tier": "Master",
     "name": "First Level 126",
     "description": "Get your first level 126 in any skill.",
@@ -2520,7 +2520,7 @@
     "target": null
   },
   {
-    "id": "master_boom_boom_boss_basher",
+    "id": "09c82890cd36",
     "tier": "Master",
     "name": "Boom Boom Boss Basher",
     "description": "Complete 100x boss Slayer tasks",
@@ -2528,7 +2528,7 @@
     "target": 100
   },
   {
-    "id": "master_world_boss_master",
+    "id": "48efd5f81714",
     "tier": "Master",
     "name": "World Boss Master",
     "description": "Kill 1000 of any world boss in the world boss arena.<br>::wb to teleport there!",
@@ -2536,7 +2536,7 @@
     "target": null
   },
   {
-    "id": "master_no_heart_yet",
+    "id": "506c64999448",
     "tier": "Master",
     "name": "No heart yet?",
     "description": "Slay 1000x Superior Slayer creatures",
@@ -2544,7 +2544,7 @@
     "target": 1000
   },
   {
-    "id": "master_dusty_pick",
+    "id": "edc7935f1869",
     "tier": "Master",
     "name": "Dusty Pick",
     "description": "Gather 2500x Stardust.",
@@ -2552,7 +2552,7 @@
     "target": 2500
   },
   {
-    "id": "master_yeah_za_ryte",
+    "id": "d6b074eda34d",
     "tier": "Master",
     "name": "Yeah (Za)ryte",
     "description": "Gather 500x Zaryte ore.",
@@ -2560,7 +2560,7 @@
     "target": 500
   },
   {
-    "id": "master_are_you_al_za_ryte",
+    "id": "8104430dc070",
     "tier": "Master",
     "name": "Are you al(Za)ryte?",
     "description": "Gather 1000x Zaryte ore.",
@@ -2568,7 +2568,7 @@
     "target": 1000
   },
   {
-    "id": "master_dust_dust_dust_dust_dust",
+    "id": "6c674037033b",
     "tier": "Master",
     "name": "Dust Dust Dust Dust Dust",
     "description": "Gather 10000x Stardust.",
@@ -2576,7 +2576,7 @@
     "target": 10000
   },
   {
-    "id": "master_such_craft_very_wow",
+    "id": "df0201e417f6",
     "tier": "Master",
     "name": "Such craft, very wow",
     "description": "Craft 1 items at, or above, tier 100",
@@ -2584,7 +2584,7 @@
     "target": null
   },
   {
-    "id": "master_perfect_zebak",
+    "id": "38f169f32922",
     "tier": "Master",
     "name": "Perfect Zebak",
     "description": "Kill Zebak without taking damage from: Normal attacks, poison tiles, waves, Zebak's scream, or blood clouds.",
@@ -2592,7 +2592,7 @@
     "target": null
   },
   {
-    "id": "master_croc_expert",
+    "id": "72d4cf7f98a1",
     "tier": "Master",
     "name": "Croc expert",
     "description": "Complete Zebak with the maximum gear level of 90",
@@ -2600,7 +2600,7 @@
     "target": null
   },
   {
-    "id": "master_perfect_kephri",
+    "id": "e3871899aae2",
     "tier": "Master",
     "name": "Perfect Kephri",
     "description": "Defeat Kephri without letting the mage Scarab attack, letting an Agile Scarab spawn, without anyone getting hit by dung or eggs, and without anyone getting hit by a fire ball",
@@ -2608,7 +2608,7 @@
     "target": null
   },
   {
-    "id": "master_perfect_baba",
+    "id": "dd783aebfe3b",
     "tier": "Master",
     "name": "Perfect Baba",
     "description": "Defeat baba without being hit by his boulders, thrown rocks, shadow attacks, or melee off prayer.",
@@ -2616,7 +2616,7 @@
     "target": null
   },
   {
-    "id": "master_perfect_akkha",
+    "id": "871cd2a0395f",
     "tier": "Master",
     "name": "Perfect Akkha",
     "description": "Kill Akkha without taking damage off prayer, by unstable orbs, or any of his specials",
@@ -2624,7 +2624,7 @@
     "target": null
   },
   {
-    "id": "master_cerberus_bane",
+    "id": "f11a7dbca384",
     "tier": "Master",
     "name": "Cerberus' Bane",
     "description": "Kill 1000x Cerberus.",
@@ -2632,7 +2632,7 @@
     "target": 1000
   },
   {
-    "id": "master_red_rocket",
+    "id": "93ac30c741ea",
     "tier": "Master",
     "name": "Red Rocket",
     "description": "Kill 1x Ignis.",
@@ -2640,7 +2640,7 @@
     "target": 1
   },
   {
-    "id": "master_danger_doggy_daycare",
+    "id": "c80cb0045f60",
     "tier": "Master",
     "name": "Danger Doggy Daycare",
     "description": "Kill 10x Ignis.",
@@ -2648,7 +2648,7 @@
     "target": 10
   },
   {
-    "id": "master_hellfire_dominator",
+    "id": "6c20704a3c9e",
     "tier": "Master",
     "name": "Hellfire Dominator",
     "description": "Kill 50x Ignis.",
@@ -2656,7 +2656,7 @@
     "target": 50
   },
   {
-    "id": "master_infernal_tyrant",
+    "id": "e4f426117027",
     "tier": "Master",
     "name": "Infernal Tyrant",
     "description": "Kill 150x Ignis.",
@@ -2664,7 +2664,7 @@
     "target": 150
   },
   {
-    "id": "master_fiery_footwork",
+    "id": "71df7d0c8031",
     "tier": "Master",
     "name": "Fiery Footwork",
     "description": "Kill Ignis without taking damage from any fire pools",
@@ -2672,7 +2672,7 @@
     "target": null
   },
   {
-    "id": "master_scourge_of_the_swamp",
+    "id": "4adc1cfb20e9",
     "tier": "Master",
     "name": "Scourge of the Swamp",
     "description": "Kill 1000x Zulrah.",
@@ -2680,7 +2680,7 @@
     "target": 1000
   },
   {
-    "id": "master_toxic_trainee",
+    "id": "ff1f6744191c",
     "tier": "Master",
     "name": "Toxic Trainee",
     "description": "Kill 1x Danger Snek.",
@@ -2688,7 +2688,7 @@
     "target": 1
   },
   {
-    "id": "master_toxic_tactician",
+    "id": "9117935bf6ba",
     "tier": "Master",
     "name": "Toxic Tactician",
     "description": "Kill 10x Danger Snek.",
@@ -2696,7 +2696,7 @@
     "target": 10
   },
   {
-    "id": "master_toxic_tyrant",
+    "id": "683028679d3a",
     "tier": "Master",
     "name": "Toxic Tyrant",
     "description": "Kill 50x Danger Snek.",
@@ -2704,7 +2704,7 @@
     "target": 50
   },
   {
-    "id": "master_master_of_toxins",
+    "id": "ff62baddd970",
     "tier": "Master",
     "name": "Master of Toxins",
     "description": "Kill 150x Danger Snek.",
@@ -2712,7 +2712,7 @@
     "target": 150
   },
   {
-    "id": "master_not_an_olympian",
+    "id": "3f00eec918a4",
     "tier": "Master",
     "name": "Not an Olympian",
     "description": "Complete 1 olympian raid",
@@ -2720,7 +2720,7 @@
     "target": null
   },
   {
-    "id": "master_olympian_novice",
+    "id": "9f8d0567f755",
     "tier": "Master",
     "name": "Olympian Novice",
     "description": "Complete 15 olympian raids",
@@ -2728,7 +2728,7 @@
     "target": null
   },
   {
-    "id": "master_olympian_initiate",
+    "id": "e749b0447493",
     "tier": "Master",
     "name": "Olympian Initiate",
     "description": "Complete 50 olympian raids",
@@ -2736,7 +2736,7 @@
     "target": null
   },
   {
-    "id": "master_god_slayer",
+    "id": "252339c1dc88",
     "tier": "Master",
     "name": "God Slayer",
     "description": "Complete 125 olympian raids",
@@ -2744,7 +2744,7 @@
     "target": null
   },
   {
-    "id": "master_divine_challenger",
+    "id": "da8770d49dfc",
     "tier": "Master",
     "name": "Divine Challenger",
     "description": "Complete 250 olympian raids",
@@ -2752,7 +2752,7 @@
     "target": null
   },
   {
-    "id": "master_nexpert",
+    "id": "83102a4bbd11",
     "tier": "Master",
     "name": "Nexpert",
     "description": "Kill 150x Nex.",
@@ -2760,7 +2760,7 @@
     "target": 150
   },
   {
-    "id": "master_nexterminator",
+    "id": "b2505b9270bb",
     "tier": "Master",
     "name": "Nexterminator",
     "description": "Kill 500x Nex.",
@@ -2768,7 +2768,7 @@
     "target": 500
   },
   {
-    "id": "master_nexorcist",
+    "id": "c37af0d7f56d",
     "tier": "Master",
     "name": "Nexorcist",
     "description": "Kill 150x Azrael.",
@@ -2776,7 +2776,7 @@
     "target": 150
   },
   {
-    "id": "master_nex_master",
+    "id": "dab4da520447",
     "tier": "Master",
     "name": "Nex Master",
     "description": "Defeat Nex without getting hit by any avoidable mechanics or anybody dying",
@@ -2784,7 +2784,7 @@
     "target": null
   },
   {
-    "id": "master_the_floor_is_ice",
+    "id": "11e2374348b7",
     "tier": "Master",
     "name": "The Floor is Ice",
     "description": "Avoid all Nex ice attacks in hard mode",
@@ -2792,7 +2792,7 @@
     "target": null
   },
   {
-    "id": "master_deathless_wardens",
+    "id": "3f2342e78401",
     "tier": "Master",
     "name": "Deathless Wardens",
     "description": "Complete the entire wardens encounter without anyone dying",
@@ -2800,7 +2800,7 @@
     "target": null
   },
   {
-    "id": "master_rather_shocking",
+    "id": "5d056c02d3f8",
     "tier": "Master",
     "name": "Rather shocking",
     "description": "No party members hit by Warden's enrage phase lightning",
@@ -2808,7 +2808,7 @@
     "target": null
   },
   {
-    "id": "master_make_it_stop",
+    "id": "8257c83843e3",
     "tier": "Master",
     "name": "Make It Stop",
     "description": "Sacrifice 350 fire capes at Tzhaar-Hur-Tel",
@@ -2816,7 +2816,7 @@
     "target": null
   },
   {
-    "id": "master_enhanced_crystal_chest_master",
+    "id": "2b60d063fa54",
     "tier": "Master",
     "name": "Enhanced Crystal Chest Master",
     "description": "Open 250x Enhanced Crystal Chests",
@@ -2824,7 +2824,7 @@
     "target": 250
   },
   {
-    "id": "master_ethereal_chest_master",
+    "id": "2b82bfe37209",
     "tier": "Master",
     "name": "Ethereal Chest Master",
     "description": "Open 250x Ethereal Chests",
@@ -2832,7 +2832,7 @@
     "target": 250
   },
   {
-    "id": "master_giant_chest_master",
+    "id": "bfe1b454f090",
     "tier": "Master",
     "name": "Giant Chest Master",
     "description": "Open 250x Giant Chests",
@@ -2840,7 +2840,7 @@
     "target": 250
   },
   {
-    "id": "master_rub_rub_rub_thanks_for_the_grub",
+    "id": "9f41fa7b2000",
     "tier": "Master",
     "name": "Rub rub rub thanks for the grub",
     "description": "Open 250x Grubby Chests",
@@ -2848,7 +2848,7 @@
     "target": 250
   },
   {
-    "id": "master_tomb_raider",
+    "id": "aadc77907168",
     "tier": "Master",
     "name": "Tomb Raider",
     "description": "Open 25x ToA Common Chests",
@@ -2856,7 +2856,7 @@
     "target": 25
   },
   {
-    "id": "master_seeing_purple",
+    "id": "1d4bd7e14b68",
     "tier": "Master",
     "name": "Seeing purple",
     "description": "Open 1 TOA purple chest",
@@ -2864,7 +2864,7 @@
     "target": null
   },
   {
-    "id": "master_purple_party",
+    "id": "be308fa537c7",
     "tier": "Master",
     "name": "Purple party",
     "description": "Open 5 TOA purple chests",
@@ -2872,7 +2872,7 @@
     "target": null
   },
   {
-    "id": "master_im_not_a_bot",
+    "id": "5422b5792114",
     "tier": "Master",
     "name": "I'm not a bot!",
     "description": "Interact with 300 random events",
@@ -2880,7 +2880,7 @@
     "target": null
   },
   {
-    "id": "master_attack_sweat",
+    "id": "7c37af4e193f",
     "tier": "Master",
     "name": "Attack Sweat",
     "description": "Prestige 5 times in Attack.",
@@ -2888,7 +2888,7 @@
     "target": null
   },
   {
-    "id": "master_defence_sweat",
+    "id": "4b2cd8422dc6",
     "tier": "Master",
     "name": "Defence Sweat",
     "description": "Prestige 5 times in Defence.",
@@ -2896,7 +2896,7 @@
     "target": null
   },
   {
-    "id": "master_strength_sweat",
+    "id": "92df65be619d",
     "tier": "Master",
     "name": "Strength Sweat",
     "description": "Prestige 5 times in Strength.",
@@ -2904,7 +2904,7 @@
     "target": null
   },
   {
-    "id": "master_hitpoints_sweat",
+    "id": "9f095068bb53",
     "tier": "Master",
     "name": "Hitpoints Sweat",
     "description": "Prestige 5 times in Hitpoints.",
@@ -2912,7 +2912,7 @@
     "target": null
   },
   {
-    "id": "master_ranged_sweat",
+    "id": "86171859b3b0",
     "tier": "Master",
     "name": "Ranged Sweat",
     "description": "Prestige 5 times in Ranged.",
@@ -2920,7 +2920,7 @@
     "target": null
   },
   {
-    "id": "master_prayer_sweat",
+    "id": "d678ed424750",
     "tier": "Master",
     "name": "Prayer Sweat",
     "description": "Prestige 5 times in Prayer.",
@@ -2928,7 +2928,7 @@
     "target": null
   },
   {
-    "id": "master_magic_sweat",
+    "id": "80776a212d8e",
     "tier": "Master",
     "name": "Magic Sweat",
     "description": "Prestige 5 times in Magic.",
@@ -2936,7 +2936,7 @@
     "target": null
   },
   {
-    "id": "master_cooking_sweat",
+    "id": "e40a1467ece7",
     "tier": "Master",
     "name": "Cooking Sweat",
     "description": "Prestige 5 times in Cooking.",
@@ -2944,7 +2944,7 @@
     "target": null
   },
   {
-    "id": "master_woodcutting_sweat",
+    "id": "3980296d6c0a",
     "tier": "Master",
     "name": "Woodcutting Sweat",
     "description": "Prestige 5 times in Woodcutting.",
@@ -2952,7 +2952,7 @@
     "target": null
   },
   {
-    "id": "master_fletching_sweat",
+    "id": "12d30f6e13a9",
     "tier": "Master",
     "name": "Fletching Sweat",
     "description": "Prestige 5 times in Fletching.",
@@ -2960,7 +2960,7 @@
     "target": null
   },
   {
-    "id": "master_fishing_sweat",
+    "id": "b2b0695d02b3",
     "tier": "Master",
     "name": "Fishing Sweat",
     "description": "Prestige 5 times in Fishing.",
@@ -2968,7 +2968,7 @@
     "target": null
   },
   {
-    "id": "master_firemaking_sweat",
+    "id": "f21b74fa428a",
     "tier": "Master",
     "name": "Firemaking Sweat",
     "description": "Prestige 5 times in Firemaking.",
@@ -2976,7 +2976,7 @@
     "target": null
   },
   {
-    "id": "master_crafting_sweat",
+    "id": "8e76b2b3cc9a",
     "tier": "Master",
     "name": "Crafting Sweat",
     "description": "Prestige 5 times in Crafting.",
@@ -2984,7 +2984,7 @@
     "target": null
   },
   {
-    "id": "master_smithing_sweat",
+    "id": "b868384b9750",
     "tier": "Master",
     "name": "Smithing Sweat",
     "description": "Prestige 5 times in Smithing.",
@@ -2992,7 +2992,7 @@
     "target": null
   },
   {
-    "id": "master_mining_sweat",
+    "id": "e00f20a7c21c",
     "tier": "Master",
     "name": "Mining Sweat",
     "description": "Prestige 5 times in Mining.",
@@ -3000,7 +3000,7 @@
     "target": null
   },
   {
-    "id": "master_herblore_sweat",
+    "id": "c04d0a38d372",
     "tier": "Master",
     "name": "Herblore Sweat",
     "description": "Prestige 5 times in Herblore.",
@@ -3008,7 +3008,7 @@
     "target": null
   },
   {
-    "id": "master_thieving_sweat",
+    "id": "1749d5e0c05e",
     "tier": "Master",
     "name": "Thieving Sweat",
     "description": "Prestige 5 times in Thieving.",
@@ -3016,7 +3016,7 @@
     "target": null
   },
   {
-    "id": "master_slayer_sweat",
+    "id": "969a512802da",
     "tier": "Master",
     "name": "Slayer Sweat",
     "description": "Prestige 5 times in Slayer.",
@@ -3024,7 +3024,7 @@
     "target": null
   },
   {
-    "id": "master_farming_sweat",
+    "id": "336a04c4cafc",
     "tier": "Master",
     "name": "Farming Sweat",
     "description": "Prestige 5 times in Farming.",
@@ -3032,7 +3032,7 @@
     "target": null
   },
   {
-    "id": "master_runecrafting_sweat",
+    "id": "52b428f6c711",
     "tier": "Master",
     "name": "Runecrafting Sweat",
     "description": "Prestige 5 times in Runecrafting.",
@@ -3040,7 +3040,7 @@
     "target": null
   },
   {
-    "id": "master_perfect_hydra",
+    "id": "78b26ef0c8ea",
     "tier": "Master",
     "name": "Perfect Hydra",
     "description": "Subdue the Alchemical Hydra without taking any off prayer hits, or getting hit by a special.",
@@ -3048,7 +3048,7 @@
     "target": null
   },
   {
-    "id": "master_youre_strong_but_im_stronger",
+    "id": "c8ba0bc4d658",
     "tier": "Master",
     "name": "You're strong, but I'm stronger",
     "description": "Defeat hydra without luring him over any vents.",
@@ -3056,7 +3056,7 @@
     "target": null
   },
   {
-    "id": "master_echo_kings_challenge",
+    "id": "264655c04d17",
     "tier": "Master",
     "name": "Echo Kings Challenge",
     "description": "Take no damage in a solo instance and have all 3 kings dead at the same time.",
@@ -3064,7 +3064,7 @@
     "target": null
   },
   {
-    "id": "master_deathless_maiden",
+    "id": "c5306dbb0340",
     "tier": "Master",
     "name": "Deathless Maiden",
     "description": "Complete the Maiden of Sugadinti without anyone dying",
@@ -3072,7 +3072,7 @@
     "target": null
   },
   {
-    "id": "master_perfect_maiden",
+    "id": "81387847c36b",
     "tier": "Master",
     "name": "Perfect Maiden",
     "description": "Complete the Maiden of Sugadinti without failing any achievements",
@@ -3080,7 +3080,7 @@
     "target": null
   },
   {
-    "id": "master_tag_out",
+    "id": "6c4192ae049b",
     "tier": "Master",
     "name": "Tag Out",
     "description": "Complete the Maiden of Sugadinti without her attacking someone twice in a row",
@@ -3088,7 +3088,7 @@
     "target": null
   },
   {
-    "id": "master_perfect_bloat",
+    "id": "4c0a99031fe9",
     "tier": "Master",
     "name": "Perfect Bloat",
     "description": "Complete the Pestilent Bloat without failing any achievements",
@@ -3096,7 +3096,7 @@
     "target": null
   },
   {
-    "id": "master_deathless_bloat",
+    "id": "3f45653f4ec5",
     "tier": "Master",
     "name": "Deathless Bloat",
     "description": "Complete the Pestilent Bloat without anyone dying",
@@ -3104,7 +3104,7 @@
     "target": null
   },
   {
-    "id": "master_look_at_the_ground",
+    "id": "1308bb116968",
     "tier": "Master",
     "name": "Look At The Ground",
     "description": "Complete the Pestilent Bloat (Hard Mode) without anyone being hit by falling body parts",
@@ -3112,7 +3112,7 @@
     "target": null
   },
   {
-    "id": "master_deathless_nylocas",
+    "id": "b8a2a9633d77",
     "tier": "Master",
     "name": "Deathless Nylocas",
     "description": "Complete the Nylocas without anyone dying",
@@ -3120,7 +3120,7 @@
     "target": null
   },
   {
-    "id": "master_perfect_nylocas",
+    "id": "cee3964a9b70",
     "tier": "Master",
     "name": "Perfect Nylocas",
     "description": "Complete the Nylocas without failing any achievements",
@@ -3128,7 +3128,7 @@
     "target": null
   },
   {
-    "id": "master_perfect_sotetseg",
+    "id": "c9233ad8f4e8",
     "tier": "Master",
     "name": "Perfect Sotetseg",
     "description": "Complete Sotetseg without failing any achievements",
@@ -3136,7 +3136,7 @@
     "target": null
   },
   {
-    "id": "master_deathless_sotetseg",
+    "id": "b0fdafd4bb7d",
     "tier": "Master",
     "name": "Deathless Sotetseg",
     "description": "Complete Sotetseg without anyone dying",
@@ -3144,7 +3144,7 @@
     "target": null
   },
   {
-    "id": "master_no_group_hug",
+    "id": "0082e9bd1dbf",
     "tier": "Master",
     "name": "No Group Hug?",
     "description": "Complete Sotetseg (Hard Mode) with sharing every colossal orb",
@@ -3152,7 +3152,7 @@
     "target": null
   },
   {
-    "id": "master_perfect_xarpus",
+    "id": "a98f41cf16c8",
     "tier": "Master",
     "name": "Perfect Xarpus",
     "description": "Complete Xarpus without failing any achievements",
@@ -3160,7 +3160,7 @@
     "target": null
   },
   {
-    "id": "master_deathless_xarpus",
+    "id": "5ec4d7c58066",
     "tier": "Master",
     "name": "Deathless Xarpus",
     "description": "Complete Xarpus without anyone dying",
@@ -3168,7 +3168,7 @@
     "target": null
   },
   {
-    "id": "master_deathless_verzik",
+    "id": "56ccfede6ee6",
     "tier": "Master",
     "name": "Deathless Verzik",
     "description": "Complete Verzik Vitur without anyone dying",
@@ -3176,7 +3176,7 @@
     "target": null
   },
   {
-    "id": "master_perfect_verzik",
+    "id": "18a8c3411aea",
     "tier": "Master",
     "name": "Perfect Verzik",
     "description": "Complete Verzik Vitur without failing any achievements",
@@ -3184,7 +3184,7 @@
     "target": null
   },
   {
-    "id": "master_seeing_red",
+    "id": "4494369ee309",
     "tier": "Master",
     "name": "Seeing Red",
     "description": "Complete Verzik Vitur without any of the red Nylocas healing Verzik",
@@ -3192,7 +3192,7 @@
     "target": null
   },
   {
-    "id": "master_yama_specialist",
+    "id": "2652e4f4854b",
     "tier": "Master",
     "name": "Yama Specialist",
     "description": "Don't take a hit from Yama's specials.",
@@ -3200,7 +3200,7 @@
     "target": null
   },
   {
-    "id": "master_elemental_specialist",
+    "id": "29b61ad772d8",
     "tier": "Master",
     "name": "Elemental Specialist",
     "description": "Don't take a hit from Yama off prayer",
@@ -3208,7 +3208,7 @@
     "target": null
   },
   {
-    "id": "master_floor_attacker",
+    "id": "212478fce0dd",
     "tier": "Master",
     "name": "Floor Attacker",
     "description": "Don't take a hit from Yama's floor attacks.",
@@ -3216,7 +3216,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_mvp_supporter",
+    "id": "29ab397ad9af",
     "tier": "Grandmaster",
     "name": "MVP Supporter",
     "description": "Vote 1000 times for with ::vote and claim the rewards with ::claimvotes.",
@@ -3224,7 +3224,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_50_elite_clues",
+    "id": "65945fcb63ea",
     "tier": "Grandmaster",
     "name": "50 Elite Clues",
     "description": "Open 50 Elite Clue caskets",
@@ -3232,7 +3232,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_150_elite_clues",
+    "id": "41631184afb9",
     "tier": "Grandmaster",
     "name": "150 Elite Clues",
     "description": "Open 150 Elite Clue caskets",
@@ -3240,7 +3240,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_250_elite_clues",
+    "id": "0930ab660b15",
     "tier": "Grandmaster",
     "name": "250 Elite Clues",
     "description": "Open 250 Elite Clue caskets",
@@ -3248,7 +3248,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_50_master_clues",
+    "id": "be893a63c2bf",
     "tier": "Grandmaster",
     "name": "50 Master Clues",
     "description": "Open 50 Master Clue caskets",
@@ -3256,7 +3256,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_150_master_clues",
+    "id": "6a7b2780c50f",
     "tier": "Grandmaster",
     "name": "150 Master Clues",
     "description": "Open 150 Master Clue caskets",
@@ -3264,7 +3264,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_250_master_clues",
+    "id": "d3ffc73bc725",
     "tier": "Grandmaster",
     "name": "250 Master Clues",
     "description": "Open 250 Master Clue caskets",
@@ -3272,7 +3272,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_collection_log_grandmaster",
+    "id": "f4c3073bc774",
     "tier": "Grandmaster",
     "name": "Collection Log Grandmaster",
     "description": "Unlock 600 total Collection Log slots",
@@ -3280,7 +3280,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_max_cape_grandmaster",
+    "id": "02ff77a158ef",
     "tier": "Grandmaster",
     "name": "Max Cape Grandmaster",
     "description": "Equip a max cape for every skill that works",
@@ -3288,7 +3288,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_meat_beat_compleat",
+    "id": "d587b7ca8da4",
     "tier": "Grandmaster",
     "name": "Meat Beat Compleat",
     "description": "Kill 100000x NPCs",
@@ -3296,7 +3296,7 @@
     "target": 100000
   },
   {
-    "id": "grandmaster_slayer_grandmaster",
+    "id": "58919b9ff9f0",
     "tier": "Grandmaster",
     "name": "Slayer Grandmaster",
     "description": "Complete 1000x Slayer tasks",
@@ -3304,7 +3304,7 @@
     "target": 1000
   },
   {
-    "id": "grandmaster_loves2boss",
+    "id": "9f1b6cab50ca",
     "tier": "Grandmaster",
     "name": "Loves2Boss",
     "description": "Complete 250x boss Slayer tasks",
@@ -3312,7 +3312,7 @@
     "target": 250
   },
   {
-    "id": "grandmaster_world_boss_grandmaster",
+    "id": "d7b145fe44fc",
     "tier": "Grandmaster",
     "name": "World Boss Grandmaster",
     "description": "Kill 2500 of any world boss in the world boss arena.<br>::wb to teleport there!",
@@ -3320,7 +3320,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_full_time_squishy",
+    "id": "3ddd64b3684f",
     "tier": "Grandmaster",
     "name": "Full Time Squishy",
     "description": "Slay 2500x Superior Slayer creatures",
@@ -3328,7 +3328,7 @@
     "target": 2500
   },
   {
-    "id": "grandmaster_zaryte_zone_zenith",
+    "id": "c98d3d443941",
     "tier": "Grandmaster",
     "name": "Zaryte zone zenith",
     "description": "Gather 5000x Zaryte ore.",
@@ -3336,7 +3336,7 @@
     "target": 5000
   },
   {
-    "id": "grandmaster_zebak_grandmaster",
+    "id": "8c19fda9d8c4",
     "tier": "Grandmaster",
     "name": "Zebak Grandmaster",
     "description": "Kill Zebak 5 times in a row without taking damage from: Normal attacks, poison tiles, waves, Zebak's scream, or blood clouds.",
@@ -3344,7 +3344,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_kephri_grandmaster",
+    "id": "af8605e29515",
     "tier": "Grandmaster",
     "name": "Kephri Grandmaster",
     "description": "Complete 5 perfect kills in a row",
@@ -3352,7 +3352,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_baba_grandmaster",
+    "id": "f7ce1efcd69e",
     "tier": "Grandmaster",
     "name": "Baba Grandmaster",
     "description": "Complete 5 perfect kills in a row",
@@ -3360,7 +3360,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_akkha_grandmaster",
+    "id": "c132cc487c53",
     "tier": "Grandmaster",
     "name": "Akkha Grandmaster",
     "description": "Complete 5 perfect kills in a row",
@@ -3368,7 +3368,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_ignis_daddy",
+    "id": "f3e1501b00ee",
     "tier": "Grandmaster",
     "name": "Ignis Daddy",
     "description": "Kill 500x Ignis.",
@@ -3376,7 +3376,7 @@
     "target": 500
   },
   {
-    "id": "grandmaster_ignis_grandmaster",
+    "id": "534bdc9adb26",
     "tier": "Grandmaster",
     "name": "Ignis Grandmaster",
     "description": "Kill Ignis perfectly (Avoid all lava pools, no off prayer hits)",
@@ -3384,7 +3384,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_spice_lover",
+    "id": "125912f1f359",
     "tier": "Grandmaster",
     "name": "Spice Lover",
     "description": "Kill Ignis without protecting against any ranged or mage attacks, and avoiding all lava pools.",
@@ -3392,7 +3392,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_suck_the_venom_out",
+    "id": "859be445aacc",
     "tier": "Grandmaster",
     "name": "Suck the venom out!",
     "description": "Kill Danger Snek without protecting against any ranged or mage attacks, and avoiding all poison clouds.",
@@ -3400,7 +3400,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_danger_snek_grandmaster",
+    "id": "fb90a53424cd",
     "tier": "Grandmaster",
     "name": "Danger snek Grandmaster",
     "description": "Kill Danger Snek perfectly (Avoid all poison clouds, no off prayer hits, no snakeling damage)",
@@ -3408,7 +3408,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_divine_challenger_2",
+    "id": "dff9dfd5127a",
     "tier": "Grandmaster",
     "name": "Divine Challenger 2",
     "description": "Complete 500 olympian raids",
@@ -3416,7 +3416,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_nexceptional",
+    "id": "4da8e91e7108",
     "tier": "Grandmaster",
     "name": "Nexceptional",
     "description": "Kill 500x Azrael.",
@@ -3424,7 +3424,7 @@
     "target": 500
   },
   {
-    "id": "grandmaster_nex_grandmaster",
+    "id": "94e5af5e04a4",
     "tier": "Grandmaster",
     "name": "Nex Grandmaster",
     "description": "Defeat Nex in hard mode, without getting hit by any avoidable mechanics or anybody dying",
@@ -3432,7 +3432,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_nex_grandmaster_team",
+    "id": "518ef3a04b22",
     "tier": "Grandmaster",
     "name": "Nex Grandmaster Team",
     "description": "Defeat Nex in hard mode, with at least 3 people, without anyone getting hit by any avoidable mechanics or dying",
@@ -3440,7 +3440,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_perfect_wardens",
+    "id": "e961528a6d0d",
     "tier": "Grandmaster",
     "name": "Perfect Wardens",
     "description": "Complete the entire wardens encounter without failing any other achievement (excluding Teamwork in solos)",
@@ -3448,7 +3448,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_surely_green_logged_by_now",
+    "id": "32138bf038d9",
     "tier": "Grandmaster",
     "name": "Surely green logged by now?",
     "description": "Open 30 TOA purple chests",
@@ -3456,7 +3456,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_perfect_theatre",
+    "id": "67183d3c0b40",
     "tier": "Grandmaster",
     "name": "Perfect Theatre",
     "description": "Complete the entire Theatre of Blood without failing any achievements",
@@ -3464,7 +3464,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_deathless_theatre",
+    "id": "da6bb33de26c",
     "tier": "Grandmaster",
     "name": "Deathless Theatre",
     "description": "Complete the entire Theatre of Blood without anyone dying",
@@ -3472,7 +3472,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_deathless_maiden_2",
+    "id": "15daa677b0fd",
     "tier": "Grandmaster",
     "name": "Deathless Maiden 2",
     "description": "Complete the Maiden of Sugadinti (Hard Mode) without anyone dying",
@@ -3480,7 +3480,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_perfect_maiden_2",
+    "id": "f8cb91508a1d",
     "tier": "Grandmaster",
     "name": "Perfect Maiden 2",
     "description": "Complete the Maiden of Sugadinti (Hard Mode) without failing any achievements",
@@ -3488,7 +3488,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_perfect_bloat_2",
+    "id": "18c2309592f2",
     "tier": "Grandmaster",
     "name": "Perfect Bloat 2",
     "description": "Complete the Pestilent Bloat (Hard Mode) without failing any achievements",
@@ -3496,7 +3496,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_deathless_bloat_2",
+    "id": "b6f0bb1090ec",
     "tier": "Grandmaster",
     "name": "Deathless Bloat 2",
     "description": "Complete the Pestilent Bloat (Hard Mode) without anyone dying",
@@ -3504,7 +3504,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_deathless_nylocas_2",
+    "id": "89f582a63dee",
     "tier": "Grandmaster",
     "name": "Deathless Nylocas 2",
     "description": "Complete the Nylocas (Hard Mode) without anyone dying",
@@ -3512,7 +3512,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_perfect_nylocas_2",
+    "id": "50f95278dcc0",
     "tier": "Grandmaster",
     "name": "Perfect Nylocas 2",
     "description": "Complete the Nylocas (Hard Mode) without failing any achievements",
@@ -3520,7 +3520,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_perfect_sotetseg_2",
+    "id": "eb6f630acd80",
     "tier": "Grandmaster",
     "name": "Perfect Sotetseg 2",
     "description": "Complete Sotetseg (Hard Mode) without failing any achievements",
@@ -3528,7 +3528,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_deathless_sotetseg_2",
+    "id": "b45802431250",
     "tier": "Grandmaster",
     "name": "Deathless Sotetseg 2",
     "description": "Complete Sotetseg (Hard Mode) without anyone dying",
@@ -3536,7 +3536,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_perfect_xarpus_2",
+    "id": "e7c3e08fa0b0",
     "tier": "Grandmaster",
     "name": "Perfect Xarpus 2",
     "description": "Complete Xarpus (Hard Mode) without failing any achievements",
@@ -3544,7 +3544,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_deathless_xarpus_2",
+    "id": "ed402305df6d",
     "tier": "Grandmaster",
     "name": "Deathless Xarpus 2",
     "description": "Complete Xarpus (Hard Mode) without anyone dying",
@@ -3552,7 +3552,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_deathless_verzik_2",
+    "id": "2421f345bea6",
     "tier": "Grandmaster",
     "name": "Deathless Verzik 2",
     "description": "Complete Verzik Vitur (Hard Mode) without anyone dying",
@@ -3560,7 +3560,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_perfect_verzik_2",
+    "id": "c0a619dce88d",
     "tier": "Grandmaster",
     "name": "Perfect Verzik 2",
     "description": "Complete Verzik Vitur (Hard Mode) without failing any achievements",
@@ -3568,7 +3568,7 @@
     "target": null
   },
   {
-    "id": "grandmaster_perfect_yama",
+    "id": "98b45a867eda",
     "tier": "Grandmaster",
     "name": "Perfect Yama",
     "description": "Defeat Yama without taking any off prayer hits, or getting hit by a special.",
@@ -3576,7 +3576,7 @@
     "target": null
   },
   {
-    "id": "heroic_olympian_weapon_sink_1",
+    "id": "a2463ff0b1e9",
     "tier": "Heroic",
     "name": "Olympian Weapon Sink 1",
     "description": "Temper any of Heavenly bow, Heavenly ballista, Poseidon's trident, Kodai wand, Hydra claws, Titanforged maul 5 times total",
@@ -3584,7 +3584,7 @@
     "target": null
   },
   {
-    "id": "heroic_olympian_weapon_sink_2",
+    "id": "d72660ca0d23",
     "tier": "Heroic",
     "name": "Olympian Weapon Sink 2",
     "description": "Temper any of Heavenly bow, Heavenly ballista, Poseidon's trident, Kodai wand, Hydra claws, Titanforged maul 10 times total",
@@ -3592,7 +3592,7 @@
     "target": null
   },
   {
-    "id": "heroic_divine_challenger_3",
+    "id": "b6d38d4bce12",
     "tier": "Heroic",
     "name": "Divine Challenger 3",
     "description": "Complete 1000 olympian raids",
@@ -3600,7 +3600,7 @@
     "target": null
   },
   {
-    "id": "heroic_perfect_theatre_2",
+    "id": "00a7e81b6b25",
     "tier": "Heroic",
     "name": "Perfect Theatre 2",
     "description": "Complete the entire Theatre of Blood (Hard Mode) without failing any achievements",
@@ -3608,7 +3608,7 @@
     "target": null
   },
   {
-    "id": "heroic_deathless_theatre_2",
+    "id": "1bf66772cca3",
     "tier": "Heroic",
     "name": "Deathless Theatre 2",
     "description": "Complete the entire Theatre of Blood (Hard Mode) without anyone dying",

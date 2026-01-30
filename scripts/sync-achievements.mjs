@@ -1,6 +1,11 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 
+import crypto from "node:crypto";
+
+
+
+
 const RAW_URL =
   "https://wiki.august.games/wiki/Paragon_League/Achievements?action=raw";
 
@@ -20,6 +25,11 @@ function slug(s) {
     .replace(/['"]/g, "")
     .replace(/[^a-z0-9]+/g, "_")
     .replace(/^_+|_+$/g, "");
+}
+
+function makeId(tier, name, description) {
+  const key = `${tier}||${name}||${description}`.toLowerCase().trim();
+  return crypto.createHash("sha1").update(key).digest("hex").slice(0, 12);
 }
 
 // Detect patterns like "25x", "20,000x"
@@ -78,14 +88,17 @@ function parseWikiTable(sectionText, tier) {
 
     if (!name || !description) continue;
 
+    const id = makeId(tier, name, description);
+
     achievements.push({
-      id: `${slug(tier)}_${slug(name)}`,
+      id,
       tier,
       name,
       description,
       rewardsText,
       target: extractTarget(description),
     });
+
   }
 
   return achievements;
