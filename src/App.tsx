@@ -3,6 +3,7 @@ import achievementsData from "./data/achievements.json";
 import type { Achievement, ProgressFileV1, Tier } from "./types/achievements";
 import { loadProgress, saveProgress } from "./lib/storage";
 import { TAG_OVERRIDES } from "./data/tagOverrides";
+import "./app.css"
 
 
 const ALL_TIERS: Tier[] = [
@@ -41,6 +42,7 @@ const ALL_TAGS: Tag[] = [
   "Events",
   "Gear",
 ];
+
 
 
 
@@ -196,11 +198,27 @@ export default function App() {
     }, []);
 
 
+    type SortMode = "Default" | "IncompleteFirst" | "MostProgress" | "LeastProgress" | "AZ";
+    const [sortMode, setSortMode] = useState<SortMode>("Default");
+
+
 
 
     const [progressFile, setProgressFile] = useState<ProgressFileV1>(() =>
       loadProgress(userKey)
     );
+
+  const [expandedIds, setExpandedIds] = useState<Set<string>>(() => new Set());
+
+  function toggleExpanded(id: string) {
+      setExpandedIds((prev) => {
+        const next = new Set(prev);
+        if (next.has(id)) next.delete(id);
+        else next.add(id);
+        return next;
+      });
+    }
+
 
 
   const [selectedTags, setSelectedTags] = useState<Set<Tag>>(() => new Set());
@@ -459,7 +477,13 @@ export default function App() {
 
 
   return (
-    <div style={{ maxWidth: 980, margin: "0 auto", padding: 16 }}>
+    <div style={{
+      minHeight: "100vh",
+      maxWidth: 980,
+      margin: "0 auto",
+      padding: 16,
+      }}
+    >
       <h1 style={{ marginBottom: 6 }}>Paragon League Achievements Tracker</h1>
       <p style={{ marginTop: 0, opacity: 0.8 }}>
         Saved locally in your browser. Completed: {completedCount} / {totalCount}
@@ -468,15 +492,22 @@ export default function App() {
       {/* Controls */}
       <div
         style={{
-          display: "flex",
-          gap: 10,
-          flexWrap: "wrap",
-          alignItems: "center",
-          padding: 12,
-          border: "1px solid #eee",
-          borderRadius: 12,
-          marginTop: 12,
-        }}
+            position: "sticky",
+            top: 0,
+            zIndex: 10,
+            backdropFilter: "blur(10px)",
+            background: "rgba(20, 4, 20, 0.65)",
+            borderBottom: "1px solid rgba(78, 222, 243, 0.12)",
+            paddingTop: 8,
+            paddingBottom: 8,
+            display: "flex",
+            flexWrap: "wrap",
+            gap: 10,
+            alignItems: "center",
+            padding: 12,
+            borderRadius: 12,
+
+          }}
       >
         <input
           value={queryInput}
@@ -508,6 +539,25 @@ export default function App() {
           ))}
         </select>
 
+        <select
+          value={sortMode}
+          onChange={(e) => setSortMode(e.target.value as SortMode)}
+          style={{
+            padding: "8px 10px",
+            borderRadius: 10,
+            border: "1px solid rgba(78, 222, 243, 0.18)",
+            background: "rgba(26, 22, 51, 0.65)",
+            color: "var(--text)",
+          }}
+        >
+          <option value="Default">Sort: Default</option>
+          <option value="IncompleteFirst">Sort: Incomplete first</option>
+          <option value="MostProgress">Sort: Most progress</option>
+          <option value="LeastProgress">Sort: Least progress</option>
+          <option value="AZ">Sort: A → Z</option>
+        </select>
+
+
         <label style={{ display: "flex", gap: 8, alignItems: "center" }}>
           <input
             type="checkbox"
@@ -531,26 +581,26 @@ export default function App() {
             </label>
           ))}
 
-          <button onClick={clearTags} style={{ padding: "6px 10px" }}>
+          <button onClick={clearTags} className="button">
             Clear tags
           </button>
         </div>
 
 
         <div style={{ display: "flex", gap: 8 }}>
-          <button onClick={exportProgress} style={{ padding: "8px 10px" }}>
+          <button onClick={exportProgress} className="button">
             Export
           </button>
 
-          <button onClick={openImportPicker} style={{ padding: "8px 10px" }}>
+          <button onClick={openImportPicker} className="button">
             Import
           </button>
 
-          <button onClick={expandAll} style={{ padding: "8px 10px" }}>
+          <button onClick={expandAll} className="button">
             Expand all
           </button>
 
-          <button onClick={collapseAll} style={{ padding: "8px 10px" }}>
+          <button onClick={collapseAll} className="button">
             Collapse all
           </button>
 
@@ -561,7 +611,7 @@ export default function App() {
                 navigator.clipboard.writeText(url.toString());
                 alert("Link copied!");
               }}
-              style={{ padding: "8px 10px" }}
+              className="button"
             >
               Copy my link
           </button>
@@ -603,7 +653,7 @@ export default function App() {
           stats.total > 0 ? Math.round((stats.done / stats.total) * 100) : 0;
 
         return (
-          <section key={tierName} style={{ marginTop: 24 }}>
+          <section id={`tier-${tierName}`} key={tierName} style={{ marginTop: 24 }}>
             <h2
               onClick={() => toggleTier(tierName)}
               style={{
@@ -622,110 +672,199 @@ export default function App() {
               <span>{collapsed[tierName] ? "▶" : "▼"}</span>
             </h2>
 
-            {!collapsed[tierName] && (
-              <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
-                {list.map((a) => {
-                  const p = getProgress(a.id);
-                  const count = p?.count ?? 0;
-                  const target = a.target ?? null;
+            
 
-                  const done = target != null ? count >= target : !!p?.completed;
+            {!collapsed[tierName] && (() => {
+                  const sortedList = [...list].sort((a, b) => {
+                    if (sortMode === "Default") return 0;
 
-                  const pctRow =
-                    target != null && target > 0
-                      ? Math.min(100, Math.floor((count / target) * 100))
-                      : null;
+                    const pa = getProgress(a.id);
+                    const pb = getProgress(b.id);
+
+                    const aCount = pa?.count ?? 0;
+                    const bCount = pb?.count ?? 0;
+
+                    const aDone = a.target != null ? aCount >= a.target : !!pa?.completed;
+                    const bDone = b.target != null ? bCount >= b.target : !!pb?.completed;
+
+                    const aPct =
+                      a.target != null && a.target > 0
+                        ? Math.min(1, aCount / a.target)
+                        : aDone
+                        ? 1
+                        : 0;
+
+                    const bPct =
+                      b.target != null && b.target > 0
+                        ? Math.min(1, bCount / b.target)
+                        : bDone
+                        ? 1
+                        : 0;
+
+                    if (sortMode === "AZ") return a.name.localeCompare(b.name);
+
+                    if (sortMode === "IncompleteFirst") {
+                      if (aDone !== bDone) return aDone ? 1 : -1;
+                      return a.name.localeCompare(b.name);
+                    }
+
+                    if (sortMode === "MostProgress") {
+                      if (bPct !== aPct) return bPct - aPct;
+                      return a.name.localeCompare(b.name);
+                    }
+
+                    if (sortMode === "LeastProgress") {
+                      if (aPct !== bPct) return aPct - bPct;
+                      return a.name.localeCompare(b.name);
+                    }
+
+                    return 0;
+                  });
 
                   return (
                     <div
-                      key={a.id}
                       style={{
-                        padding: 12,
-                        border: "1px solid #eee",
-                        borderRadius: 12,
-                        opacity: done ? 0.75 : 1,
+                        display: "grid",
+                        gridTemplateColumns: "repeat(auto-fit, minmax(420px, 1fr))",
+                        gap: 12,
                       }}
                     >
-                      <div style={{ display: "flex", gap: 12, alignItems: "flex-start" }}>
-                        {/* Checkbox or spacer */}
-                        {target == null ? (
-                          <input
-                            type="checkbox"
-                            checked={done}
-                            onChange={(e) => setCompleted(a.id, e.target.checked)}
-                            style={{ marginTop: 4 }}
-                          />
-                        ) : (
-                          <div style={{ width: 16, height: 16, marginTop: 4, opacity: 0.6 }}>
-                            •
-                          </div>
-                        )}
+                      {sortedList.map((a) => {
+                        const p = getProgress(a.id);
+                        const count = p?.count ?? 0;
+                        const target = a.target ?? null;
 
-                        <div style={{ flex: 1 }}>
-                          <div style={{ fontWeight: 800 }}>{a.name}</div>
-                          <div style={{ opacity: 0.85 }}>{a.description}</div>
+                        const done = target != null ? count >= target : !!p?.completed;
+                        const isExpanded = expandedIds.has(a.id);
 
-                          {target != null && (
-                            <div style={{ marginTop: 6, fontSize: 12, opacity: 0.7 }}>
-                              Counter goal: complete at {target}
-                            </div>
-                          )}
+                        // If completed, show compact by default; if not completed, show full
+                        const compact = done && !isExpanded;
 
-                          {/* Counter UI */}
-                          {target != null && (
-                            <div style={{ marginTop: 10 }}>
-                              <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
-                                <label style={{ opacity: 0.8 }}>
-                                  Progress:
+                        const pctRow =
+                          target != null && target > 0
+                            ? Math.min(100, Math.floor((count / target) * 100))
+                            : null;
+
+                        return (
+                          <div
+                            key={a.id}
+                            className={`panel ${done ? "panel--done" : ""}`}
+                            style={{
+                              padding: compact ? 10 : 12,
+                              cursor: done ? "pointer" : "default",
+                              opacity: compact ? 0.65 : 1,
+                            }}
+                            onClick={() => {
+                              if (done) toggleExpanded(a.id);
+                            }}
+                            title={done ? (compact ? "Click to expand" : "Click to collapse") : undefined}
+                          >
+                            {/* COMPACT ROW (completed + not expanded) */}
+                            {compact ? (
+                              <div style={{ display: "flex", gap: 12, alignItems: "center" }}>
+                                <div style={{ opacity: 0.85, fontWeight: 800, flex: 1 }}>
+                                  ✅ {a.name}
+                                </div>
+
+                                {/* show progress badge if it's a counter achievement */}
+                                {target != null && (
+                                  <div style={{ fontSize: 12, opacity: 0.8, whiteSpace: "nowrap" }}>
+                                    {Math.min(count, target)} / {target}
+                                  </div>
+                                )}
+
+                                <div style={{ fontSize: 12, opacity: 0.75 }}>Hide</div>
+                              </div>
+                            ) : (
+                              /* FULL CARD (incomplete OR expanded completed) */
+                              <div style={{ display: "flex", gap: 12, alignItems: "flex-start" }}>
+                                {/* Checkbox or spacer */}
+                                {target == null ? (
                                   <input
-                                    type="number"
-                                    min={0}
-                                    value={count}
-                                    onChange={(e) => setCount(a.id, Number(e.target.value || 0))}
-                                    style={{
-                                      marginLeft: 8,
-                                      width: 110,
-                                      padding: "6px 8px",
-                                      borderRadius: 10,
-                                      border: "1px solid #ddd",
-                                    }}
+                                    type="checkbox"
+                                    checked={done}
+                                    onChange={(e) => setCompleted(a.id, e.target.checked)}
+                                    style={{ marginTop: 4 }}
+                                    onClick={(e) => e.stopPropagation()}
                                   />
-                                  <span style={{ marginLeft: 8, opacity: 0.7 }}>/ {target}</span>
-                                </label>
+                                ) : (
+                                  <div style={{ width: 16, height: 16, marginTop: 4, opacity: 0.6 }}>•</div>
+                                )}
 
-                                <span style={{ opacity: 0.7 }}>{pctRow ?? 0}%</span>
+                                <div style={{ flex: 1 }}>
+                                  <div style={{ fontWeight: 800, fontSize: 16 }}>{a.name}</div>
+                                  <div style={{ opacity: 0.85, marginTop: 2 }}>{a.description}</div>
+
+                                  {target != null && (
+                                    <div style={{ marginTop: 6, fontSize: 12, opacity: 0.75 }}>
+                                      Counter goal: complete at {target}
+                                    </div>
+                                  )}
+
+                                  {/* Counter UI */}
+                                  {target != null && (
+                                    <div style={{ marginTop: 10 }} onClick={(e) => e.stopPropagation()}>
+                                      <div style={{ display: "flex", gap: 10, alignItems: "center" }}>
+                                        <label style={{ opacity: 0.9 }}>
+                                          Progress:
+                                          <input
+                                            type="number"
+                                            min={0}
+                                            value={count}
+                                            onChange={(e) => setCount(a.id, Number(e.target.value || 0))}
+                                            style={{
+                                              marginLeft: 8,
+                                              width: 110,
+                                              padding: "6px 8px",
+                                              borderRadius: 10,
+                                              border: "1px solid rgba(78, 222, 243, 0.18)",
+                                              background: "rgba(26, 22, 51, 0.65)",
+                                              color: "var(--text)",
+                                            }}
+                                          />
+                                          <span style={{ marginLeft: 8, opacity: 0.7 }}>/ {target}</span>
+                                        </label>
+
+                                        <span style={{ opacity: 0.75 }}>{pctRow ?? 0}%</span>
+                                      </div>
+
+                                      <div
+                                        style={{
+                                          height: 8,
+                                          borderRadius: 999,
+                                          background: "rgba(255,255,255,0.08)",
+                                          marginTop: 8,
+                                          overflow: "hidden",
+                                        }}
+                                      >
+                                        <div
+                                          className="progressFill"
+                                          style={{ width: `${pctRow ?? 0}%`, height: "100%" }}
+                                        />
+                                      </div>
+                                    </div>
+                                  )}
+
+                                  <div style={{ opacity: 0.8, marginTop: 10 }}>
+                                    Rewards: {a.rewardsText}
+                                  </div>
+
+                                  {done && (
+                                    <div style={{ marginTop: 10, fontSize: 12, opacity: 0.7 }}>
+                                      Click card to {isExpanded ? "collapse" : "expand"}
+                                    </div>
+                                  )}
+                                </div>
                               </div>
-
-                              <div
-                                style={{
-                                  height: 8,
-                                  borderRadius: 999,
-                                  background: "#eee",
-                                  marginTop: 8,
-                                  overflow: "hidden",
-                                }}
-                              >
-                                <div
-                                  style={{
-                                    height: "100%",
-                                    width: `${pctRow ?? 0}%`,
-                                    background: "#999",
-                                  }}
-                                />
-                              </div>
-                            </div>
-                          )}
-
-                          <div style={{ opacity: 0.7, marginTop: 10 }}>
-                            Rewards: {a.rewardsText}
+                            )}
                           </div>
-                        </div>
-                      </div>
+                        );
+                      })}
                     </div>
                   );
-                })}
-              </div>
-            )}
+                })()}
+
+            
 
           </section>
         );

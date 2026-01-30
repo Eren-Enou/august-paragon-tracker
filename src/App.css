@@ -1,42 +1,77 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+:root {
+  --bg-0: #140414;   /* near-black purple */
+  --bg-1: #191751;   /* deep indigo */
+  --panel: #1a1633;  /* panel base */
+  --panel-2: #231b44;
+  --border: rgba(78, 222, 243, 0.18);
+
+  --text: #e9ecff;
+  --muted: rgba(233, 236, 255, 0.75);
+
+  --cyan: #4edef3;
+  --blue: #6796d6;
+  --magenta: #d952ba;
+
+  --shadow: rgba(0, 0, 0, 0.45);
+  --glow-cyan: rgba(78, 222, 243, 0.35);
+  --glow-magenta: rgba(217, 82, 186, 0.28);
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+html, body, #root {
+  min-height: 100%;
+  width: 100%;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  margin: 0;
+  color: var(--text);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+
+  /* “August Paragon” vibe background */
+  background:
+    radial-gradient(1000px 700px at 75% 20%, rgba(217, 82, 186, 0.30), transparent 60%),
+    radial-gradient(900px 650px at 25% 80%, rgba(78, 222, 243, 0.18), transparent 55%),
+    linear-gradient(180deg, #140414, #191751);
+  background-attachment: fixed; /* keeps it from “ending” while scrolling */
+}
+.panel {
+  background: linear-gradient(180deg, var(--panel), var(--panel-2));
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  box-shadow:
+    0 10px 30px var(--shadow),
+    0 0 0 1px rgba(255,255,255,0.03) inset;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.panel--done {
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,0.05) inset,
+    0 0 18px var(--glow-cyan),
+    0 0 28px var(--glow-magenta);
 }
 
-.card {
-  padding: 2em;
+
+.button {
+  background: rgba(26, 22, 51, 0.65);
+  color: var(--text);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 8px 12px;
+  cursor: pointer;
 }
 
-.read-the-docs {
-  color: #888;
+.button:hover {
+  border-color: rgba(78, 222, 243, 0.35);
+  box-shadow: 0 0 16px var(--glow-cyan);
 }
+
+.progressFill {
+  background: linear-gradient(90deg, var(--cyan), var(--magenta));
+}
+
+
+.button:hover {
+  border-color: rgba(78, 222, 243, 0.35);
+  box-shadow: 0 0 16px var(--glow-cyan);
+}
+
