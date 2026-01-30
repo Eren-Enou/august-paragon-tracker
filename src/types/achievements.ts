@@ -13,6 +13,8 @@ export type Tag =
   | "World Boss"
   | "Slayer"
   | "Bosses"
+  | "Raids"
+  | "Combat"
   | "Chests"
   | "Collection Log"
   | "Prestige"

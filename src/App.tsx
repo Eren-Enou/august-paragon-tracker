@@ -1,6 +1,6 @@
 ﻿import { useEffect, useMemo, useRef, useState } from "react";
 import achievementsData from "./data/achievements.json";
-import type { Achievement, ProgressFileV1, Tier } from "./types/achievements";
+import type { Achievement, ProgressFileV1, Tier, Tag } from "./types/achievements";
 import { loadProgress, saveProgress } from "./lib/storage";
 import { TAG_OVERRIDES } from "./data/tagOverrides";
 import "./App.css"
@@ -16,18 +16,7 @@ const ALL_TIERS: Tier[] = [
   "Heroic",
 ];
 
-type Tag =
-  | "Clues"
-  | "Voting"
-  | "World Boss"
-  | "Slayer"
-  | "Bosses"
-  | "Chests"
-  | "Collection Log"
-  | "Prestige"
-  | "Skills"
-  | "Events"
-  | "Gear";
+
 
 const ALL_TAGS: Tag[] = [
   "Clues",
@@ -35,6 +24,8 @@ const ALL_TAGS: Tag[] = [
   "World Boss",
   "Slayer",
   "Bosses",
+  "Raids",
+  "Combat",
   "Chests",
   "Collection Log",
   "Prestige",
@@ -65,16 +56,49 @@ function inferTags(a: { name: string; description: string; rewardsText: string }
   if (has(/\bslayer\b|\bsuperior\b|\bslayer task(s)?\b/)) tags.push("Slayer");
 
   // --- Bosses (explicit boss list; avoid generic "boss" tagging) ---
+  const BOSS_NAMES =
+  /\b(jad|fire capes?|giant mole|obor|bryophyta|dharok|graardor|zilyana|kree|k'ril|kril|cerberus|kraken|thermonuclear|zulrah|barrows|echo kings?|scurrius|nex|ice and zaros|alchemical hydra|hydra|yama|ignis|danger snek|azrael)\b/;
+
+  // If an achievement is clearly about chests/equipping/world boss/etc.,
+    // don't let it be tagged as Bosses just because it mentions a raid/boss word.
+  const bossExclude = has(/\b(toa|tob|theatre|gwd|godwars)\b.*\b(chest|casket|reward|rewards)\b|\b(open|unlock)\b.*\b(chest|casket)\b|\b(ethereal|crystal|giant)\s+chest\b|\btoa\s+(purple|common)\s+chests?\b|\bworld boss\b|::wb\b|\btemper\b|\bequip\b/);
+
   if (
-    has(
-      /\bkill\b.*\b(jad|giant mole|obor|bryophyta|graardor|zilyana|kree|k'ril|kril|cerberus|kraken|thermonuclear|barrows|scurrius|zebak|kephri|baba|akkha|nex|warden|alchemical hydra|maiden|bloat|nylocas|sotetseg|xarpus|verzik|yama|ignis|danger snek|olympian|azrael|theatre)\b|\b(godwars|gwd|theatre|tob)\b/
-    )
-  ) {
-    tags.push("Bosses");
+      !bossExclude &&
+      has(BOSS_NAMES)  // catches "Scurrius Specialist", "Complete Zebak..."
+    ) {
+      tags.push("Bosses");
   }
 
+  // --- Raids ---
+  const raidBosses =
+  /\b(zebak|kephri|baba|akkha|warden|maiden|bloat|nylocas|sotetseg|xarpus|verzik|yama|olympian)\b/;
+  const raidKeywords =
+  /\b(toa|tob|theatre of blood|tombs of amascut)\b/;
+  
+  if (
+      !bossExclude &&
+      (has(raidBosses) || has(raidKeywords))
+    ) {
+      tags.push("Raids");
+  }
+
+
+
+// --- Generic Combat (non-boss, non-slayer kills) ---
+  if (
+        has(/\bkill\b|\bdefeat\b|\beliminate|restore\b/) &&
+        !has(BOSS_NAMES) &&
+        !has(/\bslayer\b|\btask\b/)
+    ) {
+        tags.push("Combat");
+  }
+
+
+
+
   // --- Chests ---
-  if (has(/\btoa common chests?\b|\btoa purple chests?\b|\bcrystal chest\b|\bethereal chest\b|\bgiant chest\b|\bchest\b(?!plate)/))
+  if (has(/\btoa common chests?\b|\btoa purple chests?\b|\bcrystal chest\b|\bethereal chest\b|\bgiant chest\b|\bchests?\b(?!plate)/))
     tags.push("Chests");
 
   // --- Collection Log / Prestige / Events ---
@@ -85,7 +109,7 @@ function inferTags(a: { name: string; description: string; rewardsText: string }
   // --- Skills ---
   if (
     has(
-      /\b(skill|gather|mining|woodcutting|fishing|thieving|crafting|smithing|fletching|herblore|agility|runecraft(ing)?)\b/
+      /\b(skill|gather|craft|mining|woodcutting|fishing|thieving|crafting|smithing|fletching|herblore|agility|runecraft(ing)?)\b/
     )
   ) {
     tags.push("Skills");
@@ -400,13 +424,19 @@ export default function App() {
     return achievements.filter((a) => {
 
         if (selectedTags.size > 0) {
-            const tags = new Set((a as any).tags ?? []);
-            let ok = false;
-            for (const t of selectedTags) {
-            if (tags.has(t)) { ok = true; break; }
+          const tags = new Set(a.tags ?? []);
+          let ok = false;
+
+          for (const t of selectedTags) {
+            if (tags.has(t)) {
+              ok = true;
+              break;
             }
-            if (!ok) return false;
+          }
+
+          if (!ok) return false;
         }
+
 
       if (tierFilter !== "All" && a.tier !== tierFilter) return false;
 
