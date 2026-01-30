@@ -136,13 +136,23 @@ export default function App() {
     }, []);
   // Load achievements + derive targets
   const achievements = useMemo(() => {
-      const raw = achievementsData as Achievement[];
-      return raw.map((a) => ({
+  const raw = achievementsData as Achievement[];
+
+  const byId = new Map<string, Achievement>();
+  for (const a of raw) {
+    // keep first one, ignore duplicates
+    if (!byId.has(a.id)) {
+        byId.set(a.id, {
         ...a,
         target: extractTarget(a.description),
         tags: inferTags(a),
-      }));
-    }, []);
+        });
+    }
+  }
+
+  return Array.from(byId.values());
+  }, []);
+
 
 
     const [progressFile, setProgressFile] = useState<ProgressFileV1>(() =>
@@ -316,6 +326,20 @@ export default function App() {
     return done;
   }, [achievements, progressFile.progressById]);
 
+  useEffect(() => {
+  const seen = new Set<string>();
+  const dups: string[] = [];
+  for (const a of achievements) {
+    if (seen.has(a.id)) dups.push(`${a.id} :: ${a.name}`);
+    else seen.add(a.id);
+  }
+  if (dups.length) {
+    console.warn("DUPLICATE ACHIEVEMENT IDS:", dups);
+    alert(`Duplicate IDs detected: ${dups.length}. Check console.`);
+  }
+}, [achievements]);
+
+
   // Export / Import
   function exportProgress() {
     downloadJson(`paragon-progress-${userKey}.json`, progressFile);
@@ -383,6 +407,7 @@ export default function App() {
   function openImportPicker() {
     importInputRef.current?.click();
   }
+
 
   return (
     <div style={{ maxWidth: 980, margin: "0 auto", padding: 16 }}>
