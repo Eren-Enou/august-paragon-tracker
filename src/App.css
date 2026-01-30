@@ -75,3 +75,69 @@ body {
   box-shadow: 0 0 16px var(--glow-cyan);
 }
 
+
+.input, select.input {
+  padding: 8px 10px;
+  border-radius: 10px;
+  border: 1px solid rgba(78, 222, 243, 0.18);
+  background: rgba(26, 22, 51, 0.65);
+  color: var(--text);
+  outline: none;
+}
+
+.input::placeholder {
+  color: rgba(233, 236, 255, 0.55);
+}
+
+.input:focus {
+  border-color: rgba(78, 222, 243, 0.35);
+  box-shadow: 0 0 16px var(--glow-cyan);
+}
+
+.button--danger {
+  border-color: rgba(217, 82, 186, 0.35);
+}
+
+.button--danger:hover {
+  box-shadow: 0 0 16px var(--glow-magenta);
+}
+
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.55);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 18px;
+  z-index: 999;
+}
+
+.modal {
+  width: min(720px, 100%);
+  border-radius: 16px;
+  border: 1px solid rgba(78, 222, 243, 0.18);
+  background: linear-gradient(180deg, rgba(26, 22, 51, 0.92), rgba(35, 27, 68, 0.92));
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  color: var(--text);
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 14px 10px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.modalBody {
+  padding: 14px;
+}
+
+.modalBody code {
+  padding: 2px 6px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.08);
+  border: 1px solid rgba(78, 222, 243, 0.14);
+}

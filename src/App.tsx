@@ -169,31 +169,73 @@ function tierStats(
   return { done, total: list.length };
 }
 
-function randomUserKey(len = 12) {
-  // URL-safe random id
-  const chars = "abcdefghijklmnopqrstuvwxyz0123456789";
-  let out = "";
-  const bytes = crypto.getRandomValues(new Uint8Array(len));
-  for (let i = 0; i < len; i++) out += chars[bytes[i] % chars.length];
-  return out;
-}
+
 
 
 
 export default function App() {
     const userKey = useMemo(() => {
+      const params = new URLSearchParams(window.location.search);
+      const u = params.get("u");
+
+      if (u && u.trim()) return u.trim().toLowerCase();
+
+      // No u= in URL → generate one and redirect
+      const id = Math.random().toString(36).slice(2, 14);
+      params.set("u", id);
       const url = new URL(window.location.href);
-      let u = url.searchParams.get("u");
+      url.search = params.toString();
+      window.history.replaceState({}, "", url.toString());
 
-      // If no user id provided, generate one and rewrite the URL
-      if (!u || !u.trim()) {
-        u = randomUserKey(14);
-        url.searchParams.set("u", u);
-        window.history.replaceState({}, "", url.toString());
-      }
-
-      return u && u.trim() ? u.trim().toLowerCase() : "default";
+      return id;
     }, []);
+
+
+    function randomId(len = 12) {
+      return Math.random().toString(36).slice(2, 2 + len);
+    }
+
+    function setUrlProfile(id: string) {
+      const clean = id.trim().toLowerCase();
+      if (!clean) return;
+
+      const url = new URL(window.location.href);
+      url.searchParams.set("u", clean);
+      window.location.href = url.toString(); // reloads into that profile
+    }
+
+    function handleNewProfileGo() {
+      setUrlProfile(newProfileId);
+    }
+
+    function handleNewProfileRandom() {
+      setUrlProfile(randomId());
+    }
+
+
+
+
+    function resetCurrentProfile() {
+          const ok = confirm(
+            `Reset all progress for profile "${userKey}"?\nThis only clears data saved in THIS browser.`
+          );
+          if (!ok) return;
+
+          localStorage.removeItem(`paragon-progress:v1:${userKey}`);
+
+          // reset UI immediately
+          setProgressFile({
+            version: 1,
+            updatedAt: nowIso(),
+            progressById: {},
+          });
+
+          // also collapse any expanded completed cards (optional)
+          setExpandedIds(new Set());
+        }
+
+
+
 
   // Load achievements + derive targets
     const achievements = useMemo(() => {
@@ -221,6 +263,16 @@ export default function App() {
     type SortMode = "Default" | "IncompleteFirst" | "MostProgress" | "LeastProgress" | "AZ";
     const [sortMode, setSortMode] = useState<SortMode>("Default");
 
+    const [showFaq, setShowFaq] = useState(false);
+    const [newProfileId, setNewProfileId] = useState("");
+
+    function closeFaq() {
+      setShowFaq(false);
+    }
+
+    function openFaq() {
+      setShowFaq(true);
+    }
 
 
 
@@ -378,6 +430,8 @@ export default function App() {
   }, [achievements, query, tierFilter, incompleteOnly, selectedTags, progressFile.progressById]);
 
 
+
+
   // Group by tier
   const grouped = useMemo(() => {
     const map = new Map<Tier, Achievement[]>();
@@ -530,6 +584,7 @@ export default function App() {
           }}
       >
         <input
+          className="input"
           value={queryInput}
           onChange={(e) => setQueryInput(e.target.value)}
           placeholder="Search name / description / rewards..."
@@ -580,6 +635,7 @@ export default function App() {
 
         <label style={{ display: "flex", gap: 8, alignItems: "center" }}>
           <input
+            className="input"
             type="checkbox"
             checked={incompleteOnly}
             onChange={(e) => setIncompleteOnly(e.target.checked)}
@@ -593,6 +649,7 @@ export default function App() {
           {ALL_TAGS.map((tag) => (
             <label key={tag} style={{ display: "flex", gap: 6, alignItems: "center" }}>
               <input
+                className="input"
                 type="checkbox"
                 checked={selectedTags.has(tag)}
                 onChange={() => toggleTag(tag)}
@@ -607,38 +664,34 @@ export default function App() {
         </div>
 
 
-        <div style={{ display: "flex", gap: 8 }}>
-          <button onClick={exportProgress} className="button">
-            Export
-          </button>
+        <div style={{ display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>
+          <button onClick={exportProgress} className="button">Export</button>
+          <button onClick={openImportPicker} className="button">Import</button>
+          <button onClick={openFaq} className="button">FAQ</button>
+          <button onClick={expandAll} className="button">Expand all</button>
+          <button onClick={collapseAll} className="button">Collapse all</button>
 
-          <button onClick={openImportPicker} className="button">
-            Import
-          </button>
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center" }}>
+            <input
+              className="input"
+              value={newProfileId}
+              onChange={(e) => setNewProfileId(e.target.value)}
+              placeholder="New profile id (e.g. test-alt)"
+              style={{ width: 220 }}
+            />
 
-          <button onClick={expandAll} className="button">
-            Expand all
-          </button>
+            <button className="button" onClick={handleNewProfileGo} disabled={!newProfileId.trim()}>
+              Switch
+            </button>
 
-          <button onClick={collapseAll} className="button">
-            Collapse all
-          </button>
+            <button className="button" onClick={handleNewProfileRandom}>
+              Random profile
+            </button>
 
-          <button
-              onClick={() => {
-                const url = new URL(window.location.href);
-                url.searchParams.set("u", userKey);
-                navigator.clipboard.writeText(window.location.href);
-                alert("Link copied!");
-              }}
-              className="button"
-            >
-              Copy my link
-          </button>
-
-          
-
-
+            <button className="button button--danger" onClick={resetCurrentProfile}>
+              Reset profile
+            </button>
+          </div>
 
           <input
             ref={importInputRef}
@@ -648,10 +701,11 @@ export default function App() {
             onChange={(e) => {
               const f = e.target.files?.[0];
               if (f) handleImportFile(f);
-              e.currentTarget.value = ""; // allow re-import same file
+              e.currentTarget.value = "";
             }}
           />
         </div>
+
 
         <div
             style={{
@@ -665,6 +719,31 @@ export default function App() {
         </div>
 
       </div>
+
+      <div style={{ opacity: 0.75, marginTop: 10 }}>
+          Showing <b>{filtered.length}</b> of <b>{achievements.length}</b> achievements
+      </div>
+
+        {filtered.length === 0 && (
+          <div className="panel" style={{ marginTop: 14, padding: 14 }}>
+            <div style={{ fontWeight: 900 }}>No results</div>
+            <div style={{ opacity: 0.8, marginTop: 6 }}>
+              Your current filters/search returned 0 achievements.
+            </div>
+            <button className="button" style={{ marginTop: 10 }} onClick={() => {
+              setQueryInput("");
+              setQuery("");
+              setTierFilter("All");
+              setIncompleteOnly(false);
+              setSelectedTags(new Set());
+              setSortMode("Default");
+            }}>
+              Clear all filters
+            </button>
+          </div>
+        )}
+
+
 
       {/* List */}
       {grouped.map(([tierName, list]) => {
@@ -874,6 +953,9 @@ export default function App() {
                                       Click card to {isExpanded ? "collapse" : "expand"}
                                     </div>
                                   )}
+
+
+
                                 </div>
                               </div>
                             )}
@@ -889,6 +971,50 @@ export default function App() {
           </section>
         );
       })}
+
+      {showFaq && (
+          <div
+            className="modalOverlay"
+            onClick={closeFaq}
+            role="dialog"
+            aria-modal="true"
+          >
+            <div className="modal" onClick={(e) => e.stopPropagation()}>
+              <div className="modalHeader">
+                <div style={{ fontWeight: 900, fontSize: 18 }}>FAQ / Help</div>
+                <button className="button" onClick={closeFaq}>Close</button>
+              </div>
+
+              <div className="modalBody">
+                <p><b>What is this?</b><br />
+                  A static achievements tracker. It runs entirely in your browser.
+                </p>
+
+                <p><b>Does it send data anywhere?</b><br />
+                  No. Progress is saved locally in your browser (localStorage). No accounts.
+                </p>
+
+                <p><b>How do profiles work?</b><br />
+                  Profiles are based on the <code>?u=</code> value in the URL. Different <code>?u=</code> means different saved progress.
+                </p>
+
+                <p><b>How do I make an alt?</b><br />
+                  Use “New Profile” and type an ID, or generate a random one.
+                </p>
+
+                <p><b>How do I reset?</b><br />
+                  Use “Reset Profile” to clear progress for the current profile ID.
+                </p>
+
+                <p><b>Move progress to another device?</b><br />
+                  Use Export / Import.
+                </p>
+              </div>
+            </div>
+          </div>
+      )}
+
+
     </div>
   );
 }
