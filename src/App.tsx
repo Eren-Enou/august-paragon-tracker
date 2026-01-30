@@ -169,9 +169,29 @@ function tierStats(
   return { done, total: list.length };
 }
 
+function randomUserKey(len = 12) {
+  // URL-safe random id
+  const chars = "abcdefghijklmnopqrstuvwxyz0123456789";
+  let out = "";
+  const bytes = crypto.getRandomValues(new Uint8Array(len));
+  for (let i = 0; i < len; i++) out += chars[bytes[i] % chars.length];
+  return out;
+}
+
+
+
 export default function App() {
     const userKey = useMemo(() => {
-      const u = new URLSearchParams(window.location.search).get("u");
+      const url = new URL(window.location.href);
+      let u = url.searchParams.get("u");
+
+      // If no user id provided, generate one and rewrite the URL
+      if (!u || !u.trim()) {
+        u = randomUserKey(14);
+        url.searchParams.set("u", u);
+        window.history.replaceState({}, "", url.toString());
+      }
+
       return u && u.trim() ? u.trim().toLowerCase() : "default";
     }, []);
 
@@ -608,7 +628,7 @@ export default function App() {
               onClick={() => {
                 const url = new URL(window.location.href);
                 url.searchParams.set("u", userKey);
-                navigator.clipboard.writeText(url.toString());
+                navigator.clipboard.writeText(window.location.href);
                 alert("Link copied!");
               }}
               className="button"
