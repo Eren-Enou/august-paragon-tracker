@@ -65,7 +65,7 @@ function inferTags(a: { name: string; description: string; rewardsText: string }
   // --- Bosses (explicit boss list; avoid generic "boss" tagging) ---
   if (
     has(
-      /\bkill\b.*\b(jad|giant mole|obor|bryophyta|graardor|zilyana|kree|k'ril|kril|cerberus|kraken|thermonuclear|barrows|scurrius|zebak|kephri|baba|akkha|nex|warden|alchemical hydra|maiden|bloat|nylocas|sotetseg|xarpus|verzik|yama|ignis|danger snek|olympian|azrael|theatre)\b|\b(godwars|gwd|tombs of amascut|toa|theatre of blood|tob)\b/
+      /\bkill\b.*\b(jad|giant mole|obor|bryophyta|graardor|zilyana|kree|k'ril|kril|cerberus|kraken|thermonuclear|barrows|scurrius|zebak|kephri|baba|akkha|nex|warden|alchemical hydra|maiden|bloat|nylocas|sotetseg|xarpus|verzik|yama|ignis|danger snek|olympian|azrael|theatre)\b|\b(godwars|gwd|theatre|tob)\b/
     )
   ) {
     tags.push("Bosses");
