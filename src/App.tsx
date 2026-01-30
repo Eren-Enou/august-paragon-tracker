@@ -3,7 +3,7 @@ import achievementsData from "./data/achievements.json";
 import type { Achievement, ProgressFileV1, Tier } from "./types/achievements";
 import { loadProgress, saveProgress } from "./lib/storage";
 import { TAG_OVERRIDES } from "./data/tagOverrides";
-import "./app.css"
+import "./App.css"
 
 
 const ALL_TIERS: Tier[] = [
