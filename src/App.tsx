@@ -72,7 +72,7 @@ function inferTags(a: { name: string; description: string; rewardsText: string }
   }
 
   // --- Chests ---
-  if (has(/\btoa common chest\b|\btoa purple chest\b|\bcrystal chest\b|\bethereal chest\b|\bgiant chest\b|\bchest\b(?!plate)/))
+  if (has(/\btoa common chests?\b|\btoa purple chests?\b|\bcrystal chest\b|\bethereal chest\b|\bgiant chest\b|\bchest\b(?!plate)/))
     tags.push("Chests");
 
   // --- Collection Log / Prestige / Events ---
