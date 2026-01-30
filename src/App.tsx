@@ -83,7 +83,7 @@ function inferTags(a: { name: string; description: string; rewardsText: string }
   // --- Skills ---
   if (
     has(
-      /\b(mining|woodcutting|fishing|thieving|crafting|smithing|fletching|herblore|prayer|agility|runecraft(ing)?)\b/
+      /\b(skill|gather|mining|woodcutting|fishing|thieving|crafting|smithing|fletching|herblore|agility|runecraft(ing)?)\b/
     )
   ) {
     tags.push("Skills");
