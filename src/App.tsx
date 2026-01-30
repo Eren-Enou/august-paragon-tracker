@@ -168,38 +168,33 @@ function tierStats(
 }
 
 export default function App() {
-
     const userKey = useMemo(() => {
       const u = new URLSearchParams(window.location.search).get("u");
       return u && u.trim() ? u.trim().toLowerCase() : "default";
     }, []);
+
   // Load achievements + derive targets
-  const achievements = useMemo(() => {
-      const raw = achievementsData as Achievement[];
+    const achievements = useMemo(() => {
+        const raw = achievementsData as Achievement[];
+        const byId = new Map<string, Achievement>();
 
-      const byId = new Map<string, Achievement>();
+        for (const a of raw) {
+          // Skip exact duplicate IDs (safety guard)
+          if (byId.has(a.id)) continue;
 
-      for (const a of raw) {
-        // Skip exact duplicate IDs (safety guard)
-        if (byId.has(a.id)) continue;
+          const autoTags = inferTags(a);
+          const finalTags = applyTagOverrides(autoTags, a.id);
 
-        const autoTags = inferTags(a);
-        const finalTags = applyTagOverrides(autoTags, a.id);
+          byId.set(a.id, {
+            ...a,
+            target: extractTarget(a.description),
+            tags: finalTags,
+          });
+        }
 
-        byId.set(a.id, {
-          ...a,
-          target: extractTarget(a.description),
-          tags: finalTags,
-        });
-      }
+        return Array.from(byId.values());
+    }, []);
 
-      return Array.from(byId.values());
-  }, []);
-
-  }
-
-  return Array.from(byId.values());
-  }, []);
 
 
 
