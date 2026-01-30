@@ -2,6 +2,8 @@
 import achievementsData from "./data/achievements.json";
 import type { Achievement, ProgressFileV1, Tier } from "./types/achievements";
 import { loadProgress, saveProgress } from "./lib/storage";
+import { TAG_OVERRIDES } from "./data/tagOverrides";
+
 
 const ALL_TIERS: Tier[] = [
   "Starter",
@@ -46,35 +48,72 @@ const ALL_TAGS: Tag[] = [
 function inferTags(a: { name: string; description: string; rewardsText: string }): Tag[] {
   const text = `${a.name} ${a.description} ${a.rewardsText}`.toLowerCase();
   const tags: Tag[] = [];
-
   const has = (re: RegExp) => re.test(text);
 
-  if (has(/\bclue\b|casket/)) tags.push("Clues");
-  if (has(/::vote|claimvotes|\bvote\b/)) tags.push("Voting");
-  if (has(/world boss|::wb/)) tags.push("World Boss");
-  if (has(/\bslayer\b|superior/)) tags.push("Slayer");
-  if (has(/kill jad|giant mole|obor|bryophyta|godwars|graardor|zilyana|kree|kril|cerberus|kraken|thermonuclear|barrows|boss/i))
-    tags.push("Bosses");
-  if (has(/crystal chest|ethereal chest|giant chest|chest\b/)) tags.push("Chests");
-  if (has(/collection log/)) tags.push("Collection Log");
-  if (has(/prestige/)) tags.push("Prestige");
-  if (has(/random event|trivia|event/)) tags.push("Events");
+  // --- Clues (more specific to reduce false positives) ---
+  if (has(/\bclue scroll\b|\bclues?\b(?!\s*token)|\bcasket\b|\bmimic\b/)) tags.push("Clues");
 
-  // Skills: look for the skill names you see repeated in the wiki
+  // --- Voting (prefer commands / explicit voting terms) ---
+  if (has(/::vote\b|claimvotes\b|\bvoting\b|\bvote points?\b/)) tags.push("Voting");
+
+  // --- World Boss ---
+  if (has(/\bworld boss\b|::wb\b/)) tags.push("World Boss");
+
+  // --- Slayer ---
+  if (has(/\bslayer\b|\bsuperior\b|\bslayer task(s)?\b/)) tags.push("Slayer");
+
+  // --- Bosses (explicit boss list; avoid generic "boss" tagging) ---
   if (
     has(
-      /\bmining\b|\bwoodcutting\b|\bfishing\b|\bthieving\b|\bcraft\b|\bgather\b|\bsmith\b|\bfletch\b|\bherblore\b|\bprayer\b|\bagility\b|\brunecraft\b/
+      /\bkill\b.*\b(jad|giant mole|obor|bryophyta|graardor|zilyana|kree|k'ril|kril|cerberus|kraken|thermonuclear|barrows|scurrius|zebak|kephri|baba|akkha|nex|warden|alchemical hydra|maiden|bloat|nylocas|sotetseg|xarpus|verzik|yama|ignis|danger snek|olympian|azrael|theatre)\b|\b(godwars|gwd|tombs of amascut|toa|theatre of blood|tob)\b/
+    )
+  ) {
+    tags.push("Bosses");
+  }
+
+  // --- Chests ---
+  if (has(/\bcrystal chest\b|\bethereal chest\b|\bgiant chest\b|\bchest\b(?!plate)/))
+    tags.push("Chests");
+
+  // --- Collection Log / Prestige / Events ---
+  if (has(/\bcollection log\b/)) tags.push("Collection Log");
+  if (has(/\bprestige\b/)) tags.push("Prestige");
+  if (has(/\brandom event\b|\btrivia\b|\bevent(s)?\b/)) tags.push("Events");
+
+  // --- Skills ---
+  if (
+    has(
+      /\b(mining|woodcutting|fishing|thieving|crafting|smithing|fletching|herblore|prayer|agility|runecraft(ing)?)\b/
     )
   ) {
     tags.push("Skills");
   }
 
-  if (has(/\bequip\b|armou?r|boots|helm|body|legs|gloves|shield|staff|bow|crossbow/))
+  // --- Gear (add Temper) ---
+  if (
+    has(
+      /\bequip\b|\b(armou?r|boots|helm(et)?|platebody|body|platelegs|legs|gloves|shield|staff|bow|crossbow|cape|temper)\b/
+    )
+  ) {
     tags.push("Gear");
+  }
 
-  // de-dupe
   return Array.from(new Set(tags));
 }
+
+
+function applyTagOverrides(base: Tag[], id: string): Tag[] {
+  const o = TAG_OVERRIDES[id];
+  if (!o) return base;
+
+  let tags = new Set<Tag>(base);
+
+  for (const t of o.remove ?? []) tags.delete(t);
+  for (const t of o.add ?? []) tags.add(t);
+
+  return Array.from(tags);
+}
+
 
 
 function nowIso() {
@@ -136,18 +175,27 @@ export default function App() {
     }, []);
   // Load achievements + derive targets
   const achievements = useMemo(() => {
-  const raw = achievementsData as Achievement[];
+      const raw = achievementsData as Achievement[];
 
-  const byId = new Map<string, Achievement>();
-  for (const a of raw) {
-    // keep first one, ignore duplicates
-    if (!byId.has(a.id)) {
+      const byId = new Map<string, Achievement>();
+
+      for (const a of raw) {
+        // Skip exact duplicate IDs (safety guard)
+        if (byId.has(a.id)) continue;
+
+        const autoTags = inferTags(a);
+        const finalTags = applyTagOverrides(autoTags, a.id);
+
         byId.set(a.id, {
-        ...a,
-        target: extractTarget(a.description),
-        tags: inferTags(a),
+          ...a,
+          target: extractTarget(a.description),
+          tags: finalTags,
         });
-    }
+      }
+
+      return Array.from(byId.values());
+  }, []);
+
   }
 
   return Array.from(byId.values());
