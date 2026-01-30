@@ -39,21 +39,62 @@ const ALL_TAGS: Tag[] = [
 
 
 function inferTags(a: { name: string; description: string; rewardsText: string }): Tag[] {
-  const text = `${a.name} ${a.description} ${a.rewardsText}`.toLowerCase();
+  //const text = `${a.name} ${a.description} ${a.rewardsText}`.toLowerCase();
+  // IMPORTANT: separate “core” text from “rewards”
+  const core = `${a.name} ${a.description}`.toLowerCase();
+  const full = `${a.name} ${a.description} ${a.rewardsText}`.toLowerCase();
+  //const tags: Tag[] = [];
+  //const has = (re: RegExp) => re.test(text);
   const tags: Tag[] = [];
-  const has = (re: RegExp) => re.test(text);
+  const hasCore = (re: RegExp) => re.test(core);
+  const hasFull = (re: RegExp) => re.test(full);
+
+  const isRestoreHpPrayer =
+    hasFull(/\brestore\b.*\b(hp|health|prayer)\b/) ||
+    hasFull(/\b(hp|health|prayer)\s*points?\b/);
+
+  const isPrestige = hasFull(/\bprestige\b/);
+
+  const isWorldBoss = hasFull(/\bworld boss\b|::wb\b/);
+
+  //const mentionsToaKeyOrChest =
+  //  hasFull(/\btoa\b/) && hasFull(/\b(key|common key|purple key|chest|chests)\b/);
+
+  const mentionsBarrowsKill =
+    hasFull(/\bbarrows\b/) && hasFull(/\bkill|defeat\b/);
+
 
   // --- Clues (more specific to reduce false positives) ---
-  if (has(/\bclue scroll\b|\bclues?\b(?!\s*token)|\bcasket\b|\bmimic\b/)) tags.push("Clues");
+  const isFishingCasketThing =
+    hasCore(/\bcasket\b/) && hasCore(/\bgather\b|\bfish(ing)?\b|\bcatch\b/);
+
+  if (
+    !isRestoreHpPrayer &&
+    !isFishingCasketThing &&
+    hasCore(/\bclue scroll\b|\bclues?\b(?!\s*token)|\bmimic\b|\btreasure trail\b|\bclue casket\b/)
+  ) {
+    tags.push("Clues");
+  }
 
   // --- Voting (prefer commands / explicit voting terms) ---
-  if (has(/::vote\b|claimvotes\b|\bvoting\b|\bvote points?\b/)) tags.push("Voting");
+  if (hasFull(/::vote\b|claimvotes\b|\bvoting\b|\bvote points?\b/)) tags.push("Voting");
 
   // --- World Boss ---
-  if (has(/\bworld boss\b|::wb\b/)) tags.push("World Boss");
+  if (isWorldBoss) tags.push("World Boss");
 
   // --- Slayer ---
-  if (has(/\bslayer\b|\bsuperior\b|\bslayer task(s)?\b/)) tags.push("Slayer");
+  const isDragonSlayerQuestThing = hasFull(/\bdragon slayer\b/);
+  // “slayer” should be about the skill / tasks / points, not boss names
+  const slayerSignals = hasFull(/\bslayer task(s)?\b|\bslayer points?\b|\bsuperior\b|\bslayer master\b|\b(task|assignment)\b.*\bslayer\b/);
+
+  if (
+    slayerSignals &&
+    !isDragonSlayerQuestThing &&
+    !isRestoreHpPrayer &&
+    !hasFull(/\bzulrah\b|\byama\b/) // explicitly not slayer-related in your setup
+  ) {
+    tags.push("Slayer");
+  }
 
   // --- Bosses (explicit boss list; avoid generic "boss" tagging) ---
   const BOSS_NAMES =
@@ -61,54 +102,56 @@ function inferTags(a: { name: string; description: string; rewardsText: string }
 
   // If an achievement is clearly about chests/equipping/world boss/etc.,
     // don't let it be tagged as Bosses just because it mentions a raid/boss word.
-  const bossExclude = has(/\b(toa|tob|theatre|gwd|godwars)\b.*\b(chest|casket|reward|rewards)\b|\b(open|unlock)\b.*\b(chest|casket)\b|\b(ethereal|crystal|giant)\s+chest\b|\btoa\s+(purple|common)\s+chests?\b|\bworld boss\b|::wb\b|\btemper\b|\bequip\b/);
+  const bossExclude = hasFull(
+    /\b(toa|tob|theatre|gwd|godwars)\b.*\b(chest|casket|reward|rewards)\b|\b(open|unlock)\b.*\b(chest|casket)\b|\b(ethereal|crystal|giant)\s+chest\b|\btoa\s+(purple|common)\s+chests?\b|\bworld boss\b|::wb\b|\btemper\b|\bequip\b/
+  );
 
   if (
       !bossExclude &&
-      has(BOSS_NAMES)  // catches "Scurrius Specialist", "Complete Zebak..."
+      hasFull(BOSS_NAMES)
     ) {
-      tags.push("Bosses");
-  }
+        tags.push("Bosses");
+    }
+      
 
   // --- Raids ---
+  // --- Raids ---
   const raidBosses =
-  /\b(zebak|kephri|baba|akkha|warden|maiden|bloat|nylocas|sotetseg|xarpus|verzik|yama|olympian)\b/;
+        /\b(zebak|kephri|baba|akkha|warden|maiden|bloat|nylocas|sotetseg|xarpus|verzik|yama|olympian)\b/;
+
   const raidKeywords =
-  /\b(toa|tob|theatre of blood|tombs of amascut)\b/;
-  
-  if (
-      !bossExclude &&
-      (has(raidBosses) || has(raidKeywords))
-    ) {
-      tags.push("Raids");
+        /\b(toa|tob|theatre of blood|tombs of amascut)\b/;
+
+  if (!bossExclude && (hasFull(raidBosses) || hasFull(raidKeywords))) {
+        tags.push("Raids");
   }
 
-
-
-// --- Generic Combat (non-boss, non-slayer kills) ---
-  if (
-        has(/\bkill\b|\bdefeat\b|\beliminate|restore\b/) &&
-        !has(BOSS_NAMES) &&
-        !has(/\bslayer\b|\btask\b/)
-    ) {
-        tags.push("Combat");
-  }
-
-
+ 
 
 
   // --- Chests ---
-  if (has(/\btoa common chests?\b|\btoa purple chests?\b|\bcrystal chest\b|\bethereal chest\b|\bgiant chest\b|\bchests?\b(?!plate)/))
+  const chestNames =
+    /\b(toa common chests?\b|toa purple chests?\b|crystal chest\b|ethereal chest\b|giant chest\b)\b/;
+
+  const chestVerb =
+    /\b(open|loot|claim|unlock)\b/;
+
+  if (
+    !mentionsBarrowsKill &&
+    (hasFull(chestNames) || (hasFull(/\bchest\b(?!plate)/) && hasFull(chestVerb)))
+  ) {
     tags.push("Chests");
+  }
 
   // --- Collection Log / Prestige / Events ---
-  if (has(/\bcollection log\b/)) tags.push("Collection Log");
-  if (has(/\bprestige\b/)) tags.push("Prestige");
-  if (has(/\brandom event\b|\btrivia\b|\bevent(s)?\b/)) tags.push("Events");
+  if (hasFull(/\bcollection log\b/)) tags.push("Collection Log");
+  if (isPrestige) tags.push("Prestige");
+  if (hasFull(/\brandom event\b|\btrivia\b|\bevent(s)?\b/)) tags.push("Events");
 
   // --- Skills ---
   if (
-    has(
+    !isPrestige &&
+    hasFull(
       /\b(skill|gather|craft|mining|woodcutting|fishing|thieving|crafting|smithing|fletching|herblore|agility|runecraft(ing)?)\b/
     )
   ) {
@@ -117,11 +160,38 @@ function inferTags(a: { name: string; description: string; rewardsText: string }
 
   // --- Gear (add Temper) ---
   if (
-    has(
+    hasFull(
       /\bequip\b|\b(armou?r|boots|helm(et)?|platebody|platelegs|legs|gloves|shield|staff|bow|crossbow|cape|temper)\b/
     )
   ) {
     tags.push("Gear");
+  }
+
+  // --- Combat (fallback only; don't overlap with Slayer/Bosses/Raids/World Boss/Chests/etc.) ---
+  const isAlreadySpecific =
+      tags.includes("Slayer") ||
+      tags.includes("Bosses") ||
+      tags.includes("Raids") ||
+      tags.includes("World Boss") ||
+      tags.includes("Chests") ||
+      tags.includes("Clues") ||
+      tags.includes("Skills") ||
+      tags.includes("Events") ||
+      tags.includes("Gear") ||
+      tags.includes("Voting") ||
+      tags.includes("Collection Log") ||
+      tags.includes("Prestige");
+
+  const combatExclude = hasFull(
+      /\bslayer\b|\btask(s)?\b|\b(superior|konar|duradel)\b|\bworld boss\b|::wb\b|\b(toa|tob|theatre|tombs of amascut)\b|\b(chest|casket|key)\b/
+  );
+
+  const genericCombat = hasFull(
+      /\b(kill|defeat|slay)\b\s+\d+|\bkill\b\s+\w+|\bdefeat\b\s+\w+|\bslay\b\s+\w+/
+  );
+
+  if (!isAlreadySpecific && !combatExclude && genericCombat) {
+      tags.push("Combat");
   }
 
   return Array.from(new Set(tags));
